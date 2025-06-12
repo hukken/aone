@@ -1,0 +1,13 @@
+.wp-admin .editor-styles-wrapper,
+main#primary {
+	p {
+		a {
+			color: $black;
+			//text-decoration: underline;
+		}
+
+		&.is-style-ingress {
+			
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "designcontainer/wpml-string-translation",
+  "description": "Adds theme and plugins localization capabilities to WPML | <a href=\"https://wpml.org\">Documentation</a> | <a href=\"https://wpml.org/version/string-translation-3-1-8/\">WPML String Translation 3.1.8 release notes</a>",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "OnTheGoSystems",
+      "homepage": "http://www.onthegosystems.com/"
+    }
+  ]
+}

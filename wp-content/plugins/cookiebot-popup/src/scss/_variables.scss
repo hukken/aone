@@ -1,0 +1,25 @@
+/**
+ * Define popup css variables
+ */
+:root {
+	// Colors
+	--cb-color-primary: rgb(32 32 32);
+	--cb-color-secondary: rgb(238, 238, 238);
+
+	// Text
+	--cb-color-text: rgb(32 32 32);
+	--cb-color-text-light: rgb(83, 82, 89);
+	--cb-text-size: 14px;
+
+	// Box
+	--cb-box-font-family: inherit;
+	--cb-box-heading-font-family: var(--cb-box-font-family);
+	--cb-box-margin: 2rem 2rem;
+	--cb-box-position: center;
+	--cb-box-radius: 10px;
+	--cb-box-padding: #{em-calc(36)};
+
+
+	// Buttons
+	--cb-btn-radius: 20px;
+}

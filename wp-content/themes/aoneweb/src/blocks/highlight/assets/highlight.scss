@@ -1,0 +1,36 @@
+.highlight {
+	color: var(--color__white);
+
+	.tagline {
+		text-transform: uppercase;
+	}
+
+	.highlight__link-wrapper {
+		text-decoration: none;
+		color: inherit;
+		display: block;
+	}
+
+	.block-container {
+		position: relative;
+		overflow: hidden;
+		padding: rem-calc(200) 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-height: 80vh;
+
+
+		&::after {
+			@include background-overlay();
+		}
+	}
+
+	.highlight__content {
+		position: relative;
+		z-index: 2;
+		text-align: center;
+		padding: 4rem 0;
+		max-width: 980px;
+	}
+}

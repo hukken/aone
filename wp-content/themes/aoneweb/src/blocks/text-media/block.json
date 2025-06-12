@@ -1,0 +1,28 @@
+{
+	"name": "acf/text-media",
+	"title": "Text & Media",
+	"icon": "vertical_split",
+	"mode": "edit",
+	"styles": [
+		{
+			"name": "text-right",
+			"label": "Image | Text",
+			"isDefault": true
+		},
+		{
+			"name": "text-left",
+			"label": "Text | Image"
+		}
+	],
+	"supports": {
+		"mode": true,
+		"align": false,
+		"className": false,
+		"defaultStylePicker": false,
+		"color": {
+			"background": true,
+			"gradients": false,
+			"text": false
+		}
+	}
+}

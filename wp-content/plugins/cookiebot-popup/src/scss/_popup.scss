@@ -1,0 +1,315 @@
+/**
+ * Define EM sizing
+ */
+#cookiebanner {
+	font-size: 13px;
+
+	@media screen and (min-width: 768px) {
+		font-size: 16px;
+	}
+}
+
+/**
+ * Main popup styles.
+ */
+.stem-cookiebot-popup {
+	text-align: var(--cb-box-position);
+	font-family: var(--cb-box-font-family);
+
+	z-index: 999999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+	.stem-cookiebot-popup__box {
+		border-radius: var(--cb-box-radius);
+		margin: var(--cb-box-margin);
+		padding: var(--cb-box-padding);
+
+		background-color: #fff;
+		box-shadow: 0px 3px 15px -2px #49484873;
+		width: 95%;
+		max-width: 1040px;
+		text-align: initial;
+		display: inline-flex;
+		flex-flow: row wrap;
+		gap: 0 2rem;
+	}
+
+	/**
+	 * Header container.
+	 * This contains the title and text of the popup.
+	 */
+	&__main-content {
+		flex: 1 1 10%;
+	}
+
+	&__header {
+
+		&__title {
+			font-family: var(--cb-box-heading-font-family);
+			color: var(--cb-color-text);
+
+			margin: 0 0 0.8em 0;
+			font-weight: bold;
+			font-size: 1.3rem;
+		}
+
+		&__text {
+			margin: 0;
+			font-size: var(--cb-text-size);
+			font-weight: 400;
+			color: var(--cb-color-text-light);
+		}
+	}
+
+	&__actions {
+		min-width: 200px;
+		display: flex;
+		flex-flow: column;
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+
+	&__button {
+		border-radius: var(--cb-btn-radius);
+		background: var(--cb-color-primary);
+		border-color: var(--cb-color-primary);
+		padding: 13px 16px;
+		margin: 0px;
+		border: 1px solid currentColor;
+		color: rgb(255, 255, 255);
+		font-size: 15px;
+		font-weight: 500;
+		min-width: 100%;
+		white-space: nowrap;
+		cursor: pointer;
+		font-weight: 500;
+		transition: all 0.4s ease-in-out;
+
+		&::first-letter {
+			text-transform: capitalize;
+		}
+
+		&:hover,
+		&:focus {
+			background-color: rgb(255, 255, 255);
+			border-color: var(--cb-color-primary);
+			color: var(--cb-color-primary);
+			// text-decoration: underline;
+		}
+
+		&--secondary {
+			background: var(--cb-color-secondary);
+			color: var(--cb-color-text);
+			border-color: var(--cb-color-secondary);
+		}
+	}
+
+
+	&__details-toggle {
+		margin: 1rem 0 0;
+		padding: 8px 16px;
+		font-size: var(--cb-text-size);
+		cursor: pointer;
+	}
+
+	&__toggles {
+		display: none;
+	}
+
+
+	&__details {
+		padding: var(--cb-box-padding);
+		background-color: var(--cb-color-secondary);
+		border-radius: var(--cb-box-radius);
+		will-change: display, height;
+		border-top-left-radius: 0;
+		flex: 0 0 100%;
+		margin-top: -1px;
+
+		button,
+		p {
+			margin: 0;
+		}
+	}
+
+
+	&__main__cookie-list {
+		margin: 1rem 0;
+		font-size: var(--cb-text-size);
+		color: var(--cb-color-text);
+
+		&:last-child {
+			margin: 0;
+		}
+
+		input[type="checkbox"] {
+			box-sizing: border-box;
+			padding: 0;
+			width: 25px;
+			height: 25px;
+			cursor: pointer;
+		}
+	}
+
+	&__main__cookie-list__cat {
+		@media screen and (min-width: 768px) {
+			display: grid;
+			align-items: flex-start;
+			grid-column-gap: 20px;
+			grid-template-columns: 1fr 2fr 50px;
+		}
+
+		&__input {
+			text-align: right;
+		}
+
+		&__toggle {
+			all: unset;
+			margin-top: em-calc(8);
+			font-weight: bold;
+			cursor: pointer;
+			// color: var(--cb-color-text);
+
+			&:before {
+				display: inline-block;
+				position: relative;
+				width: 9px;
+				height: 9px;
+				margin-right: 10px;
+				border-right: 3px solid var(--cb-color-primary);
+				border-bottom: 3px solid var(--cb-color-primary);
+				content: '';
+				transition: transform 0.2s ease-in-out;
+				transform: rotate(-45deg);
+				border-radius: 2px;
+			}
+
+			&--active {
+
+				&:before {
+					transform: rotate(45deg) translateY(-2px);
+				}
+			}
+		}
+
+		&__content {
+			overflow-x: auto !important;
+
+			.CybotCookiebotDialogDetailBodyContentCookieTypeTableEmpty {
+				font-style: italic;
+				font-size: 14px;
+			}
+
+			table {
+				margin: 0 0 2rem;
+				width: 100%;
+				margin: 2rem 0;
+				text-align: left;
+				border-bottom: 1px solid #dadada;
+				font-size: 12px;
+
+				td {
+					padding: 20px 5px;
+				}
+
+				th {
+					padding: 0 5px;
+				}
+			}
+		}
+
+	}
+
+
+	// /**
+	//  * Popup toggles.
+	//  */
+	// &__toggles {
+	// 	flex: 0 0 100%;
+	// 	display: grid;
+	// 	margin-top: 1rem;
+	// 	background: var(--cb-color-secondary);
+	// 	grid-template-columns: repeat(4, 25%);
+
+	// 	@media screen and (min-width: 768px) {
+	// 		padding: 0 var(--cb-padding, 36px);
+	// 	}
+
+	// 	&__toggle {
+	// 		display: flex;
+	// 		flex-direction: column;
+	// 		align-items: center;
+	// 		padding: em-calc(20) 0;
+	// 		border-right: em-calc(1) solid var(--cb-color-teritary, #b8b8b8);
+	// 		cursor: pointer;
+
+	// 		&:last-child {
+	// 			border: 0;
+	// 		}
+
+	// 		span {
+	// 			display: block;
+	// 			margin-bottom: em-calc(10);
+	// 			color: var(--cb-color-text);
+	// 			text-align: center;
+	// 		}
+
+	// 		label {
+	// 			display: block;
+	// 			position: relative;
+	// 			width: em-calc(65);
+	// 			height: em-calc(40);
+	// 			margin-right: 0 !important;
+	// 			margin-left: 0 !important;
+	// 			padding: 0;
+	// 			border-radius: em-calc(420);
+	// 			outline-offset: em-calc(3);
+	// 			cursor: pointer;
+	// 			background-color: var(--cb-color-teritary, #b8b8b8);
+	// 			transition: 0.2s ease-in-out all;
+	// 			transform: scale(0.75);
+
+	// 			@media screen and (min-width: 768px) {
+	// 				transform: scale(1);
+	// 			}
+
+	// 			&:after {
+	// 				position: absolute;
+	// 				top: em-calc(5);
+	// 				left: em-calc(5);
+	// 				width: em-calc(30);
+	// 				height: em-calc(30);
+	// 				border-radius: em-calc(420);
+	// 				content: '';
+	// 				background-color: var(--cb-color-bg, #ffffff);
+	// 				transition: inherit;
+	// 			}
+	// 		}
+
+	// 		input[type='checkbox'] {
+	// 			position: absolute;
+	// 			left: -10000px;
+
+	// 			&:checked + label {
+	// 				background-color: var(--cb-color-success, #4daf50);
+
+	// 				&:after {
+	// 					left: em-calc(28);
+	// 				}
+	// 			}
+
+	// 			&:focus + label {
+	// 				outline: 1px dashed var(--cb-color-primary);
+	// 			}
+
+	// 			&:disabled + label {
+	// 				opacity: 0.2;
+	// 				cursor: not-allowed;
+	// 			}
+	// 		}
+	// 	}
+	// }
+}

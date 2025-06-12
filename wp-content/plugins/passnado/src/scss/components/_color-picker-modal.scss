@@ -1,0 +1,22 @@
+.color-picker-modal {
+	position: relative;
+	&__toggle {
+		.component-color-indicator {
+			width: rem-calc(20);
+			height: rem-calc(20);
+			border-radius: 50%;
+			margin: rem-calc(0 6 0 0);
+		}
+	}
+	&__modal {
+		z-index: 20;
+		position: absolute;
+		bottom: calc(100% + #{rem-calc(10)});
+		right: 0;
+		max-width: rem-calc(400);
+		padding: rem-calc(16);
+		border-radius: rem-calc(4);
+		background-color: $passnado-white;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+}

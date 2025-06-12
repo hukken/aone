@@ -1,0 +1,49 @@
+#topbar {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	.topbar-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: var(--color__white);
+		padding: rem-calc(30);
+
+		.topbar-part {
+			flex: 0 0 33%;
+			display: flex;
+			justify-content: center;
+
+			&:first-child {
+				justify-content: flex-start;
+			}
+
+			&:last-child {
+				justify-content: flex-end;
+			}
+		}
+
+		button,
+		a {
+			text-transform: uppercase;
+			color: inherit;
+			text-decoration: none;
+			letter-spacing: 0.5px;
+		}
+
+		#toggle-menu {
+			background: none;
+		}
+
+		#quick-menu ul {
+			list-style: none;
+			display: flex;
+			align-items: center;
+			grid-gap: 2rem;
+
+		}
+	}
+}

@@ -1,0 +1,23 @@
+name: Update plugin on schedule
+
+on:
+    schedule:
+        # Runs every day at 6am UTC
+        - cron: '0 6 * * *'
+
+jobs:
+    replicate_changes:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+            - name: Update plugin from source
+              uses: designcontainer/workflow-plugin-updater@master
+              with:
+                  github_token: ${{ secrets.BOT_TOKEN }}
+                  approval_github_token: ${{ secrets.GITHUB_TOKEN }}
+                  committer_username: designcontainer-bot
+                  committer_email: tech@designcontainer.no
+                  composer_installer: '^1.9'
+                  source: https://wpml.org/?download=7474&user_id=60304&subscription_key=${{ secrets.PLUGIN_WPML_TOKEN }}

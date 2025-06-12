@@ -1,0 +1,149 @@
+$breakpoints: (
+	small: 480px,
+	medium: 720px,
+	large: 960px,
+	wide: 1200px
+) !default;
+
+@mixin breakpoint( $breakpoint, $direction: max ) {
+	// If the key exists in the map
+	@if map-has-key( $breakpoints, $breakpoint ) {
+		$breakpoint-value: map-get( $breakpoints, $breakpoint );
+
+		@if $direction == max {
+			@media screen and ( max-width: ( $breakpoint-value - 1 ) ) {
+				@content;
+			}
+		}
+
+		@else {
+			@media screen and ( min-width: $breakpoint-value ) {
+				@content;
+			}
+		}
+	}
+
+	@else {
+		@if $direction == max {
+			@media screen and ( max-width: $breakpoint ) {
+				@content;
+			}
+		} @else if $direction == min {
+			@media screen and ( min-width: $breakpoint ) {
+				@content;
+			}
+		}
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+		+ "Available breakpoints are: #{map-keys($breakpoints)}.";
+	}
+}
+
+
+@mixin transition($what: all, $time: 0.2s, $how: cubic-bezier(0.86, 0, 0.07, 1)) {
+	-webkit-transition: $what $time $how;
+	-moz-transition: $what $time $how;
+	-ms-transition: $what $time $how;
+	-o-transition: $what $time $how;
+	transition: $what $time $how;
+}
+
+@mixin background-cover() {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@mixin background-overlay() {
+	content: '';
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@mixin icon-font() {
+	font-family: 'icon' !important;
+	font-size: 16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// font style: size, line-height, family and color
+@mixin dofont($size: 16, $lh: 16, $family: $body-font-family, $clr: $body-font-color) {
+	font-family: $family;
+	font-size: rem-calc($size);
+	line-height: rem-calc($lh);
+	color: $clr;
+}
+
+/*
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+@mixin doDropdown() {
+	position: relative;
+	background-color: $gul;
+	padding: 0;
+	border-radius: rem-calc(4);
+	width: rem-calc(290);
+	max-width: rem-calc(290);
+
+	h3, .nav-title {
+		display: block;
+		cursor: pointer;
+		font-size: rem-calc(16);
+		margin: 0 !important;
+		padding: rem-calc(10 15);
+		color: $body-font-color;
+
+		&:hover {
+			& + ol {
+				display: block;
+				opacity: 1;
+			}
+		}
+
+		&:after {
+			content: $icon-arrow-down;
+			font-family: "icon";
+			position: absolute;
+			right: rem-calc(5);
+			top: rem-calc(9);
+			width: rem-calc(20);
+			height: rem-calc(14);
+		}
+	}
+
+	ol, ul {
+		position: absolute;
+		display: none;
+		opacity: 0;
+		transition: opacity .2s ease;
+		top: rem-calc(22);
+		left: 0;
+		background-color: $gul;
+		padding: rem-calc(10 15);
+		border-bottom-left-radius: rem-calc(4);
+		border-bottom-right-radius: rem-calc(4);
+		width: 100%;
+
+		&:hover {
+			display: block;
+			opacity: 1;
+		}
+
+		li a {
+			background-color: transparent;
+			padding: 0;
+			height: auto;
+
+			&:hover {
+				background-color: transparent;
+				text-decoration: underline;
+			}
+		}
+	}
+}

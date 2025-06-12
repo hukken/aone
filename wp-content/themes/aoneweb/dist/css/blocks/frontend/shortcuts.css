@@ -1,0 +1,50 @@
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+/**==================================================================================================================================
+BREAKPOINT
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+.shortcuts {
+  padding: 5.9375rem 0;
+}
+
+@media print, screen and (min-width: 64em) {
+  .shortcuts {
+    padding: 7.375rem 0;
+  }
+}
+.shortcuts__title {
+  margin: 0 0 2rem 0;
+}
+
+.shortcuts .dc-button {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=shortcuts.css.map*/

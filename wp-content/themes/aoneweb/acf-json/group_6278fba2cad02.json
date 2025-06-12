@@ -1,0 +1,47 @@
+{
+    "key": "group_6278fba2cad02",
+    "title": "BLOCK: Heading & Divider",
+    "fields": [
+        {
+            "key": "field_6278fbaae5c73",
+            "label": "Title",
+            "name": "title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Leave empty for just divider",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/heading-divider"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1693470307,
+    "local_file": "\/nas\/content\/live\/aoneweb\/wp-content\/themes\/aoneweb\/acf-json\/group_6278fba2cad02.json",
+    "acfml_field_group_mode": "advanced"
+}

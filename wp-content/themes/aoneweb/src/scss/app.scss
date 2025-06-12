@@ -1,0 +1,26 @@
+/**
+ * This file includes all the Site styling.
+ *
+ * Note that the Gutenberg blocks are imported block-by-block,
+ * in the src/blocks directory.
+ */
+
+/**
+* Plugin files
+*/
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+/**
+ * Common files shared between app and admin.
+ */
+@import 'common';
+/**
+ * Layout files
+ */
+ @import 'layout/all';
+
+
+/**
+ * Templates.
+ */
+@import 'templates/404';
+@import 'templates/single-osloguide';

@@ -1,0 +1,36 @@
+.quotes {
+	position: relative;
+
+	.block-container {
+		// display: flex;
+		// justify-content: center;
+		max-width: 650px;
+		width: 90%;
+		margin: 0 auto;
+
+		.swiper.quotes_slider {
+			width: auto;
+			.swiper-wrapper {
+				align-items: center;
+				.swiper-slide {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: min-content;
+					.quotes-title {
+						text-align: center;
+					}
+					.quotes-text {
+						text-align: center;
+						margin: rem-calc(30px 0);
+					}
+				}
+			}
+			.swiper-pagination {
+				position: relative;
+				bottom: 0;
+			}
+		}
+	}
+
+}

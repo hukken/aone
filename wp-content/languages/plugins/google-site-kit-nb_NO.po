@@ -1,0 +1,1100 @@
+# Translation of Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-12 05:41:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release)\n"
+
+#: includes/Modules/Sign_In_With_Google.php:692
+msgid "Disconnect Google Account"
+msgstr "Koble fra Google-kontoen din"
+
+#: includes/Core/Site_Health/Debug_Data.php:672
+msgid "Tailored Metrics"
+msgstr "Tilpassede målinger"
+
+#: includes/Core/Site_Health/Debug_Data.php:671
+msgid "Manual Selection"
+msgstr "Manuelt valg"
+
+#: includes/Core/Consent_Mode/Consent_Mode.php:136
+msgid "You do not have permission to activate plugins on this site."
+msgstr "Du har ikke lov til å aktivere utvidelser på dette nettstedet."
+
+#: includes/Core/Admin/Authorize_Application.php:126
+msgid "Powered by Site Kit"
+msgstr "Drevet av Site Kit"
+
+#: includes/Core/Site_Health/Debug_Data.php:614
+msgid "Not detected"
+msgstr "Ikke oppdaget"
+
+#: includes/Core/Site_Health/Debug_Data.php:614
+msgid "Detected"
+msgstr "Oppdaget"
+
+#: includes/Core/Site_Health/Debug_Data.php:613
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+#: includes/Core/Site_Health/Debug_Data.php:608
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:72
+msgid "Consent Mode"
+msgstr "Samtykkemodus"
+
+#: includes/Modules/Analytics_4.php:560 includes/Modules/Analytics_4.php:574
+msgid "Never synced"
+msgstr "Aldri synkronisert"
+
+#: includes/Modules/Ads.php:211
+msgid "https://google.com/ads"
+msgstr "https://google.com/ads"
+
+#: includes/Modules/Ads.php:209
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:26
+msgctxt "Service name"
+msgid "Ads"
+msgstr "Annonser"
+
+#: includes/Core/Site_Health/Tag_Placement.php:244
+#: includes/Core/Site_Health/Tag_Placement.php:251
+msgid "No tag detected."
+msgstr "Intet merke oppdaget."
+
+#: includes/Core/Site_Health/Tag_Placement.php:230
+msgid "Tag detected and placed by Site Kit."
+msgstr "Merke oppdaget og plassert av Site Kit."
+
+#: includes/Core/Site_Health/Tag_Placement.php:73
+#: includes/Core/Site_Health/Tag_Placement.php:81
+#: includes/Core/Site_Health/Tag_Placement.php:103
+msgid "Tag Placement"
+msgstr "Plassering av merke"
+
+#. translators: %s: translatable module name
+#: includes/Core/Modules/Module_With_Tag_Trait.php:38
+msgid "Google %s snippet added by Site Kit"
+msgstr "Google %s-snutt lagt til av Site Kit"
+
+#: includes/Core/Site_Health/Debug_Data.php:609
+#: includes/Core/Tags/First_Party_Mode/First_Party_Mode.php:140
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:15
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:76
+#: dist/assets/js/googlesitekit-modules-sign-in-with-google-0c7629ea71e0e833b0c2.js:5
+msgid "Disabled"
+msgstr "Slått av"
+
+#: includes/Core/Site_Health/Debug_Data.php:609
+#: includes/Core/Tags/First_Party_Mode/First_Party_Mode.php:140
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:15
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:76
+#: dist/assets/js/googlesitekit-modules-sign-in-with-google-0c7629ea71e0e833b0c2.js:5
+msgid "Enabled"
+msgstr "Slått på"
+
+#: includes/Modules/Analytics_4.php:677
+msgid "You’ll need to grant Site Kit permission to update enhanced measurement settings for this Analytics web data stream on your behalf."
+msgstr "Du må gi Site Kit tillatelse til å oppdatere innstillingene for forbedret måling for denne Analytics-webdatastrømmen på vegne av deg."
+
+#: includes/Core/Key_Metrics/REST_Key_Metrics_Controller.php:129
+msgid "Selected metrics cannot be empty."
+msgstr "Valgte målinger kan ikke være tomt."
+
+#: includes/Modules/AdSense.php:1112
+msgid "Not set up"
+msgstr "Ikke satt opp"
+
+#: includes/Modules/AdSense.php:1110
+msgid "Setup complete"
+msgstr "Oppsett fullført"
+
+#: includes/Modules/AdSense.php:1108
+msgid "Snippet is placed"
+msgstr "Kodesnutt lagt inn"
+
+#: includes/Modules/AdSense.php:264
+msgid "Not available"
+msgstr "Ikke tilgjengelig"
+
+#: includes/Core/Key_Metrics/REST_Key_Metrics_Controller.php:141
+msgid "No more than 4 key metrics can be selected."
+msgstr "Det kan ikke velges mer enn 4 målinger."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:159
+msgid "Whether the module is recoverable."
+msgstr "Om modulen er gjenopprettbar."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:155
+msgid "Whether the module is shareable."
+msgstr "Om modulen kan deles."
+
+#: includes/Core/Util/BC_Functions.php:144
+msgid "Inactive widgets"
+msgstr "Inaktive widgeter"
+
+#. translators: 1: Admin splash URL. 2: Support link URL.
+#: includes/Core/Authentication/Authentication.php:1315
+msgid "<a href=\"%1$s\">Please try again</a>. Retry didn’t work? <a href=\"%2$s\" target=\"_blank\">Get help</a>."
+msgstr "<a href=\"%1$s\">Prøv igjen</a>. Det virket ikke å prøve igjen? <a href=\"%2$s\" target=\"_blank\">Få hjelp</a>."
+
+#. translators: %s: version number
+#: google-site-kit.php:58
+msgid "Site Kit requires WordPress version %s or higher"
+msgstr "Site Kit krever WordPress-versjon %s eller nyere"
+
+#. translators: %s: version number
+#: google-site-kit.php:50
+msgid "Site Kit requires PHP version %s or higher"
+msgstr "Site Kit krever PHP-versjon %s eller nyere"
+
+#: includes/Core/Dashboard_Sharing/View_Only_Pointer.php:54
+msgid "Check Site Kit’s dashboard to find out how much traffic your site is getting, your most popular pages, top keywords people use to find your site on Search, and more."
+msgstr "Se kontrollpanelet i Site Kit for å finne ut hvor mye trafikk nettstedet ditt får, de mest populære sidene dine, de topp nøkkelordene folk bruker for å finne nettstedet ditt ved søk, med mer."
+
+#: includes/Core/Dashboard_Sharing/View_Only_Pointer.php:53
+msgid "You now have access to Site Kit"
+msgstr "Du har nå tilgang til Site Kit"
+
+#. translators: 1: Support link URL. 2: Get help string.
+#: includes/Core/Authentication/Setup.php:127
+msgid "<a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+
+#. translators: 1: Plugin name. 2: URL change message. 3: Proxy setup URL. 4:
+#. Reconnect string. 5: Proxy support link for the url-has-changed help page.
+#. 6: Help link message.
+#: includes/Core/Authentication/Authentication.php:1077
+msgid "%1$s: %2$s <a href=\"%3$s\">%4$s</a>. <a target=\"_blank\" href=\"%5$s\">%6$s</a>"
+msgstr "%1$s: %2$s <a href=\"%3$s\">%4$s</a>. <a target=\"_blank\" href=\"%5$s\">%6$s</a>"
+
+#: includes/Core/Authentication/Authentication.php:1083
+#: includes/Core/Authentication/Setup.php:129
+#: dist/assets/js/googlesitekit-ad-blocking-recovery-ff4f4fe3cc2fc49e0dda.js:21
+#: dist/assets/js/googlesitekit-adminbar-9ee6cdb0be43ea55ded4.js:7
+#: dist/assets/js/googlesitekit-entity-dashboard-b0eeab16b25065093d82.js:7
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:24
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:46
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:58
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:66
+#: dist/assets/js/googlesitekit-modules-1a2ef4f5ec6f6f1b060c.js:3
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:11
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:24
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:46
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:50
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:24
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:46
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:50
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:62
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:64
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-682896da4133e08c66ab.js:7
+#: dist/assets/js/googlesitekit-modules-search-console-1c6864fceeeff7358e12.js:7
+#: dist/assets/js/googlesitekit-modules-search-console-1c6864fceeeff7358e12.js:29
+#: dist/assets/js/googlesitekit-modules-sign-in-with-google-0c7629ea71e0e833b0c2.js:5
+#: dist/assets/js/googlesitekit-notifications-b81ae6975e8afcf98876.js:28
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:24
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:46
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:56
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:64
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:66
+#: dist/assets/js/googlesitekit-splash-e5aa53e206c5c1ddcc14.js:7
+#: dist/assets/js/googlesitekit-splash-e5aa53e206c5c1ddcc14.js:25
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:7
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:29
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:33
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:41
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:43
+#: dist/assets/js/googlesitekit-wp-dashboard-80711a59677604d769b2.js:9
+msgid "Get help"
+msgstr "Få hjelp"
+
+#: includes/Core/Site_Health/Debug_Data.php:492
+msgid "Owner"
+msgstr "Eier"
+
+#: includes/Core/Site_Health/Debug_Data.php:487
+#: dist/assets/js/googlesitekit-entity-dashboard-b0eeab16b25065093d82.js:41
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:78
+msgid "Any admin signed in with Google"
+msgstr "Enhver admin logget inn på Google"
+
+#. translators: %s: module name
+#: includes/Core/Site_Health/Debug_Data.php:429
+msgid "%s: Management"
+msgstr "Adminstrering av %s"
+
+#. translators: %s: module name
+#: includes/Core/Site_Health/Debug_Data.php:421
+msgid "%s: Shared Roles"
+msgstr "Delte roller for %s"
+
+#: includes/Core/Site_Health/Debug_Data.php:394
+msgid "Recoverable Modules"
+msgstr "Gjenopprettbare moduler"
+
+#. translators: 1: Plugin name. 2: Message.
+#. translators: 1: Module name, 2: Error message
+#: includes/Core/Authentication/Authentication.php:1134
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:88
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: includes/Core/Modules/REST_Modules_Controller.php:666
+msgid "Module is not recoverable."
+msgstr "Modulen er ikke gjenopprettbar."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:653
+msgid "Module is not shareable."
+msgstr "Modulen er ikke delbar."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:346
+#: includes/Core/Modules/REST_Modules_Controller.php:514
+#: includes/Modules/AdSense.php:483
+msgid "Module is not connected."
+msgstr "Modulen er ikke tilkoblet."
+
+#: includes/Modules/AdSense.php:246
+msgid "AdSense: Site status"
+msgstr "Nettstedstatus for AdSense"
+
+#: includes/Modules/PageSpeed_Insights.php:183
+msgid "https://pagespeed.web.dev"
+msgstr "https://pagespeed.web.dev"
+
+#: includes/Core/Authentication/Setup.php:233
+#: includes/Core/Authentication/Setup.php:290
+msgid "Invalid request."
+msgstr "Ugyldig forespørsel."
+
+#. translators: %s: Current URL
+#: includes/Core/Authentication/Authentication.php:1098
+msgid "New URL: %s"
+msgstr "Ny URL: %s"
+
+#. translators: %s: Previous URL
+#: includes/Core/Authentication/Authentication.php:1093
+msgid "Old URL: %s"
+msgstr "Gammel URL: %s"
+
+#: includes/Core/Authentication/Authentication.php:1311
+msgid "The link you followed has expired."
+msgstr "Lenken du fulgte er utgått."
+
+#: includes/Modules/Analytics_4.php:659
+msgid "You’ll need to grant Site Kit permission to create a new Analytics web data stream for this site on your behalf."
+msgstr "Du må gi Site Kit tillatelse til å å opprettte en ny Analytics-webdatastrøm for dette nettstedet på vegne av deg."
+
+#: includes/Core/Site_Health/Debug_Data.php:334
+msgid "Verified outside of Site Kit"
+msgstr "Bekreftet utenfor Site Kit"
+
+#: includes/Core/Site_Health/Debug_Data.php:327
+msgid "Verified through meta tag"
+msgstr "Bekreftet med metaetikett"
+
+#: includes/Core/Site_Health/Debug_Data.php:319
+msgid "Verified through file"
+msgstr "Bekreftet med fil"
+
+#: includes/Core/Site_Health/Debug_Data.php:311
+msgid "Not verified"
+msgstr "Ikke bekreftet"
+
+#: includes/Core/Site_Health/Debug_Data.php:302
+msgid "Verification Status"
+msgstr "Bekreftelsesstatus"
+
+#. translators: %s: List of invalid parameters.
+#: includes/Modules/Analytics_4.php:1592
+msgid "Invalid parameter(s): %s"
+msgstr "Ugyldig(e) parameter(e): %s"
+
+#: includes/Core/Admin/Available_Tools.php:50
+msgid "Resetting will disconnect all users and remove all Site Kit settings and data within WordPress. You and any other users who wish to use Site Kit will need to reconnect to restore access."
+msgstr "Tilbakestilling vil frakoble alle brukere, fjerne alle innstillinger for Site Kit og data i WordPress. Du og enhver annen bruker som vil bruke Site Kit må koble til på nytt for å gjenopprette tilgangen."
+
+#: includes/Core/Authentication/Google_Proxy.php:286
+msgid "Failed to parse response."
+msgstr "Kunne ikke forstå responsen."
+
+#: includes/Core/Site_Health/Debug_Data.php:582
+msgid "Features"
+msgstr "Funksjoner"
+
+#: includes/Core/Admin/Plugin_Row_Meta.php:51
+msgid "Support"
+msgstr "Brukerstøtte"
+
+#: includes/Core/Admin/Plugin_Row_Meta.php:50
+msgid "Rate Site Kit"
+msgstr "Vurder Site Kit"
+
+#: includes/Core/Site_Health/Debug_Data.php:535
+msgid "User Capabilities"
+msgstr "Bukertillatelser"
+
+#: includes/Core/Modules/Datapoint.php:122
+msgid "You’ll need to grant Site Kit permission to do this."
+msgstr "Du må gi Site Kit tillatelse til å gjøre dette."
+
+#: includes/Core/User_Input/REST_User_Input_Controller.php:145
+msgid "Missing settings data."
+msgstr "Mangler innstillingsdata."
+
+#: includes/Core/Authentication/Authentication.php:1319
+msgid "Something went wrong."
+msgstr "Noe gikk galt."
+
+#: includes/Core/Authentication/Authentication.php:1259
+msgid "You have insufficient permissions to manage Site Kit permissions."
+msgstr "Du har ikke tilstrekkelige tillatelser til å administrere Site Kit-tillatelser."
+
+#: includes/Core/Admin/Screens.php:468
+msgid "User Input"
+msgstr "Bruker-inndata"
+
+#: includes/Core/Authentication/Setup.php:145
+msgid "You have insufficient permissions to connect Site Kit."
+msgstr "Du har ikke tilstrekkelige tillatelser til å kobke opp Site Kit"
+
+#: includes/Core/Authentication/Authentication.php:1081
+msgid "Reconnect"
+msgstr "Koble til på nytt"
+
+#: includes/Modules/Site_Verification.php:356
+msgctxt "Service name"
+msgid "Site Verification"
+msgstr "Netttstedsbekreftelse"
+
+#: includes/Core/Site_Health/Debug_Data.php:357
+msgid "Connected user count"
+msgstr "Antall tilkoblede brukere"
+
+#: includes/Core/Modules/REST_Modules_Controller.php:171
+msgid "Owner login."
+msgstr "Innlogging for eier."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:166
+msgid "Owner ID."
+msgstr "Eier-ID."
+
+#. translators: 1: Title prefix. 2: Title.
+#: includes/Core/Util/Entity_Factory.php:499
+msgctxt "archive title"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/Core/Util/Entity_Factory.php:409
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: includes/Core/Util/Entity_Factory.php:408
+msgctxt "date archive title prefix"
+msgid "Day:"
+msgstr "Dag:"
+
+#: includes/Core/Util/Entity_Factory.php:402
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: includes/Core/Util/Entity_Factory.php:401
+msgctxt "date archive title prefix"
+msgid "Month:"
+msgstr "Måned:"
+
+#: includes/Core/Util/Entity_Factory.php:396
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: includes/Core/Util/Entity_Factory.php:395
+msgctxt "date archive title prefix"
+msgid "Year:"
+msgstr "År:"
+
+#: includes/Core/Util/Entity_Factory.php:367
+msgctxt "post type archive title prefix"
+msgid "Archives:"
+msgstr "Arkiver:"
+
+#: includes/Core/Util/Entity_Factory.php:342
+msgctxt "author archive title prefix"
+msgid "Author:"
+msgstr "Forfatter:"
+
+#. translators: %s: Taxonomy singular name.
+#: includes/Core/Util/Entity_Factory.php:314
+msgctxt "taxonomy term archive title prefix"
+msgid "%s:"
+msgstr "%s:"
+
+#: includes/Core/Util/Entity_Factory.php:305
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Samtaler"
+
+#: includes/Core/Util/Entity_Factory.php:302
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Lyd"
+
+#: includes/Core/Util/Entity_Factory.php:299
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statuser"
+
+#: includes/Core/Util/Entity_Factory.php:296
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Lenker"
+
+#: includes/Core/Util/Entity_Factory.php:293
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Sitater"
+
+#: includes/Core/Util/Entity_Factory.php:290
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videoer"
+
+#: includes/Core/Util/Entity_Factory.php:287
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/Core/Util/Entity_Factory.php:284
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: includes/Core/Util/Entity_Factory.php:281
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Notiser"
+
+#: includes/Core/Util/Entity_Factory.php:275
+msgctxt "tag archive title prefix"
+msgid "Tag:"
+msgstr "Stikkord:"
+
+#: includes/Core/Util/Entity_Factory.php:271
+msgctxt "category archive title prefix"
+msgid "Category:"
+msgstr "Kategori:"
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:305
+msgid "Looks like the verification token for your site is missing."
+msgstr "Ser ut som bekreftelsesnøkkelen for siden din mangler."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:303
+msgid "Looks like there is no Search Console property for your site."
+msgstr "Ser ut som det ikke er noe område for Søkekontrollen på siden din."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:301
+msgid "Looks like your site is not allowed access to Google account data and can’t display stats in the dashboard."
+msgstr "Det ser ut til at nettstedet ditt ikke har tillatelse til Google-kontodata og kan ikke vise statistikk på kontrollpanelet."
+
+#: includes/Core/Util/Entity_Factory.php:251
+msgid "Home"
+msgstr "Hjem"
+
+#: includes/Core/Modules/Module.php:375
+msgid "Invalid datapoint request."
+msgstr "Ugyldig datapunktforespørsel."
+
+#: includes/Modules/Tag_Manager.php:239
+msgid "Additional permissions are required to create a new Tag Manager container on your behalf."
+msgstr "Ekstra rettigheter er påkrevd for å opprette en ny Tag Manager-beholder på dine vegne."
+
+#: includes/Modules/Analytics_4.php:654
+msgid "You’ll need to grant Site Kit permission to create a new Analytics property on your behalf."
+msgstr "Du må gi Site Kit tillatelse til å å opprette en ny Analytics-datastrøm på dine vegne."
+
+#: includes/Modules/Analytics_4.php:643
+msgid "You’ll need to grant Site Kit permission to create a new Analytics account on your behalf."
+msgstr "Du må gi Site Kit tillatelse til å å opprette en ny Analytics-konto på dine vegne."
+
+#: includes/Core/Authentication/Authentication.php:740
+#: includes/Core/Authentication/Authentication.php:760
+#: includes/Core/Authentication/Authentication.php:794
+msgid "You don’t have permissions to authenticate with Site Kit."
+msgstr "Du har ikke tillatelse til å logge inn med Site Kit."
+
+#: includes/Core/Authentication/Setup.php:229
+#: includes/Core/Authentication/Setup.php:286 includes/Core/Util/Reset.php:306
+msgid "You don’t have permissions to set up Site Kit."
+msgstr "Du har ikke tillatelse til å sette opp Site Kit."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:287
+msgid "Setup was interrupted because you did not grant the necessary permissions."
+msgstr "Oppsettet ble avbrutt fordi du ga ikke de nødvendige tillatelsene."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:482
+msgid "Settings to set."
+msgstr "Innstillinger å sette."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:435
+#: includes/Core/Modules/REST_Modules_Controller.php:468
+msgid "Module does not support settings."
+msgstr "Modulen støtter ikke innstillinger."
+
+#: includes/Core/Util/Requires_Javascript_Trait.php:36
+msgid "The Site Kit by Google plugin requires JavaScript to be enabled in your browser."
+msgstr "Utvidelsen SiteKit av Google krever at JavaScript er slått på i din nettleser."
+
+#: includes/Core/Site_Health/Debug_Data.php:516
+msgid "Required scopes"
+msgstr "Nødvendige områder"
+
+#. translators: used between list items, there is a space after the comma.
+#. translators: used between list items, there is a space after the comma
+#: includes/Core/Site_Health/Debug_Data.php:376
+#: includes/Core/Site_Health/Debug_Data.php:397
+#: includes/Core/Site_Health/Debug_Data.php:467
+#: includes/Modules/AdSense.php:1037 includes/Modules/AdSense.php:1081
+#: includes/Modules/Analytics_4.php:546 includes/Modules/Analytics_4.php:590
+#: includes/Modules/Analytics_4/Report/RequestHelpers.php:175
+#: includes/Modules/Analytics_4/Report/RequestHelpers.php:245
+#: includes/Modules/Analytics_4/Report/RequestHelpers.php:312
+#: dist/assets/js/googlesitekit-activation-859303eb6e15c09c3a50.js:14
+#: dist/assets/js/googlesitekit-ad-blocking-recovery-ff4f4fe3cc2fc49e0dda.js:50
+#: dist/assets/js/googlesitekit-adminbar-9ee6cdb0be43ea55ded4.js:44
+#: dist/assets/js/googlesitekit-api-9f1616f40adbca43e6b8.js:12
+#: dist/assets/js/googlesitekit-datastore-forms-c2f63f0c0adfa5c1bb08.js:12
+#: dist/assets/js/googlesitekit-datastore-site-dc7146f24a9f4d40e709.js:12
+#: dist/assets/js/googlesitekit-datastore-ui-7db934d367461124f5b8.js:12
+#: dist/assets/js/googlesitekit-datastore-user-1542da3bbef03cd01780.js:12
+#: dist/assets/js/googlesitekit-entity-dashboard-b0eeab16b25065093d82.js:58
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:18
+#: dist/assets/js/googlesitekit-metric-selection-70ed1134dac53010fa40.js:42
+#: dist/assets/js/googlesitekit-modules-1a2ef4f5ec6f6f1b060c.js:14
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:26
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:18
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:18
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-682896da4133e08c66ab.js:22
+#: dist/assets/js/googlesitekit-modules-reader-revenue-manager-7ec25dde6792354d0eba.js:22
+#: dist/assets/js/googlesitekit-modules-search-console-1c6864fceeeff7358e12.js:50
+#: dist/assets/js/googlesitekit-modules-sign-in-with-google-0c7629ea71e0e833b0c2.js:40
+#: dist/assets/js/googlesitekit-modules-tagmanager-c8b6022c7b86c9ad9742.js:34
+#: dist/assets/js/googlesitekit-notifications-b81ae6975e8afcf98876.js:20
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:18
+#: dist/assets/js/googlesitekit-splash-e5aa53e206c5c1ddcc14.js:36
+#: dist/assets/js/googlesitekit-user-input-4af8721f3482ada06493.js:34
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:62
+#: dist/assets/js/googlesitekit-wp-dashboard-80711a59677604d769b2.js:54
+msgid ", "
+msgstr ", "
+
+#: includes/Core/Site_Health/Debug_Data.php:373
+msgid "Active Modules"
+msgstr "Aktive moduler"
+
+#: includes/Core/Site_Health/Debug_Data.php:289
+msgid "Not authenticated"
+msgstr "Ikke innlogget"
+
+#: includes/Core/Site_Health/Debug_Data.php:288
+msgid "Authenticated"
+msgstr "Innlogget"
+
+#: includes/Core/Site_Health/Debug_Data.php:286
+msgid "User Status"
+msgstr "Brukerstatus"
+
+#: includes/Core/Site_Health/Debug_Data.php:269
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:80
+msgid "Site Status"
+msgstr "Nettstedstatus"
+
+#: includes/Core/Site_Health/Debug_Data.php:257
+#: includes/Modules/Analytics_4.php:555 includes/Modules/Analytics_4.php:568
+msgid "Not connected"
+msgstr "Ikke tilkoblet"
+
+#: includes/Core/Site_Health/Debug_Data.php:256
+msgid "Connected through OAuth client credentials"
+msgstr "Tilkoblet gjennom OAuth-klientinformasjon"
+
+#: includes/Core/Site_Health/Debug_Data.php:255
+msgid "Connected through site credentials"
+msgstr "Tilkoblet gjennom nettstedsinformasjon"
+
+#: includes/Core/Site_Health/Debug_Data.php:238
+msgid "AMP Mode"
+msgstr "AMP-modus"
+
+#: includes/Core/Site_Health/Debug_Data.php:234
+msgid "Secondary"
+msgstr "Sekundær"
+
+#: includes/Core/Site_Health/Debug_Data.php:233
+msgid "Primary"
+msgstr "Primær"
+
+#: includes/Core/Site_Health/Debug_Data.php:208
+#: includes/Core/Site_Health/Debug_Data.php:450
+#: includes/Modules/Analytics_4.php:543 includes/Modules/Analytics_4.php:587
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:15
+#: dist/assets/js/googlesitekit-modules-ads-23c0496d89342f02d84d.js:26
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:80
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:80
+msgid "None"
+msgstr "Ingen"
+
+#: includes/Core/Site_Health/Debug_Data.php:182
+msgid "Reference Site URL"
+msgstr "URL til refrererende nettsted"
+
+#: includes/Core/Site_Health/Debug_Data.php:178
+msgid "WordPress Version"
+msgstr "WordPress-versjon"
+
+#: includes/Core/Site_Health/Debug_Data.php:174
+msgid "PHP Version"
+msgstr "PHP-versjon"
+
+#: includes/Core/Site_Health/Debug_Data.php:170
+msgid "Version"
+msgstr "Versjon"
+
+#: includes/Modules/AdSense.php:250
+msgid "AdSense: Snippet placed"
+msgstr "AdSense: Snutt satt inn"
+
+#: includes/Modules/AdSense.php:242
+msgid "AdSense: Account status"
+msgstr "AdSense: Kontostatus"
+
+#: includes/Modules/AdSense.php:237
+msgid "AdSense: Client ID"
+msgstr "AdSense: Klient-ID"
+
+#: includes/Modules/AdSense.php:232
+msgid "AdSense: Account ID"
+msgstr "AdSense: Konto-ID"
+
+#: includes/Modules/Tag_Manager.php:191
+msgid "Tag Manager: Snippet placed"
+msgstr "Tag Manager: Snutt satt inn"
+
+#: includes/Modules/Tag_Manager.php:186
+msgid "Tag Manager: AMP Container ID"
+msgstr "Tag Manager AMP beholder-ID"
+
+#: includes/Modules/Tag_Manager.php:181
+msgid "Tag Manager: Container ID"
+msgstr "Tag Manager beholder-ID"
+
+#: includes/Modules/Tag_Manager.php:176
+msgid "Tag Manager: Account ID"
+msgstr "Tag Manager: Konto-ID"
+
+#: includes/Modules/Analytics_4.php:531
+msgid "Analytics: Snippet placed"
+msgstr "Analytics: Snutt satt inn"
+
+#: includes/Modules/Analytics_4.php:516
+msgid "Analytics: Property ID"
+msgstr "Analytics-datastrøm-ID"
+
+#: includes/Modules/Analytics_4.php:511
+msgid "Analytics: Account ID"
+msgstr "Analytics: Konto-ID"
+
+#: includes/Modules/Search_Console.php:168
+msgid "Search Console: Property"
+msgstr "Søkekonsoll: Egenskap"
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:307
+msgid "Unable to authenticate Site Kit, as no client credentials exist."
+msgstr "Klare ikke autorisere Site Kit, da ingen klientopplysninger eksisterer."
+
+#: includes/Core/Admin/Dashboard.php:116
+msgid "Site Kit Summary"
+msgstr "Sammendrag av Site Kit"
+
+#: includes/Core/Notifications/Notification.php:69
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:70
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:94
+msgid "Dismiss"
+msgstr "Avvis"
+
+#: includes/Modules/Analytics_4.php:555 includes/Modules/Analytics_4.php:568
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:74
+msgid "Connected"
+msgstr "Tilkoblet"
+
+#: includes/Core/Admin/Available_Tools.php:47
+#: includes/Core/Admin/Available_Tools.php:61
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:72
+#: dist/assets/js/googlesitekit-splash-e5aa53e206c5c1ddcc14.js:25
+msgid "Reset Site Kit"
+msgstr "Tilbakestill Site Kit"
+
+#: includes/Modules/AdSense.php:749
+#: dist/assets/js/googlesitekit-ad-blocking-recovery-ff4f4fe3cc2fc49e0dda.js:33
+#: dist/assets/js/googlesitekit-ad-blocking-recovery-ff4f4fe3cc2fc49e0dda.js:39
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:94
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:64
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:70
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:76
+msgctxt "Service name"
+msgid "AdSense"
+msgstr "AdSense"
+
+#: includes/Modules/PageSpeed_Insights.php:181
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-682896da4133e08c66ab.js:7
+msgctxt "Service name"
+msgid "PageSpeed Insights"
+msgstr "PageSpeed-innsikter"
+
+#: includes/Modules/Tag_Manager.php:467
+#: dist/assets/js/googlesitekit-modules-tagmanager-c8b6022c7b86c9ad9742.js:36
+msgctxt "Service name"
+msgid "Tag Manager"
+msgstr "Tag-behandler"
+
+#: includes/Modules/Search_Console.php:506
+#: dist/assets/js/googlesitekit-modules-search-console-1c6864fceeeff7358e12.js:1
+#: dist/assets/js/googlesitekit-splash-e5aa53e206c5c1ddcc14.js:40
+msgctxt "Service name"
+msgid "Search Console"
+msgstr "Søkekonsoll"
+
+#: includes/Modules/Analytics_4.php:1823
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:64
+#: dist/assets/js/googlesitekit-modules-adsense-4c9f3e82ede5101a7eec.js:80
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:56
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:94
+#: dist/assets/js/googlesitekit-modules-analytics-4-481b89c2cd44559a7bb4.js:120
+#: dist/assets/js/googlesitekit-modules-search-console-1c6864fceeeff7358e12.js:1
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:64
+#: dist/assets/js/googlesitekit-widgets-c8a23c2f9e2b270ac4c9.js:39
+msgctxt "Service name"
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/Core/Authentication/Authentication.php:1143
+msgid "Click here"
+msgstr "Klikk her"
+
+#: includes/Core/Authentication/Authentication.php:1136
+msgid "You need to reauthenticate your Google account."
+msgstr "Du må logge deg inn på din Google-konto på nytt."
+
+#. translators: %s: error code from API
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:316
+msgid "Unknown Error (code: %s)."
+msgstr "Ukjent feil (kode: %s)."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:313
+msgid "Unable to receive access token because of an unsupported grant type."
+msgstr "Kunne ikke motta tilgangskode på grunn av en tilgangstype som ikke er støttet."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:311
+msgid "Unable to receive access token because of an unauthorized client."
+msgstr "Kunne ikke motta tilgangskode på grunn av en ikke-autorisert klient."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:297
+msgid "Unable to receive access token because of an invalid authorization code or refresh token."
+msgstr "Kunne ikke motta tilgangskode på grunn av en ugyldig autorisasjonskode eller oppfriskningskode."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:293
+msgid "Unable to receive access token because of an invalid client."
+msgstr "Kunne ikke motta tilgangskode på grunn av ugyldig klient."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:299
+msgid "Unable to receive access token because of an invalid OAuth request."
+msgstr "Kunne ikke motta tilgangskode på grunn av en ugyldig oAuth-forespørsel."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:289
+msgid "Unable to receive access token because of an unknown error."
+msgstr "Kunne ikke motta tilgangskode på grunn av en ukjent feil."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:295
+msgid "Unable to receive access token because of an empty authorization code."
+msgstr "Kunne ikke motta tilgangskode på grunn av en tom autenseringskode."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:291
+msgid "Internal error that the Google login redirect failed."
+msgstr "Intern feil ved at videresending ved innlogging på Google mislyktes."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:309
+msgid "Unable to refresh access token, as no refresh token exists."
+msgstr "Kan ikke oppfriske tilgangskode, da ingen oppfriskningskode finnes,"
+
+#: includes/Core/Site_Health/Debug_Data.php:239
+#: includes/Core/Tags/First_Party_Mode/First_Party_Mode.php:105
+#: includes/Modules/AdSense.php:251 includes/Modules/AdSense.php:272
+#: includes/Modules/AdSense.php:280 includes/Modules/Analytics_4.php:532
+#: includes/Modules/Sign_In_With_Google.php:512
+#: includes/Modules/Tag_Manager.php:192
+msgid "No"
+msgstr "Nei"
+
+#: includes/Core/Tags/First_Party_Mode/First_Party_Mode.php:103
+#: includes/Modules/AdSense.php:251 includes/Modules/AdSense.php:272
+#: includes/Modules/AdSense.php:280 includes/Modules/Analytics_4.php:532
+#: includes/Modules/Sign_In_With_Google.php:512
+#: includes/Modules/Tag_Manager.php:192
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/Core/Modules/REST_Modules_Controller.php:147
+msgid "List of slugs of other modules depending on the module."
+msgstr "Liste over identifikatorer for andre moduler som er avhengig av modulen."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:139
+msgid "List of slugs of other modules that the module depends on."
+msgstr "Liste over identifikatorer for andre moduler som modulen er avhengig av,"
+
+#: includes/Core/Modules/REST_Modules_Controller.php:134
+msgid "Whether the module setup has been completed."
+msgstr "Om oppsett av modulen er fullført."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:130
+msgid "Whether the module is active."
+msgstr "Om modulen er aktiv."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:125
+msgid "Whether the module is internal, thus without any UI."
+msgstr "Om modulen er intern, dermed uten brukergrensesnitt."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:119
+msgid "The module homepage."
+msgstr "Modulens hjemmeside."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:114
+msgid "Description of the module."
+msgstr "Beskrivelse av modulen."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:109
+msgid "Name of the module."
+msgstr "Navn på modulen."
+
+#: includes/Core/Util/REST_Entity_Search_Controller.php:133
+msgid "Text content to search for."
+msgstr "Tekstinnhold å søke etter."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:603
+msgid "Module data point to address."
+msgstr "Moduldata-peker til adresse."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:586
+msgid "Data to set."
+msgstr "Data som skal settes."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:104
+#: includes/Core/Modules/REST_Modules_Controller.php:320
+#: includes/Core/Modules/REST_Modules_Controller.php:377
+#: includes/Core/Modules/REST_Modules_Controller.php:415
+#: includes/Core/Modules/REST_Modules_Controller.php:494
+#: includes/Core/Modules/REST_Modules_Controller.php:530
+#: includes/Core/Modules/REST_Modules_Controller.php:598
+msgid "Identifier for the module."
+msgstr "Idenfikator for modulen."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:283
+msgid "An internal error occurred while trying to deactivate the module."
+msgstr "En intern feil oppsto ved forsøk p deaktivere modulen."
+
+#. translators: %s: module name
+#: includes/Core/Modules/REST_Modules_Controller.php:278
+msgid "Module cannot be deactivated because deactivation of dependant %s failed."
+msgstr "Modulen kan ikke deaktiveres fordi deaktivering av avhengighet %s mislyktes."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:269
+msgid "An internal error occurred while trying to activate the module."
+msgstr "En intern feil oppsto ved forsøk på å aktivere modulen."
+
+#. translators: %s: module name
+#: includes/Core/Modules/REST_Modules_Controller.php:265
+msgid "Module cannot be activated because of inactive dependency %s."
+msgstr "Modulen an ikke aktiveres på grunn av inaktiv avhengighet %s."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:342
+#: includes/Core/Modules/REST_Modules_Controller.php:393
+#: includes/Core/Modules/REST_Modules_Controller.php:431
+#: includes/Core/Modules/REST_Modules_Controller.php:464
+#: includes/Core/Modules/REST_Modules_Controller.php:510
+#: includes/Core/Modules/REST_Modules_Controller.php:546
+#: includes/Core/Modules/REST_Modules_Controller.php:568
+msgid "Invalid module slug."
+msgstr "Ugyldig identifikator for modul."
+
+#. translators: %s: service identifier
+#: includes/Core/Modules/Module.php:542
+msgid "Google service identified by %s does not exist."
+msgstr "Google-tjeneste identifisert med %s finnes ikke."
+
+#: includes/Core/Modules/Module.php:530 includes/Core/Modules/Module.php:534
+msgid "Google services not set up correctly."
+msgstr "Google-tjeneste ikke satt opp korrekt."
+
+#: includes/Core/Modules/Module.php:476
+msgid "Google client not set up correctly."
+msgstr "Google-klient ikke satt opp korrekt."
+
+#. translators: %s: module slug
+#: includes/Core/Modules/Modules.php:534 includes/Core/Modules/Modules.php:572
+#: includes/Core/Modules/Modules.php:593
+msgid "Invalid module slug %s."
+msgstr "Ugyldig modul-identifikator %s."
+
+#: includes/Core/Admin/Screen.php:129
+#: includes/Core/Site_Health/Tag_Placement.php:106
+#: dist/assets/js/googlesitekit-main-dashboard-a4bcd8e2d49c8c193c4e.js:88
+msgid "Site Kit"
+msgstr "Site Kit"
+
+#: includes/Core/Admin/Plugin_Action_Links.php:61
+#: includes/Core/Admin/Screens.php:459
+#: dist/assets/js/googlesitekit-settings-0c4ffef12bd5de9a413b.js:72
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/Core/Admin/Screens.php:361 includes/Core/Admin/Screens.php:407
+msgid "Dashboard"
+msgstr "Kontrollpanel"
+
+#: includes/Modules/Analytics_4.php:1825
+msgid "https://analytics.google.com/analytics/web"
+msgstr "https://analytics.google.com/analytics/web"
+
+#: includes/Modules/Analytics_4.php:1824
+msgid "Get a deeper understanding of your customers. Google Analytics gives you the free tools you need to analyze data for your business in one place."
+msgstr "Får en dypere forståelse av kundene dine. Google Analytics gir deg de gratis verktøyene du trenger for å analysere data om virksomheten din på ett sted."
+
+#: includes/Modules/Site_Verification.php:359
+msgid "https://www.google.com/webmasters/verification/home"
+msgstr "https://www.google.com/webmasters/verification/home"
+
+#: includes/Modules/Site_Verification.php:357
+msgid "Google Site Verification allows you to manage ownership of your site."
+msgstr "Google nettstedsverifisering lar deg behandle eierskapet til nettstedet ditt."
+
+#: includes/Modules/Site_Verification.php:180
+msgid "Unknown user."
+msgstr "Ukjent bruker."
+
+#: includes/Modules/AdSense.php:750
+msgid "Earn money by placing ads on your website. It’s free and easy."
+msgstr "Tjen penger ved å plassere annonser på nettstedet ditt. Det er gratis og enkelt."
+
+#: includes/Modules/AdSense.php:642
+msgid "Invalid date range."
+msgstr "Ugyldig datointervall."
+
+#: includes/Modules/AdSense.php:401
+msgid "Go to AdSense"
+msgstr "Gå til AdSense"
+
+#: includes/Modules/AdSense.php:677
+msgid "AdSense account ID not set."
+msgstr "AdSense konto-ID ikke satt."
+
+#: includes/Modules/Tag_Manager.php:469
+msgid "https://tagmanager.google.com/"
+msgstr "https://tagmanager.google.com/"
+
+#: includes/Modules/Tag_Manager.php:468
+msgid "Tag Manager creates an easy to manage way to create tags on your site without updating code"
+msgstr "Tag-behandler gjør det enkelt å lage etiketter på nettstedet ditt uten å oppdatere kode"
+
+#: includes/Modules/PageSpeed_Insights.php:182
+msgid "Google PageSpeed Insights gives you metrics about performance, accessibility, SEO and PWA"
+msgstr "Google PageSpeed-innsikter gir deg målinger om ytelse, tilgjengelighet, SEO og PWA"
+
+#. translators: 1: Invalid parameter name, 2: list of valid values
+#: includes/Modules/PageSpeed_Insights.php:114
+#: includes/Modules/Tag_Manager.php:284
+msgid "Request parameter %1$s is not one of %2$s"
+msgstr "Forespørselsparameter %1$s er ikke en av %2$s"
+
+#: includes/Modules/Search_Console.php:509
+msgid "https://search.google.com/search-console"
+msgstr "https://search.google.com/search-console"
+
+#: includes/Modules/Search_Console.php:507
+msgid "Google Search Console and helps you understand how Google views your site and optimize its performance in search results."
+msgstr "Google søkekonsoll og hjelper deg forstå hvordan Google ser nettstedet ditt og optimaliserer ytelsen ved søking."
+
+#: includes/Core/REST_API/Exception/Invalid_Datapoint_Exception.php:38
+msgid "Invalid datapoint."
+msgstr "Ugyldig datapunkt."
+
+#: includes/Modules/Search_Console.php:266
+msgid "Error adding the site to Search Console."
+msgstr "Feil ved å legge nettstedet til på søkekonsoll."
+
+#. translators: %s: Missing parameter name
+#: includes/Core/Dismissals/REST_Dismissals_Controller.php:143
+#: includes/Core/Expirables/REST_Expirable_Items_Controller.php:110
+#: includes/Core/Expirables/REST_Expirable_Items_Controller.php:120
+#: includes/Core/Feature_Tours/REST_Feature_Tours_Controller.php:108
+#: includes/Core/Notifications/Notifications.php:285
+#: includes/Core/Prompts/REST_Prompts_Controller.php:109
+#: includes/Core/REST_API/Exception/Missing_Required_Param_Exception.php:46
+#: includes/Core/User_Surveys/REST_User_Surveys_Controller.php:228
+#: includes/Modules/AdSense.php:340 includes/Modules/AdSense.php:345
+#: includes/Modules/AdSense.php:353 includes/Modules/AdSense.php:362
+#: includes/Modules/AdSense.php:474 includes/Modules/Analytics_4.php:1175
+#: includes/Modules/Analytics_4.php:1191 includes/Modules/Analytics_4.php:1206
+#: includes/Modules/Analytics_4.php:1222 includes/Modules/Analytics_4.php:1233
+#: includes/Modules/Analytics_4.php:1262 includes/Modules/Analytics_4.php:1271
+#: includes/Modules/Analytics_4.php:1300 includes/Modules/Analytics_4.php:1309
+#: includes/Modules/Analytics_4.php:1328 includes/Modules/Analytics_4.php:1337
+#: includes/Modules/Analytics_4.php:1346 includes/Modules/Analytics_4.php:1400
+#: includes/Modules/Analytics_4.php:1409 includes/Modules/Analytics_4.php:1516
+#: includes/Modules/Analytics_4.php:1566 includes/Modules/Analytics_4.php:1583
+#: includes/Modules/Analytics_4.php:1618 includes/Modules/Analytics_4.php:1629
+#: includes/Modules/Analytics_4.php:1637 includes/Modules/Analytics_4.php:1650
+#: includes/Modules/PageSpeed_Insights.php:100
+#: includes/Modules/Search_Console.php:238
+#: includes/Modules/Site_Verification.php:173
+#: includes/Modules/Tag_Manager.php:264 includes/Modules/Tag_Manager.php:272
+#: includes/Modules/Tag_Manager.php:315 includes/Modules/Tag_Manager.php:323
+msgid "Request parameter is empty: %s."
+msgstr "Forespørselsparameter er tom: %s."
+
+#: google-site-kit.php:51 google-site-kit.php:59
+msgid "Error Activating"
+msgstr "Feil ved aktivering"
+
+#. Author URI of the plugin
+#: google-site-kit.php
+msgid "https://opensource.google.com"
+msgstr "https://opensource.google.com"
+
+#. Author of the plugin
+#: google-site-kit.php
+msgid "Google"
+msgstr "Google"
+
+#. Description of the plugin
+#: google-site-kit.php
+msgid "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web."
+msgstr "Site Kit en er én-stoppsløsning for WordPress-brukere for å bruke alt av hva Google har å tilby for å gjøre dem vellykket på nettet."
+
+#. Plugin URI of the plugin
+#: google-site-kit.php
+msgid "https://sitekit.withgoogle.com"
+msgstr "https://sitekit.withgoogle.com"
+
+#. Plugin Name of the plugin
+#. translators: %1$s: Sign in with Google service name, %2$s: Plugin name
+#: google-site-kit.php includes/Core/Admin/Screen.php:87
+#: includes/Core/Authentication/Authentication.php:1078
+#: includes/Core/Authentication/Authentication.php:1135
+#: includes/Core/Site_Health/Debug_Data.php:123
+#: includes/Modules/Sign_In_With_Google.php:669
+msgid "Site Kit by Google"
+msgstr "Site Kit av Google"

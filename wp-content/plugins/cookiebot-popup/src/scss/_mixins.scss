@@ -1,0 +1,6 @@
+@mixin outline() {
+	outline-offset: em-calc(3);
+	&:focus {
+		outline: 1px dashed var(--cb-color-primary);
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "acf/slider",
+	"title": "Slider",
+	"icon": "view_carousel",
+	"mode": "edit",
+	"supports": {
+		"align": false,
+		"mode": true
+	}
+}

@@ -1,0 +1,138 @@
+html,
+body {
+	font-size: 16px;
+	color: var(--color__black);
+	line-height: 1.4;
+	font-family: 'Attila Sans Classic', sans-serif;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+
+	@include breakpoint( wide, max ) {
+		font-size: 15px;
+	}
+
+	@include breakpoint( large, max ) {
+		font-size: 14px;
+	}
+
+	@include breakpoint( medium, max ) {
+		font-size: 12px;
+	}
+
+	@include breakpoint( small, max ) {
+		font-size: 10px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: initial;
+	margin: 0;
+}
+
+.dc-heading {
+	margin-bottom: rem-calc(50);
+
+	@extend .has-line-divider;
+
+	&::after {
+		margin-top: rem-calc(30);
+	}
+}
+
+.heading-size-xlarge {
+	font-size: rem-calc(90);
+	line-height: 1.1;
+
+	@media screen and ( max-width: 1300px ) {
+		font-size: 4.2rem;
+	}
+
+	@include breakpoint( small, max ) {
+		font-size: rem-calc(70);
+	}
+}
+
+.heading-size-large {
+	font-size: rem-calc(70);
+	line-height: 1.2;
+
+	@include breakpoint( medium, max ) {
+		font-size: rem-calc(60);
+	}
+	@include breakpoint( small, max ) {
+		font-size: rem-calc(50);
+	}
+}
+
+.heading-size-hero {
+	font-size: rem-calc(60);
+	line-height: 1.33;
+
+	@include breakpoint( medium, max ) {
+		font-size: rem-calc(45);
+	}
+	@include breakpoint( small, max ) {
+		font-size: rem-calc(50);
+	}
+}
+
+.heading-size-normal {
+	font-size: rem-calc(45);
+	line-height: 1.33;
+
+	@include breakpoint( medium, max ) {
+		font-size: rem-calc(36);
+	}
+}
+
+.heading-size-medium {
+	font-size: rem-calc(40);
+	line-height: 1.23;
+
+	@include breakpoint( medium, max ) {
+		font-size: rem-calc(30);
+	}
+
+	@include breakpoint( small down ) {
+		font-size: rem-calc(22);
+	}
+}
+
+.heading-size-small {
+	font-size: rem-calc(32);
+	line-height: 1.33;
+	@include breakpoint( medium, max ) {
+		font-size: rem-calc(22);
+	}
+}
+
+.heading-size-xsmall {
+	font-size: rem-calc(22);
+	line-height: 1.33;
+}
+
+.text-size-large {
+	font-size: rem-calc(20);
+	line-height: 1.5;
+
+	@include breakpoint( medium, max ) {
+		font-size: 16px;
+	}
+}
+
+.text-size-normal {
+	font-size: rem-calc(16);
+	line-height: 1.5;
+
+	@include breakpoint( medium, max ) {
+		font-size: 14px;
+	}
+}
+
+.text-size-small {
+	font-size: 14px;
+}
+
+.text-size-xsmall {
+	font-size: 12px;
+}

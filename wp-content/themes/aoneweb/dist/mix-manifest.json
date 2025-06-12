@@ -1,0 +1,23 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/admin.js": "/js/admin.js",
+    "/js/admin-blocks.js": "/js/admin-blocks.js",
+    "/js/blocks/article-tiles.js": "/js/blocks/article-tiles.js",
+    "/js/blocks/quotes.js": "/js/blocks/quotes.js",
+    "/js/blocks/slider.js": "/js/blocks/slider.js",
+    "/css/app.css": "/css/app.css",
+    "/css/blocks/article-tiles.css": "/css/blocks/article-tiles.css",
+    "/css/blocks/article-hero.css": "/css/blocks/article-hero.css",
+    "/css/admin.css": "/css/admin.css",
+    "/css/blocks/two-col-text.css": "/css/blocks/two-col-text.css",
+    "/css/blocks/text-media.css": "/css/blocks/text-media.css",
+    "/css/blocks/slider.css": "/css/blocks/slider.css",
+    "/css/blocks/quotes.css": "/css/blocks/quotes.css",
+    "/css/blocks/property-intro.css": "/css/blocks/property-intro.css",
+    "/css/blocks/multi-col-text.css": "/css/blocks/multi-col-text.css",
+    "/css/blocks/logo-list.css": "/css/blocks/logo-list.css",
+    "/css/blocks/ingress.css": "/css/blocks/ingress.css",
+    "/css/blocks/highlight.css": "/css/blocks/highlight.css",
+    "/css/blocks/heading-divider.css": "/css/blocks/heading-divider.css",
+    "/css/blocks/book-now.css": "/css/blocks/book-now.css"
+}

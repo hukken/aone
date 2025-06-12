@@ -1,0 +1,14 @@
+{
+  "name": "designcontainer/acfml",
+  "description": "Adds compatibility between WPML and Advanced Custom Fields | <a href=\"https://wpml.org/documentation/related-projects/translate-sites-built-with-acf/\">Documentation</a>",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "OnTheGoSystems",
+      "homepage": "http://www.onthegosystems.com/"
+    }
+  ]
+}

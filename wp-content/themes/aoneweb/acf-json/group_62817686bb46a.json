@@ -1,0 +1,68 @@
+{
+    "key": "group_62817686bb46a",
+    "title": "Apartment info",
+    "fields": [
+        {
+            "key": "field_62817697e3adf",
+            "label": "Premium selection",
+            "name": "premium_selection",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Is premium selection?",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62a98e666a2b4",
+            "label": "Property ID",
+            "name": "property_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This ID can be found by following this guide.\r\nIn Mews, go to:\r\n  - A-One\r\n  - Services\r\n  - Stay\r\n  - Space categories\r\n  - Click the property you want the ID from\r\n  - Copy the \"Identifier\" field",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "property"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1693470307,
+    "local_file": "\/nas\/content\/live\/aoneweb\/wp-content\/themes\/aoneweb\/acf-json\/group_62817686bb46a.json",
+    "acfml_field_group_mode": "advanced"
+}

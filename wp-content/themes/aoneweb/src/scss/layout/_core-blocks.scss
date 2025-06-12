@@ -1,0 +1,17 @@
+// core blocks
+body.single-osloguide {
+	.block-section {
+		&.core-block {
+			.block-section-wrapper {
+				max-width: 90%;
+				//padding: rem-calc(0 15);
+			}
+		}
+	}
+}
+
+.wp-block-image {
+	img {
+		width: 100%;
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "acf/multi-col-text",
+	"title": "Multi-column text",
+	"icon": "calendar_view_month",
+	"mode": "edit",
+	"supports": {
+		"mode": true,
+		"align": false,
+		"className": false
+	}
+}

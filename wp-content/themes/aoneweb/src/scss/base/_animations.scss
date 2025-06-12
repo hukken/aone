@@ -1,0 +1,70 @@
+@import 'aos/dist/aos.css';
+
+/**
+ * Keyframes
+ */
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.fade-in--image {
+	animation: fadeIn 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: scale(1.03);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.fade-out--image {
+	animation: fadeOut 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+html:not(.no-js) [data-aos=fade-up].short-anim {
+	transform: translate3d( 0, 5%, 0 );
+}
+
+html:not(.no-js) [data-aos=fade-down].short-anim {
+	transform: translate3d( 0, -10%, 0 );
+}
+
+html:not(.no-js) [data-aos=fade-up] {
+	transform: translate3d( 0, 20px, 0 );
+}
+
+html:not(.no-js) [data-aos=fade-down] {
+	transform: translate3d( 0, -20px, 0 );
+}
+
+[data-aos="line-animation"] {
+
+	&::after {
+		opacity: 1;
+		width: 0;
+		transition-property: width;
+		transition: inherit;
+	}
+
+	&.aos-animate::after {
+		width: 100%;
+	}
+
+}

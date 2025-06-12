@@ -1,0 +1,108 @@
+.ingress {
+	position: relative;
+
+	.block-container {
+		display: flex;
+		flex-flow: row wrap;
+		padding: rem-calc(50) 2rem 0;
+
+		&.fullwidth {
+			width: 100%;
+			padding: rem-calc(50 15 0);
+			* {
+				width: 100%;
+				max-width: none;
+			}
+		}
+	}
+
+	&.align_text-right {
+		.block-container {
+			justify-content: flex-end;
+		}
+	}
+
+	&.align_text-center {
+		.block-container {
+			justify-content: center;
+			text-align: center;
+		}
+	}
+
+	&.has-decor {
+		position: relative;
+		z-index: 2;
+		overflow: visible;
+	}
+
+	.ingress__decor {
+		pointer-events: none;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		transform: translateY(47%);
+		margin-top: -3rem;
+		margin-bottom: calc( var(--spacing-block) * -1 );
+
+		* {
+			pointer-events: none;
+		}
+
+		.decor__container {
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			position: relative;
+
+			lottie-player {
+				width: 200% !important;
+				height: 200% !important;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: translate(-25%, -25%);
+			}
+		}
+
+	}
+
+	@media screen and ( max-width: 1100px ) {
+		.ingress__decor .decor__container {
+			width: 180px;
+			height: 180px;
+		}
+	}
+
+	@media screen and ( max-width: 500px ) {
+		.ingress__decor .decor__container {
+			width: 140px;
+			height: 140px;
+		}
+
+		.block-container {
+			max-width: 310px;
+			margin: 0 auto;
+		}
+	}
+
+}
+
+.ingress.has-decor + section > * {
+	position: relative;
+	z-index: 1;
+	padding-top: 4rem;
+}
+
+body.single-osloguide {
+	.ingress {
+		.ingress-text {
+			font-size: rem-calc(20);
+		}
+
+		.block-container.fullwidth {
+			max-width: 90%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

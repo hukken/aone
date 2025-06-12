@@ -1,0 +1,165 @@
+// blocks
+.box-width-content-full {
+	max-width: 1140px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box-width-content-wide {
+	max-width: 950px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box-width-site-full {
+	max-width: 90%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/**
+ * Single Oslo Guide page
+ * image content, ingress, multi columns, core image, etc. blocks are narrow
+ */
+body.single-osloguide,
+body.page-template-guide-to-oslo
+{
+	.block-section:not(.slider) {
+		.box-width-site-full,
+		.box-width-content-full,
+		.wp-block-image {
+			max-width: rem-calc(1140);
+			width: 100%;
+			margin: 0 auto;
+			padding: rem-calc(0 15);
+
+			@media screen and (max-width: 949px) {
+				width: 90%;
+				padding: 0;
+			}
+		}
+
+		.wp-block-image {
+			@media screen and (max-width: 949px) {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+.block-section {
+	overflow: hidden;
+	margin: var(--spacing-block) auto;
+
+	&.has-background {
+		margin: 0 auto;
+		padding: var(--spacing-block) 0;
+	}
+	&:last-child {
+		padding-bottom: 4rem;
+	}
+
+	&.core-block {
+		.block-section-wrapper {
+			font-size: 1.1rem;
+			line-height: 1.5;
+			@extend .box-width-content-wide;
+		}
+	}
+}
+
+.text-width-small {
+	max-width: 720px;
+}
+
+.text-width-x-small {
+	max-width: 430px;
+}
+
+.two-column {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	grid-gap: var(--spacing-grid-gap);
+
+	& > * {
+		flex: 1 1 50%;
+	}
+
+	@include breakpoint( medium, max ) {
+		flex-flow: row wrap;
+
+		& > * {
+			flex: 0 0 100%;
+		}
+	}
+
+}
+
+
+/**
+ * Block section background colors.
+ * Include the background options ACF fields group to use these.
+ */
+@mixin block-section-theme( $background-color, $text-color: false, $link-color: false ) {
+	background-color: $background-color;
+
+	@if $text-color {
+		color: $text-color;
+	}
+
+	@if $link-color {
+		a {
+			color: $link-color;
+		}
+	}
+}
+
+.block-section {
+	&.has-background-pink-light {
+		@include block-section-theme( var(--color__pink-light) );
+	}
+	&.has-background-pink-medium {
+		@include block-section-theme( var(--color__pink-medium) );
+	}
+	&.has-background-pink-dark {
+		@include block-section-theme( var(--color__pink-dark) );
+	}
+
+	&.has-background-green-light {
+		@include block-section-theme( var(--color__green-light) );
+	}
+	&.has-background-green-medium {
+		@include block-section-theme( var(--color__green-medium) );
+	}
+
+	&.has-background-blue-light{
+		@include block-section-theme( var(--color__blue-light) );
+	}
+	&.has-background-blue-dark {
+		@include block-section-theme( var(--color__blue-dark), var(--color__white) );
+
+		.dc-button {
+			&.outlined {
+				color: inherit;
+			}
+		}
+	}
+}
+
+.line-divider {
+	height: 1px;
+	background: var(--color__black);
+	display: block;
+	flex: 0 0;
+}
+
+.has-line-divider {
+	&::after {
+		content: '';
+		height: 1px;
+		background: var(--color__black);
+		display: block;
+	}
+}

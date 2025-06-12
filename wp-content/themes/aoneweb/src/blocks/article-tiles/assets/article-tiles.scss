@@ -1,0 +1,160 @@
+.article-tiles {
+	width: 90%;
+	margin: 0 auto;
+
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+		margin-bottom: rem-calc(30);
+
+		.header-left, .header-right {
+			flex: 1;
+		}
+
+		.header-left {
+			max-width: 70%;
+		}
+
+		.header-right {
+			max-width: 30%;
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-start;
+
+			a {
+				margin-top: auto;
+			}
+		}
+
+		@media (max-width: 767px) {
+			flex-direction: column;
+
+			.header-left, .header-right {
+				max-width: 100%;
+			}
+
+			.header-right {
+				text-align: left;
+
+				a {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+
+	.tile-layout {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+
+		.tile.visible {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-start;
+			overflow: hidden;
+			//height: rem-calc(740);
+			color: #fff;
+			transition: all 0.3s ease;
+			cursor: pointer;
+			height: rem-calc(410);
+			width: auto;
+
+			&:nth-child(5n+3) {
+				grid-column: span 2;
+				height: rem-calc(740);
+			}
+
+			.overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: 2;
+				background: rgba(0, 0, 0, 0.5);
+			}
+
+			.background-image {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-size: cover;
+				background-position: center;
+				z-index: 1;
+				transition: all 0.8s ease;
+			}
+
+			&:hover {
+				.background-image {
+					transform: scale(1.1);
+				}
+
+				.dc-button {
+					background: var(--color__white);
+					color: var(--color__black);
+				}
+			}
+
+			.content {
+				position: relative;
+				padding: rem-calc(40 30);
+				z-index: 10;
+
+				h3 {
+					margin: 0;
+					font-size: rem-calc(45);
+
+					@media screen and (max-width: 1200px) {
+						font-size: rem-calc(40);
+					}
+
+					@media screen and (max-width: 999px) {
+						font-size: rem-calc(30);
+					}
+				}
+
+				.button {
+					margin: 0;
+				}
+			}
+		}
+
+		@media screen and (max-width: 767px) {
+			//grid-template-columns: 1fr;
+			display: block;
+
+			.tile {
+				height: rem-calc(410) !important;
+				margin-bottom: 1rem;
+				&.large {
+					grid-column: span 1;
+				}
+			}
+		}
+	}
+
+	.filter-buttons {
+		display: block;
+		padding: rem-calc(10 0);
+
+		.filter-button {
+			margin: rem-calc(10 10 10 0);
+
+			&:hover, &.active {
+				color: var(--color__white) !important;
+				background-color: var(--color__black) !important;
+			}
+
+			@media screen and (max-width: 700px) {
+				font-size: rem-calc(16) !important;
+			}
+		}
+	}
+
+}

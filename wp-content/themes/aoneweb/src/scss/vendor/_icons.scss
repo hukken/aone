@@ -1,0 +1,37 @@
+@font-face {font-family: "icon";
+  src: url('/wp-content/themes/aoneweb/dist/fonts/icons/icon.eot?t=1732636773893'); /* IE9*/
+  src: url('/wp-content/themes/aoneweb/dist/fonts/icons/icon.eot?t=1732636773893#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("/wp-content/themes/aoneweb/dist/fonts/icons/icon.woff2?t=1732636773893") format("woff2"),
+  url("/wp-content/themes/aoneweb/dist/fonts/icons/icon.woff?t=1732636773893") format("woff"),
+  url('/wp-content/themes/aoneweb/dist/fonts/icons/icon.ttf?t=1732636773893') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/wp-content/themes/aoneweb/dist/fonts/icons/icon.svg?t=1732636773893#icon') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icon' !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before { content: "\410"; }
+.icon-arrow-right:before { content: "\411"; }
+.icon-mail:before { content: "\412"; }
+.icon-phone:before { content: "\413"; }
+.icon-play-icon:before { content: "\414"; }
+.icon-plus:before { content: "\415"; }
+.icon-search:before { content: "\416"; }
+.icon-volume-off:before { content: "\417"; }
+.icon-volume-on:before { content: "\418"; }
+
+$icon-arrow-down: "\410";
+$icon-arrow-right: "\411";
+$icon-mail: "\412";
+$icon-phone: "\413";
+$icon-play-icon: "\414";
+$icon-plus: "\415";
+$icon-search: "\416";
+$icon-volume-off: "\417";
+$icon-volume-on: "\418";
+

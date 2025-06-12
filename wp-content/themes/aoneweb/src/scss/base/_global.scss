@@ -1,0 +1,59 @@
+:root {
+	--spacing-block: 5rem;
+	--spacing-content: 5rem;
+	--spacing-grid-gap: 4rem;
+
+	--color__pink-light: #ede1da;
+	--color__pink-medium: #e4d0c3;
+	--color__pink-dark: #d5b39d;
+
+	--color__green-light: #dfe4d9;
+	--color__green-medium: #cad4c2;
+
+	--color__blue-light: #c7d1d6;
+	--color__blue-medium: #a2b5bd;
+	--color__blue-dark: #2a2e57;
+	--color__blue-darkest: #21134d;
+
+	--color__white: #ede1da;
+	--color__black: #21134d;
+
+	--font-size-ui: 18px;
+}
+
+
+html {
+	background: var(--color__white);
+}
+
+body {
+	&.is-color-theme-pink {
+		background: var(--color__pink-light);
+	}
+
+	&.is-color-theme-green {
+		background: var(--color__green-light);
+
+		&.home {
+			section.ingress:first-child {
+				background: var(--color__green-medium);
+			}
+		}
+	}
+}
+
+.bg-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+
+	img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: cover;
+	}
+}

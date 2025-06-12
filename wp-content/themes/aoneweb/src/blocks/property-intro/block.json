@@ -1,0 +1,16 @@
+{
+	"name": "acf/property-intro",
+	"title": "Property Intro",
+	"icon": "home_work",
+	"includedPostTypes": [
+		"property"
+	],
+	"mode": "edit",
+	"align_text": "center",
+	"supports": {
+		"mode": true,
+		"align": false,
+		"className": false,
+		"multiple": false
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "acf/book-now",
+	"title": "Book now",
+	"icon": "smart_button",
+	"mode": "preview",
+	"supports": {
+		"mode": false,
+		"align": false,
+		"align_text": false,
+		"className": false
+	}
+}

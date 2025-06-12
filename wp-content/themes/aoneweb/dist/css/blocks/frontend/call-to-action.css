@@ -1,0 +1,91 @@
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+/**==================================================================================================================================
+BREAKPOINT
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+.call-to-action {
+  margin: 3.75rem 0;
+}
+
+@media print, screen and (min-width: 64em) {
+  .call-to-action {
+    margin: 5rem 0;
+  }
+}
+.call-to-action__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 33.5rem;
+  padding: 3.75rem 1rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.call-to-action__inner:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: #2c4155;
+  opacity: var(--overlay-opacity);
+}
+
+.call-to-action__inner > * {
+  z-index: 1;
+}
+
+.call-to-action__inner > * {
+  max-width: 37.875rem;
+}
+
+.call-to-action__title {
+  margin-bottom: 1.25rem;
+}
+
+.call-to-action__text {
+  margin: 0;
+}
+
+.call-to-action .dc-button {
+  margin-top: 2.625rem;
+}
+
+/*# sourceMappingURL=call-to-action.css.map*/

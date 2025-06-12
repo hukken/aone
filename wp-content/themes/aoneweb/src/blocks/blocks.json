@@ -1,0 +1,44 @@
+{
+	"allowedBlocks": {
+		"page": {
+			"acf": [
+				"all"
+			],
+			"cookiebot": [
+				"cookie-declaration"
+			],
+			"core": []
+		},
+		"property": {
+			"acf": [
+				"all"
+			],
+			"cookiebot": [
+				"cookie-declaration"
+			],
+			"core": [
+				"separator"
+			]
+		},
+		"osloguide": {
+			"acf": [
+				"all"
+			],
+			"core": [
+				"separator",
+				"paragraph",
+				"image"
+			]
+		},
+		"all": {
+			"core": [
+				"paragraph",
+				"heading",
+				"list",
+				"quote",
+				"image",
+				"table"
+			]
+		}
+	}
+}

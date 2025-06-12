@@ -1,0 +1,27 @@
+@import './topbar';
+@import './menu';
+@import './horizontal-mainmenu';
+@import './hero';
+@import './splash-screen';
+@import './footer';
+@import './core-blocks';
+
+
+.mobile-lang-switcher {
+	display: none;
+
+	@include breakpoint( wide, max ) {
+		display: block;
+		font-size: 18px;
+		display: flex;
+		justify-content: flex-start;
+		gap: 1.3rem;
+
+		li {
+			width: initial;
+			display: inline-flex;
+			gap: 1.5rem;
+		}
+
+	}
+}

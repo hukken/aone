@@ -1,0 +1,71 @@
+/**==================================================================================================================================
+BREAKPOINT
+@TODO: remove? What is use case?? either use simple global points or write custom line. why does first breakpoint have to be 0?
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+/*
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+.quotes {
+  position: relative;
+}
+
+.quotes .block-container {
+  max-width: 650px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.quotes .block-container .swiper.quotes_slider {
+  width: auto;
+}
+
+.quotes .block-container .swiper.quotes_slider .swiper-wrapper {
+  align-items: center;
+}
+
+.quotes .block-container .swiper.quotes_slider .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.quotes .block-container .swiper.quotes_slider .swiper-wrapper .swiper-slide .quotes-title {
+  text-align: center;
+}
+
+.quotes .block-container .swiper.quotes_slider .swiper-wrapper .swiper-slide .quotes-text {
+  text-align: center;
+  margin: 1.875rem 0;
+}
+
+.quotes .block-container .swiper.quotes_slider .swiper-pagination {
+  position: relative;
+  bottom: 0;
+}

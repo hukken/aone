@@ -1,0 +1,14 @@
+{
+  "name": "designcontainer/sitepress-multilingual-cms",
+  "description": "WPML Multilingual CMS | <a href=\"https://wpml.org\">Documentation</a> | <a href=\"https://wpml.org/version/wpml-4-4-10/\">WPML 4.4.10 release notes</a>",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "OnTheGoSystems",
+      "homepage": "http://www.onthegosystems.com/"
+    }
+  ]
+}

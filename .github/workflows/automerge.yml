@@ -1,0 +1,48 @@
+# This action is centrally managed in https://github.com/designcontainer/.github/
+# Don't make changes to this file outside of the .github repository!
+# Files will get overwritten with changes made to the same file in the above mentioned repository.
+
+name: Automerge release bump PR
+
+on:
+    pull_request_target:
+        types:
+            - labeled
+            - unlabeled
+            - synchronize
+            - opened
+            - edited
+            - ready_for_review
+            - reopened
+            - unlocked
+    pull_request_review:
+        types:
+            - submitted
+
+jobs:
+    autoapprove:
+        if: github.event.pull_request.draft == false
+        runs-on: ubuntu-latest
+        steps:
+            - name: Autoapproving
+              uses: hmarr/auto-approve-action@v2
+              if: github.actor == 'designcontainer-bot'
+              with:
+                  github-token: '${{ secrets.GITHUB_TOKEN }}'
+
+    automerge:
+        needs: [autoapprove]
+        runs-on: ubuntu-latest
+        steps:
+            - name: Automerging
+              uses: pascalgn/automerge-action@v0.14.1
+              if: github.actor == 'designcontainer-bot'
+              env:
+                  GITHUB_TOKEN: '${{ secrets.BOT_TOKEN }}'
+                  GITHUB_LOGIN: designcontainer-bot
+                  MERGE_LABELS: ''
+                  MERGE_METHOD: 'squash'
+                  MERGE_COMMIT_MESSAGE: 'pull-request-title'
+                  MERGE_RETRIES: '20'
+                  MERGE_RETRY_SLEEP: '20000'
+                  MERGE_DELETE_BRANCH: true

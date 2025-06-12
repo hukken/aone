@@ -1,0 +1,82 @@
+/**
+ * Foundation for Sites
+ * Version 6.7.4
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+/* 
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+/**==================================================================================================================================
+BREAKPOINT
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.video {
+  margin: 5rem 0;
+}
+
+@media print, screen and (min-width: 40em) {
+  .video:not(.align-wide, .align-full) .cell {
+    flex: 0 0 auto;
+    width: calc(83.3333333333% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .video:not(.align-wide, .align-full) .cell {
+    flex: 0 0 auto;
+    width: calc(66.6666666667% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+@media print, screen and (min-width: 40em) {
+  .video.align-wide .cell {
+    flex: 0 0 auto;
+    width: calc(100% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .video.align-wide .cell {
+    flex: 0 0 auto;
+    width: calc(83.3333333333% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+.video.align-full .cell {
+  flex: 0 0 auto;
+  width: calc(100% - 1.25rem);
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}

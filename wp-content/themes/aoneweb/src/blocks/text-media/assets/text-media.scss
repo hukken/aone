@@ -1,0 +1,182 @@
+.text-media {
+	position: relative;
+
+	.grid-container {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	.text-media__thumbnail {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			display: block;
+		}
+	}
+
+	.text-media-box {
+		position: relative;
+		flex: 0 50%;
+		display: flex;
+		align-items: center;
+
+		&.right {
+			padding: rem-calc(0 100);
+			align-self: stretch;
+		}
+
+		.text-media__content {
+			position: relative;
+			z-index: 1;
+		}
+
+		.text-media__tagline {
+			display: inline-block;
+			text-transform: uppercase;
+			padding-bottom: 3px;
+			border-bottom: 1px solid currentColor;
+			margin-bottom: 2.7rem;
+		}
+
+		.text-media__title {
+			color: var(--color-green-dark);
+			margin-bottom: 0.5em;
+		}
+
+		.text-media__text {
+			margin: 0;
+		}
+
+		.dc-button {
+			margin-top: 2.7rem;
+		}
+	}
+
+	&.is-style-text-left {
+		.text-media__thumbnail {
+			order: 2;
+		}
+	}
+
+	&.has-two-images {
+		.text-media__thumbnail {
+			overflow: visible;
+			position: relative;
+
+			& > * {
+				width: 55%;
+
+				&.original {
+					visibility: hidden;
+					opacity: 0;
+					width: 100%;
+				}
+
+				&:first-child {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+
+				&:nth-child(2) {
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+
+
+	@media ( max-width: 950px ) {
+		.grid-container {
+			flex-flow: row wrap;
+		}
+
+		.text-media-box {
+			flex: 0 0 100%;
+			height: initial;
+			min-height: initial;
+			order: 0 !important;
+
+			& > *  {
+				object-fit: none;
+				position: static;
+			}
+
+			&.right {
+				padding: 4rem 0 0;
+
+				.text-media__content  {
+					padding: 2rem;
+				}
+			}
+		}
+	}
+
+	@media ( max-width: 500px ) {
+		.text-media-box.right .text-media__content  {
+			padding: 1rem;
+			.text-media__title {
+				margin-top: 0.4em;
+				margin-bottom: 0.4em;
+			}
+		}
+	}
+}
+
+
+body.single-osloguide,
+body.page-template-guide-to-oslo
+{
+	.entry-content {
+		.block-section:first-of-type:is(.text-media) {
+
+			padding-top: rem-calc(100);
+		}
+	}
+
+	.text-media {
+		.text-media-box {
+			padding-right: rem-calc(50);
+			padding-left: 0;
+
+			&.right {
+				padding-right: 0;
+				padding-left: rem-calc(50);
+			}
+		}
+
+		&.is-style-text-left {
+			.text-media-box {
+				padding-left: rem-calc(50);
+				padding-right: 0;
+
+				&.right {
+					padding-left: 0;
+					padding-right: rem-calc(50);
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 949px) {
+		.text-media {
+			.text-media-box {
+				padding-right: 0 !important;
+				padding-left: 0 !important;
+
+				&.right {
+					padding-right: 0 !important;
+					padding-left: 0 !important;
+				}
+			}
+		}
+	}
+}

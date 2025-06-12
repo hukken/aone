@@ -1,0 +1,12 @@
+{
+	"name": "acf/article-hero",
+	"title": "Article Hero",
+	"icon": "text",
+	"mode": "preview",
+	"supports": {
+		"mode": false,
+		"align": false,
+		"align_text": false,
+		"className": false
+	}
+}

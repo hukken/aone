@@ -1,0 +1,128 @@
+/**==================================================================================================================================
+BREAKPOINT
+@TODO: remove? What is use case?? either use simple global points or write custom line. why does first breakpoint have to be 0?
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+/*
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+.ingress {
+  position: relative;
+}
+
+.ingress .block-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 3.125rem 2rem 0;
+}
+
+.ingress .block-container.fullwidth {
+  width: 100%;
+  padding: 3.125rem 0.9375rem 0;
+}
+
+.ingress .block-container.fullwidth * {
+  width: 100%;
+  max-width: none;
+}
+
+.ingress.align_text-right .block-container {
+  justify-content: flex-end;
+}
+
+.ingress.align_text-center .block-container {
+  justify-content: center;
+  text-align: center;
+}
+
+.ingress.has-decor {
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+}
+
+.ingress .ingress__decor {
+  pointer-events: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(47%);
+  margin-top: -3rem;
+  margin-bottom: calc(var(--spacing-block) * -1);
+}
+
+.ingress .ingress__decor * {
+  pointer-events: none;
+}
+
+.ingress .ingress__decor .decor__container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ingress .ingress__decor .decor__container lottie-player {
+  width: 200% !important;
+  height: 200% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-25%, -25%);
+}
+
+@media screen and (max-width: 1100px) {
+  .ingress .ingress__decor .decor__container {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ingress .ingress__decor .decor__container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .ingress .block-container {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+}
+.ingress.has-decor + section > * {
+  position: relative;
+  z-index: 1;
+  padding-top: 4rem;
+}
+
+body.single-osloguide .ingress .ingress-text {
+  font-size: 1.25rem;
+}
+
+body.single-osloguide .ingress .block-container.fullwidth {
+  max-width: 90%;
+  padding-left: 0;
+  padding-right: 0;
+}

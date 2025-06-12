@@ -1,0 +1,96 @@
+{
+	"name": "designcontainer/aoneweb",
+	"description": "A Design Container Website",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/wpml-media-translation"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/wpml-string-translation"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:designcontainer/sitepress-multilingual-cms"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/block-json-parser"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/advanced-custom-fields-pro"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/cookiebot-popup"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/passnado"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/designcontainer/acfml"
+		},
+		{
+            "type": "vcs",
+            "url": "https://github.com/designcontainer/imagify-wp-table-fatal-error"
+        },
+		{
+			"type": "package",
+			"package": {
+				"name": "sirulli/yoimages",
+				"version": "master",
+				"source": {
+					"url": "https://github.com/sirulli/yoimages.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		}
+	],
+	"require": {
+		"designcontainer/advanced-custom-fields-pro": "*",
+		"designcontainer/cookiebot-popup": "*",
+		"designcontainer/passnado": "*",
+		"designcontainer/sitepress-multilingual-cms": "*",
+		"designcontainer/wpml-media-translation": "*",
+		"designcontainer/wpml-string-translation": "*",
+		"designcontainer/acfml": "*",
+		"designcontainer/imagify-wp-table-fatal-error": "*",
+		"wpackagist-plugin/cookiebot": "*",
+		"wpackagist-plugin/autodescription": "*",
+		"wpackagist-plugin/wp-nested-pages": "*",
+		"wpackagist-plugin/better-search-replace": "*",
+		"wpackagist-plugin/usersnap": "*",
+		"wpackagist-plugin/regenerate-thumbnails": "*",
+		"wpackagist-plugin/duplicate-post": "*",
+		"ffraenz/private-composer-installer": "^5.0",
+		"composer/installers": "v1.9.0",
+		"wpackagist-plugin/imagify": "*",
+		"sirulli/yoimages": "dev-master"
+	},
+	"extra": {
+		"installer-paths": {
+			"wp-content/mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			],
+			"wp-content/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"ffraenz/private-composer-installer": true,
+			"dangoodman/composer-for-wordpress": true
+		}
+	}
+}

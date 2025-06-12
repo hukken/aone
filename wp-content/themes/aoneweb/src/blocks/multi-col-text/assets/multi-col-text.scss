@@ -1,0 +1,59 @@
+.multi-col-text {
+	.multi-col__content {
+		display: grid;
+		gap: var(--spacing-grid-gap);
+
+		&.two-column {
+			display: flex;
+		}
+
+		&.three-column {
+			grid-template-columns: repeat( 3, 1fr );
+		}
+
+		&.four-column {
+			grid-template-columns: repeat( 4, 1fr );
+		}
+
+		p {
+			margin: 0;
+		}
+
+		@media screen and ( max-width: 1040px ) {
+			&.three-column,
+			&.four-column  {
+				grid-template-columns: repeat( 2, 1fr );
+			}
+		}
+
+		@media screen and ( max-width: 500px ) {
+			&.three-column,
+			&.four-column  {
+				grid-template-columns: repeat( 1, 1fr );
+			}
+		}
+
+	}
+
+	.multi-col__title {
+		text-transform: uppercase;
+		margin-bottom: 1em;
+	}
+}
+
+body.single-osloguide {
+	.multi-col-text.block-section {
+		.box-width-site-full {
+			//max-width: rem-calc(1110) !important;
+			//padding: rem-calc(30 40) !important;
+		}
+
+		& + .multi-col-text {
+			margin-top: 0;
+		}
+
+		&.no-margin-bottom {
+			margin-bottom: 0;
+		}
+	}
+}

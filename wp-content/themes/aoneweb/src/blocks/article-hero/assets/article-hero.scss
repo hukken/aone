@@ -1,0 +1,33 @@
+.block-section.article-hero {
+    margin-top: rem-calc(100);
+
+    .block-section-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        .pre-header {
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+
+            h1 {
+
+            }
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            img {
+                min-height: 600px;
+                width: 90%;
+                height: 50vh;
+                object-fit: cover;
+            }
+        }
+        .margin-under {
+            padding-bottom: 20px;
+        }
+    }
+}

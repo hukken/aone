@@ -1,0 +1,116 @@
+// Hamburger menu
+#toggle-menu {
+	position: relative;
+	z-index: 999;
+
+	#hamburger-container {
+		width: $hamburger-width;
+		height: $hamburger-height;
+		position: relative;
+		cursor: pointer;
+		display: inline-block;
+		float: left;
+
+		span {
+			display: block;
+			background: $hamburger-lines-color;
+		}
+
+		#hamburger {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+
+			span {
+				width: $hamburger-width;
+				height: $hamburger-lines-height;
+				position: relative;
+				top: 0;
+				left: 0;
+				margin: rem-calc(6 0);
+				transition: all 0.2s ease-out;
+
+				&:nth-child(1) {
+					transition-delay: 0.5s;
+					margin-top: rem-calc(2);
+				}
+
+				&:nth-child(2) {
+					transition-delay: 0.625s;
+				}
+
+				&:nth-child(3) {
+					transition-delay: 0.75s;
+				}
+			}
+		}
+
+		#cross {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			transform: rotate(45deg);
+
+			span {
+				transition: all 0.2s ease-out;
+
+				&:nth-child(1) {
+					height: $hamburger-lines-height;
+					width: 0;
+					position: absolute;
+					top: rem-calc(11);
+					left: 0;
+					transition-delay: 0s;
+				}
+
+				&:nth-child(2) {
+					height: 0;
+					width: $hamburger-lines-height;
+					position: absolute;
+					left: rem-calc(11);
+					top: 0;
+					transition-delay: 0.25s;
+				}
+			}
+		}
+	}
+
+	&.open {
+		#hamburger-container {
+			#hamburger {
+				span {
+					width: 0;
+					//opacity: 0;
+
+					&:nth-child(1) {
+						transition-delay: 0s;
+					}
+
+					&:nth-child(2) {
+						transition-delay: 0.125s;
+					}
+
+					&:nth-child(3) {
+						transition-delay: 0.25s;
+					}
+				}
+			}
+
+			#cross {
+				span {
+					&:nth-child(1) {
+						width: $hamburger-width;
+						transition-delay: 0.625s;
+					}
+				}
+
+				span {
+					&:nth-child(2) {
+						height: $hamburger-width;
+						transition-delay: 0.375s;
+					}
+				}
+			}
+		}
+	}
+}

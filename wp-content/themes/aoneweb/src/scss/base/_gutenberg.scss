@@ -1,0 +1,60 @@
+/**
+ * Title input styling
+ */
+.edit-post-visual-editor__post-title-wrapper {
+	border-bottom: rem-calc(1px) solid #e0e0e0;
+	.editor-post-title {
+		margin: rem-calc(0 30);
+		&__input {
+			font-weight: 500;
+		}
+	}
+}
+
+// WHY THE FUCK THIS!!!???
+.acf-block-preview {
+	// Disable all links in preview
+	a,
+	input,
+	button {
+		//pointer-events: none !important;
+	}
+}
+
+.acf-block-preview > .block-section {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/**
+ * Gutenberg helper instruction text
+ */
+ .gutenberg-helper-instructions {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	&__title:not(:empty) {
+		display: flex;
+		align-items: center;
+		margin-bottom: rem-calc(8);
+		column-gap: rem-calc(8);
+	}
+}
+
+/**
+ * Short version of WYSIWYG.
+ */
+ .acf-field-wysiwyg.short .mce-panel iframe {
+	height: 160px !important;
+	min-height: 160px !important;
+}
+
+/**
+ * Code version of Textarea.
+ */
+.acf-field-textarea.script textarea {
+	background-color: #1e1e1e;
+	color: #ffffff;
+	font-family: monospace;
+}
+
+

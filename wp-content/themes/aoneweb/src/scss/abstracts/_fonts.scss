@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Attila Sans Uniform';
+	src: url('../fonts/attila/AttilaSansUniform-Thin.woff2') format('woff2'),
+	url('../fonts/attila/AttilaSansUniform-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Attila Sans Classic';
+	src: url('../fonts/attila/AttilaSansClassic-Regular.woff2') format('woff2'),
+	url('../fonts/attila/AttilaSansClassic-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Attila Sans Classic';
+	src: url('../fonts/attila/AttilaSansClassic-Light.woff2') format('woff2'),
+	url('../fonts/attila/AttilaSansClassic-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}

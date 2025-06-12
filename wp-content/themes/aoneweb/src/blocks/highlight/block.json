@@ -1,0 +1,17 @@
+{
+	"name": "acf/highlight",
+	"title": "Highlight",
+	"icon": "calendar_view_day",
+	"mode": "edit",
+	"supports": {
+		"mode": true,
+		"align": false,
+		"align_text": true,
+		"className": false,
+		"color": {
+			"background": true,
+			"gradients": false,
+			"text": false
+		}
+	}
+}

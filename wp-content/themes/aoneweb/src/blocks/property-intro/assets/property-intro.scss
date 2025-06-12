@@ -1,0 +1,28 @@
+.property-intro {
+
+	.has-line-divider::after {
+		margin: var(--spacing-block) 0 0;
+	}
+
+	.property-intro__title span {
+		display: block;
+	}
+
+	.property-intro__meta_data {
+		margin-bottom: rem-calc(22);
+
+		span {
+			&:not(:last-child)::after {
+				content: '|';
+				margin: 0 10px;
+			}
+		}
+	}
+
+	.property-intro__content {
+		p {
+			margin: 0;
+		}
+	}
+
+}

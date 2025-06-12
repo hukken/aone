@@ -1,0 +1,15 @@
+// Import foundation.scss from vendor files
+@import '../../../node_modules/foundation-sites/scss/foundation';
+
+// Init Foundation grid
+@include foundation-xy-grid-classes(
+	$base-grid: true,
+	$margin-grid: true,
+	$padding-grid: true,
+	$block-grid: true,
+	$collapse: true,
+	$offset: true,
+	$vertical-grid: true,
+	$frame-grid: true
+);
+@include foundation-flex-classes;

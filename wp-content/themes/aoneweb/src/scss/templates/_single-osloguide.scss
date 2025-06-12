@@ -1,0 +1,16 @@
+body.single-osloguide {
+	background: #ffffff;
+
+	.logo-container {
+		svg {
+			path {
+				fill: var(--color__black);
+				mask: none;
+			}
+		}
+	}
+
+	main#primary {
+		padding-top: rem-calc(100);
+	}
+}

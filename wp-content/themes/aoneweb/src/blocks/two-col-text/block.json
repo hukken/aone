@@ -1,0 +1,11 @@
+{
+	"name": "acf/two-col-text",
+	"title": "Two column text",
+	"icon": "text_fields",
+	"mode": "edit",
+	"supports": {
+		"mode": true,
+		"align": false,
+		"className": false
+	}
+}

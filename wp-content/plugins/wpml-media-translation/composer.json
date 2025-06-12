@@ -1,0 +1,14 @@
+{
+  "name": "designcontainer/wpml-media-translation",
+  "description": "Add multilingual support for Media files | <a href=\"https://wpml.org/?page_id=113610\">Documentation</a> | <a href=\"https://wpml.org/version/media-translation-2-6-4/\">WPML Media Translation 2.6.4 release notes</a>",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "OnTheGoSystems",
+      "homepage": "http://www.onthegosystems.com/"
+    }
+  ]
+}

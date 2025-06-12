@@ -1,0 +1,20 @@
+.not-found-content {
+	padding-top: rem-calc(150);
+	padding-bottom: rem-calc(150);
+	.entry-content {
+		max-width: rem-calc(800);
+		margin: 0 auto;
+		.dc-button {
+			display: inline-block;
+			width: auto;
+			margin-top: rem-calc(80);
+		}
+		text-align: center;
+	}
+}
+.error404:not(.menuactive)  {
+	#toggle-menu,
+	#quick-menu {
+		color: $blue-dark;
+	}
+}

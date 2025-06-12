@@ -1,0 +1,123 @@
+<!--
+    This template is used in the cookiebot template.
+    It is placed in the admin panel.
+-->
+
+<div id="cookiebanner" class="stem-cookiebot-popup" role="alertdialog" aria-modal="true" aria-labelledby="DcCookiebotAlertBoxTitle" aria-describedby="DcCookiebotAlertBoxMessage">
+	<div class="stem-cookiebot-popup__box">
+
+		<section class="stem-cookiebot-popup__main-content">
+
+			<!-- Cookies introduction -->
+			<header class="stem-cookiebot-popup__header">
+				<h2 id="DcCookiebotAlertBoxTitle" class="stem-cookiebot-popup__header__title">[#TITLE#]</h2>
+				<p id="DcCookiebotAlertBoxMessage" class="stem-cookiebot-popup__header__text">[#TEXT#]</p>
+			</header>
+
+			<!-- Toggle Details -->
+			<button id="DcCookiebotListToggle" class="stem-cookiebot-popup__details-toggle stem-cookiebot-popup__toggle" data-toggle=".stem-cookiebot-popup__details" aria-label="Accordion Control Button Group">[#DETAILS#]</button>
+		</section>
+
+		<!-- Simple accept buttons -->
+		<div class="stem-cookiebot-popup__actions">
+			<button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll" class="stem-cookiebot-popup__button">[#LEVELOPTIN_ALLOWALL#]</button>
+			<button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection" class="stem-cookiebot-popup__button  stem-cookiebot-popup__button--secondary">[#LEVELOPTIN_ALLOW_SELECTION#]</button>
+		</div>
+
+		<!-- Details -->
+		<div class="stem-cookiebot-popup__details" style="display: none" aria-hidden="true">
+			<div class="stem-cookiebot-popup__main__cookie-list">
+				<div class="stem-cookiebot-popup__main__cookie-list__cat">
+					<button class="stem-cookiebot-popup__main__cookie-list__cat__toggle" aria-label="Accordion Control Button Group">[#COOKIETYPE_NECESSARY_RAW#]</button>
+					<p>[#COOKIETYPEINTRO_NECESSARY#]</p>
+					<div class="stem-cookiebot-popup__main__cookie-list__cat__input">
+						<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonNecessary" checked disabled />
+					</div>
+				</div>
+				<div class="stem-cookiebot-popup__main__cookie-list__cat__content" style="display: none" aria-hidden="true">
+					[#COOKIETABLE_NECESSARY#]
+				</div>
+			</div>
+
+			<div class="stem-cookiebot-popup__main__cookie-list">
+				<div class="stem-cookiebot-popup__main__cookie-list__cat">
+					<button class="stem-cookiebot-popup__main__cookie-list__cat__toggle" aria-label="Accordion Control Button Group">[#COOKIETYPE_PREFERENCE_RAW#]</button>
+					<p>[#COOKIETYPEINTRO_PREFERENCE#]</p>
+					<div class="stem-cookiebot-popup__main__cookie-list__cat__input">
+						<input type="checkbox" name="CybotCookiebotDialogBodyLevelButtonPreferences" id="CybotCookiebotDialogBodyLevelButtonPreferences" />
+					</div>
+				</div>
+				<div class="stem-cookiebot-popup__main__cookie-list__cat__content" style="display: none" aria-hidden="true">
+					[#COOKIETABLE_PREFERENCE#]
+				</div>
+			</div>
+
+			<div class="stem-cookiebot-popup__main__cookie-list">
+				<div class="stem-cookiebot-popup__main__cookie-list__cat">
+					<button class="stem-cookiebot-popup__main__cookie-list__cat__toggle" aria-label="Accordion Control Button Group">[#COOKIETYPE_STATISTICS_RAW#]</button>
+					<p>[#COOKIETYPEINTRO_STATISTICS#]</p>
+					<div class="stem-cookiebot-popup__main__cookie-list__cat__input">
+						<input type="checkbox" name="CybotCookiebotDialogBodyLevelButtonStatistics" id="CybotCookiebotDialogBodyLevelButtonStatistics" />
+					</div>
+				</div>
+				<div class="stem-cookiebot-popup__main__cookie-list__cat__content" style="display: none" aria-hidden="true">
+					[#COOKIETABLE_STATISTICS#]
+				</div>
+			</div>
+
+			<div class="stem-cookiebot-popup__main__cookie-list">
+				<div class="stem-cookiebot-popup__main__cookie-list__cat">
+					<button class="stem-cookiebot-popup__main__cookie-list__cat__toggle" aria-label="Accordion Control Button Group">[#COOKIETYPE_ADVERTISING_RAW#]</button>
+					<p>[#COOKIETYPEINTRO_ADVERTISING#]</p>
+					<div class="stem-cookiebot-popup__main__cookie-list__cat__input">
+						<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonMarketing" />
+					</div>
+				</div>
+				<div class="stem-cookiebot-popup__main__cookie-list__cat__content" style="display: none" aria-hidden="true">
+					[#COOKIETABLE_ADVERTISING#]
+				</div>
+			</div>
+
+			<div class="stem-cookiebot-popup__main__cookie-list">
+				<div class="stem-cookiebot-popup__main__cookie-list__cat">
+					<button class="stem-cookiebot-popup__main__cookie-list__cat__toggle" aria-label="Accordion Control Button Group">[#COOKIETYPE_UNCLASSIFIED_RAW#]</button>
+					<p>[#COOKIETYPEINTRO_UNCLASSIFIED#]</p>
+					<div class="stem-cookiebot-popup__main__cookie-list__cat__input">
+					</div>
+				</div>
+				<div class="stem-cookiebot-popup__main__cookie-list__cat__content" style="display: none" aria-hidden="true">
+					[#COOKIETABLE_UNCLASSIFIED#]
+				</div>
+			</div>
+		</div>
+
+		<!-- Individual cookie category toggles -->
+		<div class="stem-cookiebot-popup__toggles">
+			<!-- <div class="stem-cookiebot-popup__toggles__toggle stem-cookiebot-popup__toggles__toggle--necessary">
+				<span>[#COOKIETYPE_NECESSARY_RAW#]</span>
+				<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonNecessary" checked disabled />
+				<label for="CybotCookiebotDialogBodyLevelButtonNecessary" title="[#COOKIETYPEINTRO_NECESSARY#]"></label>
+			</div> -->
+
+			<!-- <div class="stem-cookiebot-popup__toggles__toggle stem-cookiebot-popup__toggles__toggle--preferences">
+				<span>[#COOKIETYPE_PREFERENCE_RAW#]</span>
+				<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonPreferences" />
+				<label for="CybotCookiebotDialogBodyLevelButtonPreferences" title="[#COOKIETYPEINTRO_PREFERENCE#]"></label>
+			</div> -->
+
+			<!-- <div class="stem-cookiebot-popup__toggles__toggle stem-cookiebot-popup__toggles__toggle--statistics">
+				<span>[#COOKIETYPE_STATISTICS_RAW#]</span>
+				<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonStatistics" />
+				<label for="CybotCookiebotDialogBodyLevelButtonStatistics" title="[#COOKIETYPEINTRO_STATISTICS#]"></label>
+			</div> -->
+
+			<!-- <div class="stem-cookiebot-popup__toggles__toggle stem-cookiebot-popup__toggles__toggle--advertising">
+				<span>[#COOKIETYPE_ADVERTISING_RAW#]</span>
+				<input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonMarketing" />
+				<label for="CybotCookiebotDialogBodyLevelButtonMarketing" title="[#COOKIETYPEINTRO_ADVERTISING#]"></label>
+			</div> -->
+
+			<!-- <button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection" class="stem-cookiebot-popup__button  stem-cookiebot-popup__button--secondary">[#LEVELOPTIN_ALLOW_SELECTION#]</button> -->
+		</div>
+	</div>
+</div>

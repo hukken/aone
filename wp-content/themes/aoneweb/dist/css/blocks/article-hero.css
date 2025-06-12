@@ -1,0 +1,66 @@
+/**==================================================================================================================================
+BREAKPOINT
+@TODO: remove? What is use case?? either use simple global points or write custom line. why does first breakpoint have to be 0?
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+/*
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+.block-section.article-hero {
+  margin-top: 6.25rem;
+}
+
+.block-section.article-hero .block-section-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.block-section.article-hero .block-section-wrapper .pre-header {
+  text-align: center;
+}
+
+.block-section.article-hero .block-section-wrapper .header {
+  text-align: center;
+}
+
+.block-section.article-hero .block-section-wrapper .image {
+  display: flex;
+  justify-content: center;
+}
+
+.block-section.article-hero .block-section-wrapper .image img {
+  min-height: 600px;
+  width: 90%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.block-section.article-hero .block-section-wrapper .margin-under {
+  padding-bottom: 20px;
+}

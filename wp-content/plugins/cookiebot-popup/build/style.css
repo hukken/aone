@@ -1,0 +1,383 @@
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
+  \************************************************************************************************************/
+/**
+ * Define popup css variables
+ */
+:root {
+  --cb-color-primary: rgb(32 32 32);
+  --cb-color-secondary: rgb(238, 238, 238);
+  --cb-color-text: rgb(32 32 32);
+  --cb-color-text-light: rgb(83, 82, 89);
+  --cb-text-size: 14px;
+  --cb-box-font-family: inherit;
+  --cb-box-heading-font-family: var(--cb-box-font-family);
+  --cb-box-margin: 2rem 2rem;
+  --cb-box-position: center;
+  --cb-box-radius: 10px;
+  --cb-box-padding: 2.25em;
+  --cb-btn-radius: 20px; }
+
+/**
+ * OLD POP UP VERSION 1 FALLBACK SUPPORT
+ * This is to support cookiebot version 1.3.2 and below
+ * Using template with dc-class instead of stem-class
+ */
+/**
+ * Define popup css variables
+ */
+:root {
+  --old-cb-color-primary: #333333;
+  --old-cb-color-secondary: #f6f6f6;
+  --old-cb-color-teritary: #b8b8b8;
+  --old-cb-color-text: var(--old-cb-color-primary);
+  --old-cb-color-bg: #ffffff;
+  --old-cb-color-success: #4daf50;
+  --old-cb-color-overlay: 51, 51, 51;
+  --old-cb-radius: 0.25em;
+  --old-cb-padding: 2.25em; }
+
+/**
+ * Main popup styles.
+ */
+.dc-cookiebot-popup {
+  z-index: 999999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 2em);
+  max-width: 40em;
+  height: auto;
+  max-height: 90vh;
+  border-radius: var(--old-cb-radius);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--old-cb-color-bg);
+  box-shadow: 0 0 6249.9375em 6249.9375em rgba(var(--old-cb-color-overlay), 0.5);
+  transform: translate(-50%, -50%);
+  /**
+	 * Header container.
+	 * This contains the title and text of the popup.
+	 */
+  /**
+	 * Main container.
+	 * This contains the primary call to action buttons.
+	 */
+  /**
+	 * Popup toggles.
+	 */ }
+  .dc-cookiebot-popup p {
+    margin-top: 0;
+    margin-bottom: 1em; }
+  .dc-cookiebot-popup__header {
+    padding: var(--old-cb-padding);
+    background-color: var(--old-cb-color-secondary); }
+    .dc-cookiebot-popup__header__title {
+      margin: 0 0 1em 0;
+      font-weight: bold;
+      font-size: 1.625em;
+      color: var(--old-cb-color-text); }
+    .dc-cookiebot-popup__header__text {
+      font-size: 1em;
+      color: var(--old-cb-color-text); }
+  .dc-cookiebot-popup__main {
+    position: relative; }
+    .dc-cookiebot-popup__main__sticky {
+      z-index: 2;
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: var(--old-cb-padding);
+      background-color: var(--old-cb-color-bg); }
+    .dc-cookiebot-popup__main__buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1.25em; }
+    .dc-cookiebot-popup__main__button {
+      all: unset;
+      padding: 0.875em;
+      border-radius: var(--old-cb-radius);
+      color: var(--old-cb-color-secondary);
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: var(--old-cb-color-primary);
+      font-weight: bold;
+      outline-offset: 0.1875em; }
+      .dc-cookiebot-popup__main__button:focus {
+        outline: 1px dashed var(--cb-color-primary); }
+      .dc-cookiebot-popup__main__button:hover, .dc-cookiebot-popup__main__button:focus {
+        text-decoration: underline; }
+      .dc-cookiebot-popup__main__button--secondary {
+        box-sizing: border-box;
+        border: 0.0625em solid var(--old-cb-color-primary);
+        color: var(--old-cb-color-text);
+        background: var(--old-cb-color-secondary); }
+    .dc-cookiebot-popup__main #DcCookiebotListToggle {
+      all: unset;
+      display: block;
+      margin: 1.125em auto 0 auto;
+      color: var(--old-cb-color-text);
+      text-decoration: underline;
+      cursor: pointer;
+      outline-offset: 0.1875em; }
+      .dc-cookiebot-popup__main #DcCookiebotListToggle:focus {
+        outline: 1px dashed var(--cb-color-primary); }
+      .dc-cookiebot-popup__main #DcCookiebotListToggle:hover, .dc-cookiebot-popup__main #DcCookiebotListToggle:focus {
+        text-decoration: none; }
+    .dc-cookiebot-popup__main__more {
+      padding: var(--old-cb-padding);
+      background-color: var(--old-cb-color-secondary);
+      border-bottom: 0.0625em solid var(--old-cb-color-teritary);
+      will-change: display, height; }
+    .dc-cookiebot-popup__main__cookie-list {
+      will-change: display, height; }
+      @media screen and (min-width: 768px) {
+        .dc-cookiebot-popup__main__cookie-list__cat {
+          display: grid;
+          align-items: flex-start;
+          grid-template-columns: 1fr 2fr;
+          grid-column-gap: 1.25em;
+          grid-template-columns: 1fr 2fr; } }
+      .dc-cookiebot-popup__main__cookie-list__cat__toggle {
+        all: unset;
+        margin-top: 0.5em;
+        font-weight: bold;
+        cursor: pointer;
+        outline-offset: 0.1875em; }
+        .dc-cookiebot-popup__main__cookie-list__cat__toggle:focus {
+          outline: 1px dashed var(--cb-color-primary); }
+        .dc-cookiebot-popup__main__cookie-list__cat__toggle:before {
+          display: inline-block;
+          position: relative;
+          width: 0.5625em;
+          height: 0.5625em;
+          margin-right: 0.625em;
+          border-right: 0.1875em solid var(--old-cb-color-primary);
+          border-bottom: 0.1875em solid var(--old-cb-color-primary);
+          content: '';
+          transition: transform 0.2s ease-in-out;
+          transform: rotate(-45deg); }
+        .dc-cookiebot-popup__main__cookie-list__cat__toggle--active {
+          color: var(--old-cb-color-success); }
+          .dc-cookiebot-popup__main__cookie-list__cat__toggle--active:before {
+            transform: rotate(45deg); }
+      .dc-cookiebot-popup__main__cookie-list__cat__content {
+        overflow-x: auto !important; }
+  .dc-cookiebot-popup__toggles {
+    display: grid;
+    background: var(--old-cb-color-secondary);
+    grid-template-columns: repeat(4, 25%); }
+    @media screen and (min-width: 768px) {
+      .dc-cookiebot-popup__toggles {
+        padding: 0 var(--old-cb-padding); } }
+    .dc-cookiebot-popup__toggles__toggle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.25em 0;
+      border-right: 0.0625em solid var(--old-cb-color-teritary);
+      cursor: pointer; }
+      .dc-cookiebot-popup__toggles__toggle:last-child {
+        border: 0; }
+      .dc-cookiebot-popup__toggles__toggle span {
+        display: block;
+        margin-bottom: 0.625em;
+        color: var(--old-cb-color-text);
+        text-align: center; }
+      .dc-cookiebot-popup__toggles__toggle label {
+        display: block;
+        position: relative;
+        width: 4.0625em;
+        height: 2.5em;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 0;
+        border-radius: 26.25em;
+        outline-offset: 0.1875em;
+        cursor: pointer;
+        background-color: var(--old-cb-color-teritary);
+        transition: 0.2s ease-in-out all;
+        transform: scale(0.75); }
+        @media screen and (min-width: 768px) {
+          .dc-cookiebot-popup__toggles__toggle label {
+            transform: scale(1); } }
+        .dc-cookiebot-popup__toggles__toggle label:after {
+          position: absolute;
+          top: 0.3125em;
+          left: 0.3125em;
+          width: 1.875em;
+          height: 1.875em;
+          border-radius: 26.25em;
+          content: '';
+          background-color: var(--old-cb-color-bg);
+          transition: inherit; }
+      .dc-cookiebot-popup__toggles__toggle input[type='checkbox'] {
+        position: absolute;
+        left: -10000px; }
+        .dc-cookiebot-popup__toggles__toggle input[type='checkbox']:checked + label {
+          background-color: var(--old-cb-color-success); }
+          .dc-cookiebot-popup__toggles__toggle input[type='checkbox']:checked + label:after {
+            left: 1.75em; }
+        .dc-cookiebot-popup__toggles__toggle input[type='checkbox']:focus + label {
+          outline: 1px dashed var(--old-cb-color-primary); }
+        .dc-cookiebot-popup__toggles__toggle input[type='checkbox']:disabled + label {
+          opacity: 0.2;
+          cursor: not-allowed; }
+
+/**
+ * Define EM sizing
+ */
+#cookiebanner {
+  font-size: 13px; }
+  @media screen and (min-width: 768px) {
+    #cookiebanner {
+      font-size: 16px; } }
+
+/**
+ * Main popup styles.
+ */
+.stem-cookiebot-popup {
+  text-align: var(--cb-box-position);
+  font-family: var(--cb-box-font-family);
+  z-index: 999999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /**
+	 * Header container.
+	 * This contains the title and text of the popup.
+	 */ }
+  .stem-cookiebot-popup .stem-cookiebot-popup__box {
+    border-radius: var(--cb-box-radius);
+    margin: var(--cb-box-margin);
+    padding: var(--cb-box-padding);
+    background-color: #fff;
+    box-shadow: 0px 3px 15px -2px #49484873;
+    width: 95%;
+    max-width: 1040px;
+    text-align: initial;
+    display: inline-flex;
+    flex-flow: row wrap;
+    gap: 0 2rem; }
+  .stem-cookiebot-popup__main-content {
+    flex: 1 1 10%; }
+  .stem-cookiebot-popup__header__title {
+    font-family: var(--cb-box-heading-font-family);
+    color: var(--cb-color-text);
+    margin: 0 0 0.8em 0;
+    font-weight: bold;
+    font-size: 1.3rem; }
+  .stem-cookiebot-popup__header__text {
+    margin: 0;
+    font-size: var(--cb-text-size);
+    font-weight: 400;
+    color: var(--cb-color-text-light); }
+  .stem-cookiebot-popup__actions {
+    min-width: 200px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    margin-top: 1rem; }
+  .stem-cookiebot-popup__button {
+    border-radius: var(--cb-btn-radius);
+    background: var(--cb-color-primary);
+    border-color: var(--cb-color-primary);
+    padding: 13px 16px;
+    margin: 0px;
+    border: 1px solid currentColor;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    min-width: 100%;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out; }
+    .stem-cookiebot-popup__button::first-letter {
+      text-transform: capitalize; }
+    .stem-cookiebot-popup__button:hover, .stem-cookiebot-popup__button:focus {
+      background-color: white;
+      border-color: var(--cb-color-primary);
+      color: var(--cb-color-primary); }
+    .stem-cookiebot-popup__button--secondary {
+      background: var(--cb-color-secondary);
+      color: var(--cb-color-text);
+      border-color: var(--cb-color-secondary); }
+  .stem-cookiebot-popup__details-toggle {
+    margin: 1rem 0 0;
+    padding: 8px 16px;
+    font-size: var(--cb-text-size);
+    cursor: pointer; }
+  .stem-cookiebot-popup__toggles {
+    display: none; }
+  .stem-cookiebot-popup__details {
+    padding: var(--cb-box-padding);
+    background-color: var(--cb-color-secondary);
+    border-radius: var(--cb-box-radius);
+    will-change: display, height;
+    border-top-left-radius: 0;
+    flex: 0 0 100%;
+    margin-top: -1px; }
+    .stem-cookiebot-popup__details button,
+    .stem-cookiebot-popup__details p {
+      margin: 0; }
+  .stem-cookiebot-popup__main__cookie-list {
+    margin: 1rem 0;
+    font-size: var(--cb-text-size);
+    color: var(--cb-color-text); }
+    .stem-cookiebot-popup__main__cookie-list:last-child {
+      margin: 0; }
+    .stem-cookiebot-popup__main__cookie-list input[type="checkbox"] {
+      box-sizing: border-box;
+      padding: 0;
+      width: 25px;
+      height: 25px;
+      cursor: pointer; }
+  @media screen and (min-width: 768px) {
+    .stem-cookiebot-popup__main__cookie-list__cat {
+      display: grid;
+      align-items: flex-start;
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr 2fr 50px; } }
+  .stem-cookiebot-popup__main__cookie-list__cat__input {
+    text-align: right; }
+  .stem-cookiebot-popup__main__cookie-list__cat__toggle {
+    all: unset;
+    margin-top: 0.5em;
+    font-weight: bold;
+    cursor: pointer; }
+    .stem-cookiebot-popup__main__cookie-list__cat__toggle:before {
+      display: inline-block;
+      position: relative;
+      width: 9px;
+      height: 9px;
+      margin-right: 10px;
+      border-right: 3px solid var(--cb-color-primary);
+      border-bottom: 3px solid var(--cb-color-primary);
+      content: '';
+      transition: transform 0.2s ease-in-out;
+      transform: rotate(-45deg);
+      border-radius: 2px; }
+    .stem-cookiebot-popup__main__cookie-list__cat__toggle--active:before {
+      transform: rotate(45deg) translateY(-2px); }
+  .stem-cookiebot-popup__main__cookie-list__cat__content {
+    overflow-x: auto !important; }
+    .stem-cookiebot-popup__main__cookie-list__cat__content .CybotCookiebotDialogDetailBodyContentCookieTypeTableEmpty {
+      font-style: italic;
+      font-size: 14px; }
+    .stem-cookiebot-popup__main__cookie-list__cat__content table {
+      margin: 0 0 2rem;
+      width: 100%;
+      margin: 2rem 0;
+      text-align: left;
+      border-bottom: 1px solid #dadada;
+      font-size: 12px; }
+      .stem-cookiebot-popup__main__cookie-list__cat__content table td {
+        padding: 20px 5px; }
+      .stem-cookiebot-popup__main__cookie-list__cat__content table th {
+        padding: 0 5px; }
+

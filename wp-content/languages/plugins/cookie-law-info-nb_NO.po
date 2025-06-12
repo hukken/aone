@@ -1,0 +1,2304 @@
+# Translation of Plugins - CookieYes &#8211; Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - CookieYes &#8211; Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-30 16:22:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - CookieYes &#8211; Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release)\n"
+
+#: lite/admin/modules/gcm/api/class-api.php:118
+msgid "Default settings."
+msgstr "Standardinnstillinger."
+
+#: lite/admin/modules/gcm/api/class-api.php:123
+msgid "Wait for update."
+msgstr "Vent opp oppdatering."
+
+#: lite/admin/modules/gcm/api/class-api.php:133
+msgid "Redact ads data."
+msgstr "Rediger annonsedata"
+
+#: lite/admin/modules/gcm/api/class-api.php:113
+msgid "GCM status."
+msgstr "GCM-status."
+
+#: lite/admin/modules/gcm/api/class-api.php:69
+msgid "Invalid method"
+msgstr "Ugyldig metode"
+
+#: lite/admin/modules/gcm/api/class-api.php:128
+msgid "Pass ad click information through URLs."
+msgstr "Sende annonseklikkinformasjon gjennom URL-er."
+
+#: legacy/includes/class-cookie-law-info-review-request.php:246
+#: lite/admin/modules/review-feedback/class-review-feedback.php:238
+msgid "Give us a 5-star rating!"
+msgstr "Gi oss et 5-stjerners vurdering!"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:257
+#: lite/admin/modules/review-feedback/class-review-feedback.php:251
+msgid "Please rate %1$s %2$s on %3$s to help us spread the word. Thank you from the team CookieYes!"
+msgstr "Vurder %1$s %2$s på %3$s for å hjelpe oss med å spre ordet. Takk skal du ha fra CookieYes-teamet!"
+
+#: legacy/admin/views/goto-pro-v2.php:318
+msgid "Migrate Now"
+msgstr "Migrer nå"
+
+#: legacy/admin/views/goto-pro-v2.php:337
+msgid "Ready to migrate to the new UI?"
+msgstr "Klar til å migrere til det nye brukergrensenittet?"
+
+#: legacy/admin/views/goto-pro-v2.php:322
+msgid "Access new free features"
+msgstr "Få tilgang til nye gratis funksjoner"
+
+#: legacy/admin/views/goto-pro-v2.php:321
+msgid "Get the new, WCAG-compliant cookie consent banner."
+msgstr "Få det nye, WCAG-samsvarende infokapsel-samtykkebanneret."
+
+#: legacy/admin/views/goto-pro-v2.php:309
+msgid "You are using the legacy version! <span class='wt-blue-text'>Migrate to the new UI</span> for better experience and advanced features"
+msgstr "Du bruker den eldre versjonen! <span class='wt-blue-text'>Migrer til det nye brukergrensesnitet</span> for bedre opplevelse og avanserte funksjoner"
+
+#: legacy/admin/views/goto-pro-v2.php:332
+msgid "Learn more about migration"
+msgstr "Finn ut mer om migrering"
+
+#: legacy/admin/views/goto-pro-v2.php:371
+msgid "Change the button size."
+msgstr "Endre knappestørrelsen"
+
+#: legacy/admin/views/goto-pro-v2.php:368
+msgid "Customize the position of the revisit consent button (from the right/left margin)."
+msgstr "Tilpass posisjonen til revurder samtykke-knappen (fra høyre/venstre kant)."
+
+#: legacy/admin/views/goto-pro-v2.php:323
+msgid "— Set consent expiration, disable prior consent, hide consent categories, choose colour scheme (light/dark/custom), generate cookie/privacy policy, etc."
+msgstr "— Sett tidsutløp for samtykke, slå av tildligere samtykke, skjul samtykkekategorier, velg fargfeskjema (lys/mørk/tilpasset), generer infokapsel/personvernerklæring osv."
+
+#: legacy/admin/views/goto-pro-v2.php:439
+msgid "Contact Support"
+msgstr "Kontakt brukerstøtte"
+
+#: legacy/admin/views/goto-pro-v2.php:390
+msgid "Redirecting to the URL on click."
+msgstr "Omdirigerer til URLen ved klikk."
+
+#: legacy/admin/views/goto-pro-v2.php:387
+msgid "Changing the button to a link."
+msgstr "Endrer knappen til en lenke."
+
+#: legacy/admin/views/goto-pro-v2.php:377
+msgid "<strong>The following customization features will no longer be available:</strong>"
+msgstr "<strong>Følgende tilpasningsfunksjoner vil ikke lenger være tilgjengelige:</strong>"
+
+#: legacy/admin/views/goto-pro-v2.php:339
+msgid "Please review the following before proceeding:"
+msgstr "Gå gjennom følgende før du fortsetter:"
+
+#: legacy/admin/views/goto-pro-v2.php:396
+msgid "Allowing the cookie banner to move with page scroll."
+msgstr "Lar inforkapsel-banneret flytte seg med sideskrollingen."
+
+#: legacy/admin/views/goto-pro-v2.php:393
+msgid "Animating the cookie banner (On Load/Hide)."
+msgstr ">Animasjoin av inforkapsle-banneret (ved innlasting/skjuling)"
+
+#: legacy/admin/views/goto-pro-v2.php:355
+msgid "<strong>After migrating, you can add custom CSS to:</strong>"
+msgstr "<strong>Etter migrering kan du legge til tilpasset CSS på:</strong>"
+
+#: legacy/admin/views/goto-pro-v2.php:399
+msgid "Accepting cookie consent on the page scroll or delay action on the cookie banner."
+msgstr "Godta infokapsel-samtykke ved skrolling av siden eller forsinket handling på infokapsel-banneret."
+
+#: legacy/admin/views/goto-pro-v2.php:326
+msgid "Access additional free and premium features by connecting to CookieYes web app (Optional)"
+msgstr "Få tilgang til ytterligere gratis- og premium-funksjoner ved å kobel til werbappen CookieYes (frivillig)"
+
+#: legacy/admin/views/admin-settings-help.php:72
+msgid "You need to enter the cookies your website uses via the GDPR Cookie Consent > Cookie List menu in your WordPress dashboard."
+msgstr "Du må legge inn infokapslene nettstedet ditt bruker via menyvalegt GDPR infokapsel-samtykke > Infokapsel-liste på kontrollpanelet i WordPress."
+
+#: legacy/admin/views/goto-pro-v2.php:344
+msgid "<strong>Cookie bar and other shortcodes</strong> will be replaced with <strong>easier customization methods.</strong>"
+msgstr "<strong>Infokapsel-linje og andre kortkoder</strong> vil ble erstattet med <strong>enklere tilpasningsmetoder.</strong>"
+
+#: legacy/admin/views/goto-pro-v2.php:365
+msgid "Change the font format of the cookie banner (available in the premium plans)."
+msgstr "Endre skriften på infokapsel-linjen (tilgjengelig i premium.-pakker)."
+
+#: legacy/admin/views/goto-pro-v2.php:328
+msgid "— Cookie scan, Consent log, Support for Google Consent Mode v2, IAB TCF v2.2 banner, Google’s Additional Consent Mode, etc."
+msgstr "— Infokapsel-gjennomsøking, samsvarslogg, støtte for Google samtykkemodus v2, IAB TCF v2.2-banner, Googles ekstra samtykkemodus osv."
+
+#: legacy/admin/views/goto-pro-v2.php:405
+msgid "The <strong>popup layout</strong> for the banner and the <strong>option to use both \"GDPR\" and \"US State Laws\" consent templates</strong> will be <strong>available in the premium plans</strong> with <strong>advanced geo-targeting.</strong>"
+msgstr "<strong>Sprettopp-oppsettet</strong> for banneret og <strong>muligheten til å bruke en samtykkemal for både \"GDPR\" og amerikanske delstatslover</strong> vil være <strong>tilgjenglig i premium-pakkene</strong> med <strong>avansert geografisk målretting.</strong>"
+
+#: legacy/admin/views/goto-pro-v2.php:428
+msgid "Alternatively, you can <strong>connect to the CookieYes web app (optional)</strong> to utilize the <strong>cookie scan feature,</strong> which <strong>discovers, categorizes, and automatically blocks</strong> your website cookies prior to consent."
+msgstr "Alernativt kan du <strong>koble til webappen CookieYes (frivillig)</strong> for bruke <strong>funksjonen gjennomsøking etter infokapsler</strong> som <strong>oppdager, kategoriserer og automatsk blokkerer</strong> infokapslene på nettstedet ditt før avgitt samtykke."
+
+#: legacy/admin/views/goto-pro-v2.php:416
+msgid "From the new plugin UI, you can navigate to <strong>Cookie Manager > Add Cookie > Advanced settings</strong> and add the pattern that identifies the script <strong>(Script URL Pattern)</strong> to manually block cookies before obtaining user consent."
+msgstr "Fra det nye grensesnittet til utvidelsen kan du navigere til <strong>Infokaplsebehandling > Legg til infokapsel > Avanserte innstillinger</strong>  og legge til mønseret som identifiserer skriptet <strong>(Skript-URL-mønster)</strong>for manuekt å blokkere infokapsler før innhenting av den besøkendes samtykke."
+
+#: legacy/admin/views/goto-pro-v2.php:443
+#: legacy/includes/class-cookie-law-info.php:987
+msgid "Start Migration"
+msgstr "Begynn migrering"
+
+#: legacy/includes/class-cookie-law-info.php:979
+msgid "By migrating to the new and improved user interface, you can:"
+msgstr "Ved å migrere til det nye og forbedrede brukergrensnittet kan du:"
+
+#: legacy/includes/class-cookie-law-info.php:978
+msgid "Migrate to the new UI for an enhanced experience and advanced features"
+msgstr "Migrer til det nye brukergrensesnittet for en fobedret opplavelse og avsanserte funksjoner"
+
+#: legacy/includes/class-cookie-law-info.php:981
+msgid "Display the new cookie consent banner (compliant with the WCAG guidelines) on your website"
+msgstr "Vis det nye infokapsel-samtykkebanneret ( samsvarende med retningslinjene fra WCAG) på nettstedet ditt"
+
+#. translators: %s: Migration notice expiry notice.
+#: lite/admin/modules/upgrade/class-upgrade.php:532
+msgid "Not satisfied with the New UI and related changes? You can switch back to the old UI at any time until %s."
+msgstr "Ikke fornøyd md det nye brukergrensnittet og endringene? Du kan bytte tilbake til det gamle brukergrensnittet når som helst inntil %s."
+
+#: legacy/includes/class-cookie-law-info.php:984
+msgid "Get access to additional free features such as cookie scan, consent log, etc. by connecting to the CookieYes web app (Optional)"
+msgstr "Få tilgang til avanserte gratisfunksjoner som gjennomsøking etter infokapsler, samtykkelogg osv. ved å koble til webappen CookieYes (frivillig)"
+
+#: legacy/includes/class-cookie-law-info.php:983
+msgid "Use the live preview feature to customize your banner while you are looking at it."
+msgstr "Bruk den umiddelbare forhåndsvisnigsfunksjonen for å tilpasse banneret ditt mens dus er på det."
+
+#: legacy/admin/views/admin-settings-advanced.php:15
+msgid "Are you sure you want to delete all your settings and switch to the new interface?"
+msgstr "Er du sikker på at du vil slette alle innstillingene din og bytte til det nye brukergrensesnittet?"
+
+#: legacy/admin/views/admin-settings-advanced.php:16
+msgid "Warning: Resets all your current settings to default. This action will switch you to the new and improved user interface and this action is not reversible."
+msgstr "Advarsel: Tilbakestiller alle nåværende innstillinger til standard. Denne handlingen vil bytte deg over til det nye og forbedrede brukergrensesnitet og denn handlingen er irreversibel."
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:209
+msgid "Quick Feedback"
+msgstr "Hurtig tilbakemelding"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:185
+msgid "Please share the reason"
+msgstr "Vennligst del årsaken"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:167
+msgid "Please describe the issues"
+msgstr "Beskriv problemet"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:157
+msgid "Please share which plugin"
+msgstr "Del gjerne hvilken utvidelse"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:149
+msgid "The plugin is affecting website speed"
+msgstr "Utvidelsen påvirker netstedshastigheten"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:130
+msgid "Describe the challenges that you faced while using our plugin"
+msgstr "Beskriv utfordringene du møtte da du brukte utvidelsen vår"
+
+#: lite/admin/modules/review-feedback/class-review-feedback.php:80
+msgid "Hey, we at %1$s CookieYes %2$s would like to thank you for using our plugin. We would really appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr "Hei, vi på %1$sCookieYes%2$s  vil gjerne takke deg for at du bruker utvidelsen vår. Vi vil sette veldig stor ris på om du vil ta deg tid til å legge inn en rask vurdering, noe som vil inspirerer oss til å fortsette arbeidet."
+
+#: lite/admin/modules/settings/api/class-api.php:466
+#: lite/admin/modules/settings/api/class-api.php:471
+#: lite/admin/modules/settings/api/class-api.php:476
+#: lite/admin/modules/settings/api/class-api.php:481
+#: lite/admin/modules/settings/api/class-api.php:486
+msgid "Language."
+msgstr "Språk."
+
+#: lite/admin/modules/consentlogs/api/class-api.php:155
+msgid "Log."
+msgstr "Logg."
+
+#: lite/admin/modules/banners/api/class-api.php:412
+msgid "Version"
+msgstr "Versjon"
+
+#: lite/admin/modules/banners/api/class-api.php:406
+#: lite/admin/modules/consentlogs/api/class-api.php:121
+#: lite/admin/modules/cookies/api/class-api-controller.php:253
+#: lite/admin/modules/pageviews/api/class-api.php:120
+#: lite/admin/modules/settings/api/class-api.php:431
+msgid "Limit results to those matching a string."
+msgstr "Begrens resultater til de som samsvarer med en streng."
+
+#: lite/admin/modules/settings/api/class-api.php:216
+msgid "GDPR (General Data Protection Regulation)"
+msgstr "GDPR (Personvernforordningen)"
+
+#: lite/admin/modules/consentlogs/class-consentlogs.php:61
+msgid "Consent Log"
+msgstr "Samtykkelogg"
+
+#: lite/admin/modules/consentlogs/api/class-api.php:150
+msgid "Consent status."
+msgstr "Samtykkestatus."
+
+#. Plugin Name of the plugin
+#: cookie-law-info.php
+msgid "CookieYes | GDPR Cookie Consent"
+msgstr "CookieYes | GDPR infokapsel-samtykke"
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:252
+msgid "Cookie category language"
+msgstr "Infokapsel-kategori-språk"
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:247
+#: lite/admin/modules/scanner/api/class-api.php:312
+msgid "Cookie category unique name"
+msgstr "Infokapsel-kategori unkit navn"
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:242
+#: lite/admin/modules/cookies/api/class-cookies-api.php:172
+#: lite/admin/modules/scanner/api/class-api.php:307
+msgid "Cookie category name."
+msgstr "Infokapsel-kategorinavn."
+
+#: lite/admin/modules/cookies/api/class-api-controller.php:265
+msgid "Cookie category"
+msgstr "Infokapsel-kategori"
+
+#: lite/admin/modules/scanner/api/class-api.php:337
+msgid "Cookie count."
+msgstr "Antall infokapsler."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:262
+#: lite/admin/modules/cookies/api/class-categories-api.php:267
+#: lite/admin/modules/cookies/api/class-cookies-api.php:197
+#: lite/admin/modules/scanner/api/class-api.php:322
+msgid "Cookie type."
+msgstr "Infokapsel-type."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:257
+#: lite/admin/modules/cookies/api/class-categories-api.php:282
+#: lite/admin/modules/scanner/api/class-api.php:317
+msgid "Cookie category description."
+msgstr "Beskrivelse av infokapsel-kategori."
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:187
+msgid "Cookie duration"
+msgstr "Infokapsel-varighet"
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:182
+msgid "Cookie description."
+msgstr "Infokapsel-beskrivelse"
+
+#: lite/admin/modules/languages/class-languages.php:53
+#: lite/admin/modules/languages/class-languages.php:60
+#: lite/admin/dist/js/app.js:1 lite/admin/dist/js/chunk-09cf2808.js:1
+#: lite/admin/dist/js/chunk-1e0144df.js:1
+#: lite/admin/dist/js/chunk-4e6afbb2.js:1
+#: lite/admin/dist/js/chunk-10044bd1.js:1
+#: lite/admin/dist/js/chunk-d19d03d6.js:1
+#: lite/admin/dist/js/chunk-fc9d5d40.js:1
+msgid "Languages"
+msgstr "Språk"
+
+#: lite/admin/modules/languages/api/class-api.php:175
+msgid "Language code"
+msgstr "Språkkode"
+
+#: lite/admin/modules/languages/api/class-api.php:170
+msgid "Native name of the language."
+msgstr "Lokalt navn på språket"
+
+#: lite/admin/modules/languages/api/class-api.php:165
+msgid "Name of the language."
+msgstr "Navn på språket"
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:192
+msgid "Cookie language."
+msgstr "Inforkapsel-språk"
+
+#: lite/admin/modules/cookies/api/class-api-controller.php:259
+msgid "Language of the cookie"
+msgstr "Språk for infokapselen"
+
+#: lite/admin/modules/banners/api/class-api.php:418
+msgid "Language of the banner"
+msgstr "Språk for banneret"
+
+#: lite/admin/modules/banners/api/class-api.php:460
+msgid "Banner contents."
+msgstr "Bannerinnhold."
+
+#: lite/admin/modules/cookies/class-cookies.php:64 lite/admin/dist/js/app.js:1
+msgid "Cookie Manager"
+msgstr "Behandle infokapsler"
+
+#: lite/integrations/cookieyes/includes/class-cloud.php:54
+#: lite/integrations/cookieyes/includes/class-cloud.php:71
+msgid "Invalid method."
+msgstr "Ugyldig metode."
+
+#: lite/includes/class-rest-controller.php:107
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr "Beklager, du har ikke lov til å slette denne ressursen."
+
+#: lite/includes/class-rest-controller.php:93
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr "Beklager, du har ikke lov til å redigere denne ressursen."
+
+#: lite/includes/class-rest-controller.php:79
+msgid "Sorry, you cannot view this resource."
+msgstr "Beklager, du kan ikke se denne ressursen."
+
+#: lite/includes/class-rest-controller.php:51
+msgid "Sorry, you cannot list resources."
+msgstr "Beklager, du kan ikke liste ressurser."
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:266
+msgid "Skip & Deactivate"
+msgstr "Hopp over og deaktiver"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:213
+msgid "If you have a moment, please let us know why you are deactivating the CookieYes plugin."
+msgstr "Om du har et øyeblikk, vær vennlig og la oss få vite hvorfor du deaktiverer utvidelsen CookieYes:"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:95
+#: lite/includes/class-rest-controller.php:65
+msgid "Sorry, you are not allowed to create resources."
+msgstr "Beklager, du har ikke tillatelse til å opprette nye ressurser."
+
+#: lite/admin/modules/settings/includes/class-controller.php:438
+msgid "Failed to fetch data from the API"
+msgstr "Kunne ikke hente data fra API-et"
+
+#: lite/admin/modules/settings/includes/class-controller.php:264
+msgid "Free Plan"
+msgstr "Gratispakke"
+
+#: lite/admin/modules/banners/class-banners.php:66 lite/admin/dist/js/app.js:1
+msgid "Cookie Banner"
+msgstr "Infokapsel-banner"
+
+#: lite/admin/modules/banners/api/class-api.php:476
+msgid "The date the banner was last modified, as GMT."
+msgstr "Datoen banneret sist ble endret, som GMT."
+
+#: lite/admin/modules/banners/api/class-api.php:470
+msgid "The date the banner was created, as GMT."
+msgstr "Datoen banneret ble opprettet, som GMT."
+
+#: lite/admin/modules/banners/api/class-api.php:455
+msgid "Banner settings."
+msgstr "Banner-instillinger"
+
+#. Author of the plugin
+#: cookie-law-info.php lite/admin/class-admin.php:399
+#: lite/admin/class-admin.php:400
+msgid "CookieYes"
+msgstr "CookieYes"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: cookie-law-info.php
+msgid "https://www.cookieyes.com/"
+msgstr "https://www.cookieyes.com/"
+
+#: lite/admin/modules/settings/api/class-api.php:438
+msgid "Force fetch data"
+msgstr "Tving å hente data"
+
+#: lite/admin/modules/settings/includes/class-controller.php:335
+msgid "Invalid Website ID"
+msgstr "Ugyldig nettsteds-id"
+
+#: lite/admin/modules/settings/api/class-api.php:226
+msgid "CCPA (California Consumer Privacy Act)"
+msgstr "CCPA (Californias forbrukerpersonvernlov)"
+
+#: lite/admin/modules/settings/api/class-api.php:218
+msgid ""
+"Choose GDPR if most of your targeted audience are from the EU or UK.\n"
+"\t\t\t\t\tIt creates a customizable banner that allows your visitors to accept/reject cookies or adjust their consent preferences."
+msgstr ""
+"Velg GDPR om de fleste i ditt målrettede publikum er fra EU eller Storbritannia.\n"
+"\t\t\t\t\tDet oppretter et tilpassbart banner som lar dine besøkende godta/avvise infokapsler eller justere sine samtykkepreferanser."
+
+#: lite/admin/modules/settings/api/class-api.php:217
+msgid "Continue with the GDPR template if most of your targeted audience are from the EU or UK. It creates a customizable banner that allows your visitors to accept/reject cookies or adjust their consent preferences."
+msgstr "Fortsett med GDPR-malen om de fleste i ditt målrettede publikum er fra EU eller Storbritannia. Det oppretter et tilpassbart banner som lar dine besøkende godta/avvise infokapsler eller justere sine samtykkepreferanser."
+
+#: lite/admin/modules/policies/class-policies.php:40
+#: lite/admin/dist/js/app.js:1
+msgid "Policy Generators"
+msgstr "Erklæringsgeneratorer"
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:202
+msgid "Cookie domain."
+msgstr "Domene for infokapsel."
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:177
+msgid "Cookie unique name"
+msgstr "Unikt navn for infokapsel."
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:167
+msgid "Cookie name."
+msgstr "Navn på infokapsel."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:272
+#: lite/admin/modules/cookies/api/class-categories-api.php:277
+msgid "Show cookies on audit table or not"
+msgstr "Vise infokapsler i gjennomsynstabellen eller ikke."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:236
+#: lite/admin/modules/cookies/api/class-cookies-api.php:162
+#: lite/admin/modules/scanner/api/class-api.php:301
+msgid "The date the cookie was last modified, as GMT."
+msgstr "Datoen infokapselen sist ble endret, som GMT."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:230
+#: lite/admin/modules/cookies/api/class-cookies-api.php:156
+#: lite/admin/modules/scanner/api/class-api.php:295
+msgid "The date the cookie was created, as GMT."
+msgstr "Datoen infokapselen ble opprettet, som GMT."
+
+#: lite/admin/modules/cookies/api/class-categories-api.php:173
+msgid "No data specified to create/edit categories"
+msgstr "Ingen data angitt for å opprette/redigere kategoeier."
+
+#: lite/admin/modules/cookies/api/class-api-controller.php:122
+msgid "Cannot create existing post."
+msgstr "Kan ikke redigere ekisterende oppføring."
+
+#: lite/admin/modules/consentlogs/api/class-api.php:160
+msgid "Unique visitor ID"
+msgstr "Unik besøkende-id"
+
+#: lite/admin/modules/consentlogs/api/class-api.php:145
+msgid "Visitor Country."
+msgstr "Besøkendes land."
+
+#: lite/admin/modules/consentlogs/api/class-api.php:140
+msgid "Visitor IP."
+msgstr "Besøkendes IP."
+
+#: lite/admin/modules/banners/api/class-api.php:195
+#: lite/admin/modules/cookies/api/class-api-controller.php:106
+#: lite/admin/modules/cookies/api/class-api-controller.php:154
+#: lite/admin/modules/cookies/api/class-api-controller.php:199
+#: lite/admin/modules/scanner/api/class-api.php:177
+msgid "Invalid ID."
+msgstr "Ugyldig ID."
+
+#: uninstall.php:70
+msgid "Failed to delete CookieYes plugin data!"
+msgstr "Mislyktes i å slette CookieYes-utvidelsens data!"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:173
+msgid "I would like to use the CookieYes web app instead of the plugin"
+msgstr "Jeg ønsker å bruke webappen til CookieYes i stedet for utvidelsen"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:163
+msgid "I have issues while connecting to the CookieYes web app"
+msgstr "Jeg har problemer med å koble til webappen til CookieYes"
+
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:126
+msgid "Setup is too difficult/ Lack of documentation"
+msgstr "For vanskelig å sette opp / Mangel på dokumentasjon"
+
+#: lite/admin/modules/settings/includes/class-controller.php:467
+msgid "Failed to the update the data to web app"
+msgstr "Mislyktes i å oppdatere dataene til webappen"
+
+#: lite/admin/modules/scanner/api/class-api.php:327
+#: lite/admin/modules/scanner/api/class-api.php:332
+msgid "Cookie scripts."
+msgstr "Infokapsel-skripter"
+
+#: lite/admin/modules/banners/api/class-api.php:231
+#: lite/admin/modules/banners/api/class-api.php:255
+msgid "Invalid banner id"
+msgstr "Ugyldig banner-id"
+
+#: lite/admin/modules/banners/api/class-api.php:211
+msgid "Cannot create existing banner."
+msgstr "Kan ikke lage eksisterende banner."
+
+#: lite/admin/modules/scanner/api/class-api.php:236
+#: lite/admin/modules/scanner/api/class-api.php:262
+msgid "Could not initiate the scan, please try again"
+msgstr "Klarte ikke sette i gang gjennomsøkingen, forsøk på nytt"
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:212
+msgid "URL patterns for blocking purposes"
+msgstr "URL-mønstre for blokkering"
+
+#: lite/admin/modules/banners/api/class-api.php:450
+msgid "Banner unique name"
+msgstr "Unikt navn på banneret"
+
+#: lite/admin/modules/banners/api/class-api.php:445
+msgid "Banner name for reference"
+msgstr "Navn på banneret"
+
+#: lite/admin/modules/banners/api/class-api.php:103
+#: lite/admin/modules/banners/api/class-api.php:439
+#: lite/admin/modules/cookies/api/class-categories-api.php:94
+#: lite/admin/modules/cookies/api/class-categories-api.php:224
+#: lite/admin/modules/cookies/api/class-cookies-api.php:80
+#: lite/admin/modules/cookies/api/class-cookies-api.php:150
+#: lite/admin/modules/languages/api/class-api.php:159
+#: lite/admin/modules/scanner/api/class-api.php:89
+#: lite/admin/modules/scanner/api/class-api.php:110
+#: lite/admin/modules/scanner/api/class-api.php:289
+#: lite/admin/modules/settings/api/class-api.php:119
+#: lite/admin/modules/settings/api/class-api.php:455
+#: lite/admin/modules/settings/api/class-api.php:461
+msgid "Unique identifier for the resource."
+msgstr "Unik identifikator for ressursen"
+
+#: lite/admin/modules/settings/api/class-api.php:238
+msgid ""
+"Choose Info if you do not want to block any cookies on your website.\n"
+"\t\t\t\t\t\tIt creates a dismissible banner that provides some general info to your site visitors."
+msgstr ""
+"Velg Info om du ikke ønsker å blokkere noen infokapsler på netstedet ditt.\n"
+"\t\t\t\t\t\tDet lager et avvisbart banner som gir en del generell informasjon til dine besøkende."
+
+#: lite/admin/modules/settings/api/class-api.php:237
+msgid "Choose INFO if you do not want to block any cookies on your website. This will create a dismissible banner that provides some general information to your site visitors."
+msgstr "Vejg INFO om du ikke vil blokkere noen infokapsler på nettstedet ditt. Dette vil lage et avvisbart banner som gir en del generell informasjon til dine besøkende."
+
+#: lite/admin/modules/settings/api/class-api.php:236
+msgid "INFO (Information Display Banner)"
+msgstr "INFO (informasjonsvisnings-banner)"
+
+#: lite/admin/modules/cookies/api/class-cookies-api.php:207
+msgid "If cookies added from the scanner or not."
+msgstr "Om infokapslene er lagt til fra gjennomsøkingen eller ikke."
+
+#: lite/admin/modules/consentlogs/api/class-api.php:112
+#: lite/admin/modules/cookies/api/class-api-controller.php:244
+#: lite/admin/modules/pageviews/api/class-api.php:111
+#: lite/admin/modules/settings/api/class-api.php:422
+msgid "Maximum number of items to be returned in result set."
+msgstr "Makismalt antall elementer som skal returneres i resultatsettet."
+
+#: lite/admin/modules/consentlogs/api/class-api.php:104
+#: lite/admin/modules/cookies/api/class-api-controller.php:236
+#: lite/admin/modules/pageviews/api/class-api.php:103
+#: lite/admin/modules/settings/api/class-api.php:414
+msgid "Current page of the collection."
+msgstr "Nåværende side i samlingen."
+
+#: lite/admin/modules/banners/api/class-api.php:465
+msgid "Indicates whether the banner is default or not"
+msgstr "Indiukerer m banneret er standard elelr ikke"
+
+#: lite/admin/modules/banners/api/class-api.php:273
+msgid "No data specified to create/edit banners"
+msgstr "Ingen data angitt for å opprette/redigere bannere"
+
+#. translators: %s: Class method name.
+#: lite/admin/modules/cookies/api/class-api-controller.php:43
+#: lite/admin/modules/cookies/api/class-api-controller.php:53
+#: lite/admin/modules/cookies/api/class-api-controller.php:64
+#: lite/includes/class-store.php:134 lite/includes/class-store.php:145
+#: lite/includes/class-store.php:156 lite/includes/class-store.php:167
+#: lite/includes/class-store.php:516
+#: lite/integrations/cookieyes/includes/class-cloud.php:84
+#: lite/integrations/cookieyes/includes/class-cloud.php:97
+#: lite/integrations/cookieyes/includes/class-cloud.php:110
+#: lite/integrations/cookieyes/includes/class-cloud.php:123
+#: lite/integrations/cookieyes/includes/class-cloud.php:136
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr "Metoden '%s' er ikke impelentert. Må overstyres i en avledet klasse."
+
+#: legacy/public/modules/script-blocker/views/settings.php:10
+msgid "<a id=\"wt-cli-script-blocker-action\">%s</a>"
+msgstr "<a id=\"wt-cli-script-blocker-action\">%s</a>"
+
+#: lite/admin/modules/settings/includes/class-controller.php:263
+msgid "Free"
+msgstr "Gratis"
+
+#: legacy/admin/views/admin-settings-messagebar.php:31
+msgid "Supports shortcodes.(link shortcodes to help link) e.g. [cookie_accept_all] for accept all button, [cookie_button] for accept button, [cookie_reject] for reject button, [cookie_link] for Read more, [cookie_settings] for cookie settings."
+msgstr "Støtter kortkoder.(lenker kortkoder til hjelpelenke) f.eks. [cookie_accept_all] for knappen godta alle, [cookie_button] for knappen godta, [cookie_reject] for knappen avvis, [cookie_link] for Les mer, [cookie_settings] for innstillnger for infokapsler."
+
+#: legacy/admin/views/admin-settings-buttons.php:323
+msgid "Hide cookie bar in this page/URL"
+msgstr "Skjul infokapsel-linjen på denne siden/URL-en"
+
+#: legacy/admin/views/admin-settings-buttons.php:72
+#: legacy/admin/views/admin-settings-buttons.php:159
+msgid "Open URL in new window"
+msgstr "Åpne URLen i et nytt vindu"
+
+#: legacy/admin/views/admin-settings-buttons.php:14
+#: legacy/admin/views/admin-settings-buttons.php:222
+msgid "Read more"
+msgstr "Les mer"
+
+#: legacy/admin/views/admin-settings-buttons.php:15
+#: legacy/admin/views/admin-settings-buttons.php:339
+msgid "Do not sell"
+msgstr "Ikke selg"
+
+#: legacy/admin/views/admin-settings-advanced.php:13
+msgid "Reset settings"
+msgstr "Tilbakestill innstillingene"
+
+#: legacy/admin/class-cookie-law-info-admin.php:373
+msgid "Close consent bar"
+msgstr "Lukk samtykkelinjen"
+
+#: legacy/admin/views/admin-settings-messagebar.php:31
+msgid "Modify/edit the content of the cookie consent bar."
+msgstr "Endre/rediger innholdet av infokapsel-samtykkelinjen."
+
+#: legacy/admin/views/admin-settings-messagebar.php:20
+msgid "Input text to have a heading for the cookie consent bar. Leave it blank if you do not need one."
+msgstr "Legg inn tekst for å ha en overskrift for infokapsel-samtykkelinjen. La stå tom om du ikke trenger en."
+
+#: legacy/admin/views/admin-settings-messagebar.php:109
+msgid "Fix bar on header"
+msgstr "Fest linjen på sidetoppen"
+
+#: legacy/admin/views/admin-settings-messagebar.php:112
+msgid "Move with the scroll"
+msgstr "Flytt med skrollingen"
+
+#: legacy/admin/views/admin-settings-messagebar.php:215
+msgid "Text on the widget"
+msgstr "Tekst i widgeten"
+
+#: legacy/admin/views/admin-settings-messagebar.php:172
+msgid "Widget position"
+msgstr "Widget-plassering"
+
+#: legacy/admin/modules/ccpa/views/ccpa_settings.php:17
+msgid "Show CCPA notice"
+msgstr "Vis CCPA-merknad"
+
+#: legacy/admin/views/admin-settings-messagebar.php:218
+msgid "Input a text to appear on the revisit consent widget."
+msgstr "Legg inn en tekst som skal vises i widgeten for revurdert samtykke."
+
+#: legacy/admin/class-cookie-law-info-admin.php:377
+msgid "Redirect to URL on click"
+msgstr "Omdirigerer til URLen ved klikk"
+
+#: legacy/admin/views/admin-settings-messagebar.php:150
+msgid "Revisit consent will allow the visitors to view/edit/revoke their prior preferences. Enable to display a sticky/fixed widget widget at the footer of your website. You can also manually insert a widget by adding the shortcode <strong>[wt_cli_manage_consent]</strong> to your website."
+msgstr "Revurdering av samtykke vil la de besøkende se/endre/trekke tilbake sine tidligere preferanser. Slå på for å vise en klebrig/festet widget i sdebunnet på nettstedet ditt. Du kan også sette inn en widget manuelt ved å legge til kortkoden <strong>[wt_cli_manage_consent]</strong> på nettstedet ditt."
+
+#: legacy/admin/views/admin-settings-buttons.php:10
+#: legacy/admin/views/admin-settings-buttons.php:370
+msgid "Accept All Button"
+msgstr "Godkjenn alle-knapp"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:95
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:177
+msgid "It’s a temporary deactivation"
+msgstr "Det er en midlertidig deaktivering"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:101
+msgid "Please describe your issue in detail."
+msgstr "Beskriv problemet i detalj."
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:46
+msgid "Issues with cookie scanner"
+msgstr "Problemer med infokapselgjennomsøking"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:42
+msgid "How can we make our plugin better?"
+msgstr "Hvordan kan vi gjøre utvidelsen bedre?"
+
+#: legacy/public/views/cookie-law-info_bar.php:50
+msgid "SAVE & ACCEPT"
+msgstr "LAGRE OG GODKJENN"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:389
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1080
+msgid "Login"
+msgstr "Logg inn"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1077
+msgid "Reset password"
+msgstr "Tilbakestille passord"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1071
+msgid "Password"
+msgstr "Passord"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:273
+#: legacy/includes/class-cookie-law-info-cookieyes.php:287
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1070
+#: lite/admin/dist/js/chunk-91df1cbe.js:1
+msgid "Email"
+msgstr "E-post"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:269
+msgid "Reset Password"
+msgstr "Tilbakestill passord"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:90
+msgid "Your cookie list is empty"
+msgstr "Infokapseloversikten er tom"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:316
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:56
+msgid "Add to cookie list"
+msgstr "Legg til på infokapseloversikten"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:309
+msgid "Added to cookie list."
+msgstr "Lagt til på infokapseloversikten."
+
+#: legacy/admin/modules/cookies/cookies.php:319
+msgid "Add cookie category"
+msgstr "Legg til infokapsel-kategori"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:327
+msgid "Refreshing...."
+msgstr "Oppfrisker..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:321
+msgid "Recommended"
+msgstr "Anbefalt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:319
+msgid "Replace old"
+msgstr "Erstatt gammel"
+
+#: legacy/admin/modules/cookie-scaner/views/settings.php:195
+msgid "Cookie scanner"
+msgstr "Infokapsel-skanner"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:518
+msgid "No cookies found"
+msgstr "Ingen infokapsler funnet"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:512
+msgid "cookies deleted."
+msgstr "infokapsler slettet."
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:509
+msgid "cookies skipped."
+msgstr "infokapsler hopet over."
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:507
+msgid "cookies added."
+msgstr "infokapsler lagt til."
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:414
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke nok rettigheter til se denne siden."
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:411
+msgid "Unable to handle your request"
+msgstr "Kunne ikke behandle forespørselen din"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:251
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:252
+msgid "Cookie Scanner"
+msgstr "Infokapsel-skanner"
+
+#: legacy/admin/modules/cookies/cookies.php:803
+msgid "What happens after migration?"
+msgstr "Hva skjer etter migreringen?"
+
+#: legacy/admin/modules/cookies/cookies.php:213
+msgid "Cookie Duration:"
+msgstr "Infokapsel-varighet:"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:604
+msgid "Scan started at"
+msgstr "Gjennomsøking startet"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:593
+msgid "Abort scan"
+msgstr "Avbryt gjennomsøking"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:590
+msgid "Scan initiated..."
+msgstr "Gjennomsøking satt i gang..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:561
+msgid "Scan aborted"
+msgstr "Gjennomsøking avbrutt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:544
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:562
+msgid "Last scan:"
+msgstr "Siste gjennomsøking:"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:543
+msgid "Scan failed"
+msgstr "Gjennomsøkng feilet."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:523
+msgid "Scan complete"
+msgstr "Gjennomsøking fullført"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:522
+msgid "Last scan: %1$s"
+msgstr "Siste gjennomsøking: %1$s"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:503
+msgid "You haven't performed a site scan yet."
+msgstr "Du har ikke utført gjennomsøking ennå."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:459
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1231
+msgid "Connect & scan"
+msgstr "Koble til og gjennomsøk"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:339
+msgid "Aborting the scan..."
+msgstr "Avbryter gjennomsøkingen..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:335
+msgid "Sending..."
+msgstr "Sender..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Thank you"
+msgstr "Takk"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Scanning stopped."
+msgstr "Gjennomsøking stoppet."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Stopping..."
+msgstr "Stopper..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:326
+msgid "Importing...."
+msgstr "Inporterer..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:325
+msgid "Start import"
+msgstr "Start import"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:323
+msgid "Not recommended"
+msgstr "Ikke anbefalt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:322
+msgid "Append"
+msgstr "Legg til"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:320
+msgid "Merge"
+msgstr "Slå sammen"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:318
+msgid "Import options"
+msgstr "Importalternativer"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:317
+msgid "View scan result"
+msgstr "Se resultaet av gjennomsøkingen"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:314
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1226
+msgid "Scan again"
+msgstr "Gjennomsøk på nytt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:313
+msgid "Stop"
+msgstr "Stopp"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:311
+msgid "Scanning pages..."
+msgstr "Gjennomsøker sider..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:310
+msgid "Finding pages..."
+msgstr "Finner sider..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:308
+msgid "Scanning completed."
+msgstr "Gjennomsøking fullført."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:307
+msgid "Scanned"
+msgstr "Gjennomsøkt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:63
+#: lite/admin/dist/js/chunk-09cf2808.js:1
+#: lite/admin/dist/js/chunk-1e0144df.js:1
+#: lite/admin/dist/js/chunk-4e6afbb2.js:1
+#: lite/admin/dist/js/chunk-10044bd1.js:1
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+#: lite/admin/dist/js/chunk-d19d03d6.js:1
+#: lite/admin/dist/js/chunk-fc9d5d40.js:1
+msgid "Failed"
+msgstr "Mislykket"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:62
+msgid "Stopped"
+msgstr "Stoppet"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:61
+msgid "Completed"
+msgstr "Fullført"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:60
+msgid "Incomplete"
+msgstr "Ufullstendig"
+
+#: legacy/admin/modules/cookies/cookies.php:811
+msgid "Migrate cookie categories"
+msgstr "Migrer infokapsel-kategorier"
+
+#: legacy/admin/modules/cookies/cookies.php:252
+msgid "Sensitivity"
+msgstr "Sensitivitet"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:70
+#: legacy/admin/modules/cookies/cookies.php:248
+msgid "Cookie Name"
+msgstr "Infokapsel-navn"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:908
+msgid "Delete this website"
+msgstr "Slett dette nettstedet"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:290
+msgid "Connect"
+msgstr "Koble til"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:283
+msgid "Welcome to CookieYes"
+msgstr "Velkommen til CookieYes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:275
+msgid "Send password reset email"
+msgstr "Send e-post for tilbakestilling av passord"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:205
+msgid "Successfully deleted!"
+msgstr "Slettet!"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:182
+msgid "Disconnected from CookieYes"
+msgstr "Koble fra CookieYes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:174
+#: lite/admin/dist/js/chunk-91df1cbe.js:1
+msgid "Disconnect"
+msgstr "Koble fra"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:172
+msgid "Connected to CookieYes"
+msgstr "Koblet til CookieYes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:156
+#: legacy/includes/class-cookie-law-info-cookieyes.php:204
+msgid "Invalid request"
+msgstr "Ugyldig forespørsel"
+
+#: legacy/public/views/cookie-law-info_bar.php:55
+msgid "Powered by"
+msgstr "Drevet av"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:72
+#: legacy/admin/modules/cookies/cookies.php:250
+#: legacy/public/modules/script-blocker/views/settings.php:163
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Category"
+msgstr "Kategori"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:208
+msgid "Scanning initiated successfully"
+msgstr "Gjennomsøking satt i gang."
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:209
+msgid "It might take a few minutes to a few hours to complete the scanning of your website. This depends on the number of pages to scan and the website speed. Once the scanning is complete, we will notify you by email."
+msgstr "Det kan ta fra noen minutter til noen få timer å fullføre gjennomsøkingen av nettstedet ditt. Dette avhenger av antall sider å gjennomsøke og hastigheten til nettstedet. Straks gjennomsøkingen er fullført vil vi varfsle deg på e-post."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:628
+msgid "Your website is currently being scanned for cookies. This might take from a few minutes to a few hours, depending on your website speed and the number of pages to be scanned."
+msgstr "Nettstedet ditt er blir nå gjennomsøkt for infokapsler. Det kan ta fra noen få minutter til noen få timer, avhengig av hastigheten på nettstedte ditt og antall sider som skal gjennomsøkes."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1217
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Scan website for cookies"
+msgstr "Gjennomsøk nettstedet for infokapsler"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1017
+msgid "Failed to insert"
+msgstr "Feil ved innsetting"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1014
+msgid "Successfully inserted"
+msgstr "Satt inn"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:265
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1012
+msgid "Token mismatch"
+msgstr "Sikkerhetsfeil"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:69
+msgid "Sl.No:"
+msgstr "Sl-nr:"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:337
+msgid "Total Cookies found"
+msgstr "Antall infokapsler funnet"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Total URLs scanned"
+msgstr "Antall URL-er gjennomsøkt"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Checking API"
+msgstr "Kontrollerer API-et"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:315
+msgid "Download cookies as CSV"
+msgstr "Last ned infokapslene som CSV"
+
+#: legacy/admin/modules/cookies/cookies.php:253
+msgid "ID"
+msgstr "ID"
+
+#: legacy/admin/modules/cookies/cookies.php:318
+msgid "Cookie Category"
+msgstr "Infokapsel-kategori"
+
+#: legacy/admin/modules/cookies/cookies.php:600
+#: legacy/admin/modules/cookies/cookies.php:625
+msgid "Category default state"
+msgstr "Stanardmodus for kategori"
+
+#: legacy/admin/modules/cookies/cookies.php:320
+msgid "Edit cookie category"
+msgstr "Rediger infokapsel-kategori"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1025
+msgid "Pending email verification!"
+msgstr "Venter på e-postverifisering!"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1023
+msgid "Verification link sent"
+msgstr "Verifikasjonslenke sendt"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:797
+msgid "Successfully connected with Cookieyes"
+msgstr "Koble til Cookieyes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:792
+msgid "Could not identify the action"
+msgstr "Kunne ikke identifisere handlingen"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:789
+msgid "Successfully disconnected with Cookieyes"
+msgstr "Koblet fra Cookieyes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:393
+msgid "Invalid token format"
+msgstr "Ugyldig sikekrhetskodeformat."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:338
+msgid "Email has already verified"
+msgstr "E-posten er allerede verifisert"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:311
+msgid "Invalid credentials"
+msgstr "Ugyldige tillatelser"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:314
+msgid "You already have an account with CookieYes."
+msgstr "Du har allerede en konto på CookieYes."
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:33
+#: lite/admin/dist/js/chunk-8ad1454c.js:1
+#: lite/admin/dist/js/chunk-34d9d3aa.js:1
+msgid "Total cookies"
+msgstr "Infokapsler totalt"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:15
+msgid "Cookie scan result for your website"
+msgstr "Resultat av infokapselgjennomsøking på nettstdet ditt"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:394
+msgid "Abort failed"
+msgstr "Abrytingen mislyktes"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:390
+msgid "Abort successful"
+msgstr "Avbrutt"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:899
+msgid "Delete site data from CookieYes"
+msgstr "Slett nettstedsdata fra CookieYes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:390
+msgid "Invalid json token"
+msgstr "Ugyldig json-adgangstegn"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:335
+msgid "A email verification link has been sent to your email address. Click the link in the email to verify your account"
+msgstr "En e-post med bekreftelseslenke er sendt til e-postadressen din. Klikk på lenken i e-posten for å bekrefte kontoen din"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:332
+msgid "A password reset message has been sent to your email address. Click the link in the email to reset your password"
+msgstr "En melding om tilbakestilling av pasord er sendt til e-postadressen din. Klikk på lenken i e-posten for å tilbakestille passordet ditt."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:329
+msgid "Successfully connected with CookieYes"
+msgstr "Koblet til Cookieyes"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:667
+msgid "Invalid script id"
+msgstr "Ugyldig skript-id"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1182
+msgid "Our cookie scanning solution lets you:"
+msgstr "Vår gjennomsøking etter infokapsler lar deg:"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:1184
+msgid "Discover the first-party and third-party cookies that are being used on your website ( Limited upto 100 pages )."
+msgstr "Oppdag førsteparts og tredjeparts infokapsler som brukes på nettstedet ditt (begrenset til 100 sider)."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:612
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:30
+msgid "Total URLs"
+msgstr "Totalt antall URL-er"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:441
+msgid "Scan your website with CookieYes, our scanning solution for high-speed, accurate cookie scanning"
+msgstr "Gjennomsøk nettstedet ditt med CookieYes, vår løsning for hurtig og nøyaktig infokapsel-gjennomsøking"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "Could not abort the scan, please try again"
+msgstr "Klarte ikke avbryte gjennomsøkingen. Forsøk på nytt."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:338
+msgid "Could not fetch the URLs, please try again"
+msgstr "Kunne ikke hente URL-ene. Forsøk på nytt."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:328
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr "Feil! Last siden på nytt for å se inforkapsel-listen."
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:60
+msgid "Cookie Compliance Made Easy"
+msgstr "Infokapsel-samsvar gjort enkelt"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1074
+msgid "If you did not get the email, click “Reset password” to create a new password."
+msgstr "Om du ikke fikk e-posten, klikk \"Tilbakestill passordet\" for å opprette et nytt passord."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1073
+msgid "Please check if you have received an email with your password from CookieYes."
+msgstr "Kontroller om du har fått en e-post med passordet ditt fra CookieYes."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1067
+msgid "Looks like you already have an account with CookieYes for email id %s, please login to continue."
+msgstr "Det ser ut som du allerede har en konto påp CookieYes for e-post %s. Logg inn for å fortsette."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1012
+msgid "If you didn't receive the email, click <a id='wt-cli-ckyes-email-resend-link' role='button'>here</a> to resend the verification email."
+msgstr "Om du ikke mottok e-posten, klikk <a id='wt-cli-ckyes-email-resend-link' role='button'>her</a> for å sende verifiserings-e-posten på nytt."
+
+#. translators: %s: user email.
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1007
+msgid "We've sent an account verification link to the email address %s. Please click on the link given in email to verify your account with CookieYes."
+msgstr "Vi har sendt deg en verfiseringslenke til e-postadressen %s. Klikk på lenken i e-posten for å verifisere kontoen din på CookieYes."
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:905
+msgid "Do you really want to delete your website from CookieYes"
+msgstr "Vil du virkelig slette nettstedet ditt fra CookieYes"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:326
+msgid "A scanning is already in progress please try again after some time"
+msgstr "En gjennomsøking er allerede i gang så forsøk på nytt om litt"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:323
+msgid "Your monthly scan limit is reached please try again later"
+msgstr "Den månedlige begrensningen på gjennsomsøking er nådd så forsøk på nytt senere"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:320
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr "Kobket fra CookieYes, koble til og gjennomsøk på nytt"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:317
+msgid "License is not activated, please activate your license and try again"
+msgstr "Lisensen er ikke aktivert, aktiver lisensen din og forsøk på nytt"
+
+#: legacy/admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Revurder samtykke"
+
+#: legacy/admin/views/admin-settings-messagebar.php:161
+msgid "Enable revisit consent widget"
+msgstr "Slå på widget for revurdering av samtykke"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:150
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:254
+msgid "Privacy Policy"
+msgstr "Personvernerklæring"
+
+#: legacy/admin/views/admin-settings-messagebar.php:203
+msgid "From Right Margin"
+msgstr "Fra høyre kant"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:67
+msgid "Translation issues"
+msgstr "Oversettelsesproblemer"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:91
+msgid "Upgrade to pro"
+msgstr "Oppgrader til Pro"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:71
+msgid "Incorrect/missing translation"
+msgstr "Uriktig/manglende oversettelse"
+
+#: legacy/public/modules/script-blocker/views/settings.php:197
+#: lite/admin/dist/js/chunk-8ad1454c.js:1
+#: lite/admin/dist/js/chunk-34d9d3aa.js:1
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:261
+#: legacy/public/modules/script-blocker/views/settings.php:7
+msgid "Disable"
+msgstr "Slå av"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:260
+#: legacy/public/modules/script-blocker/views/settings.php:7
+msgid "Enable"
+msgstr "Slå på"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:52
+#: lite/admin/modules/review-feedback/class-review-feedback.php:85
+#: lite/admin/dist/js/app.js:1
+msgid "Remind me later"
+msgstr "Påminn meg senere"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:54
+#: lite/admin/modules/review-feedback/class-review-feedback.php:84
+#: lite/admin/dist/js/app.js:1
+msgid "Review now"
+msgstr "Omtal nå"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:35
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:49
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:33
+#: lite/admin/dist/js/app.js:1
+msgid "Title"
+msgstr "Tittel"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:48
+msgid "Cookie bar is currently inactive"
+msgstr "Infokapsel-linjen er ikke aktiv nå"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:40
+msgid "Cookie bar is currently active"
+msgstr "Infokapsel-linjen er aktiv nå"
+
+#: legacy/public/modules/script-blocker/views/settings.php:160
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Name"
+msgstr "Navn"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:230
+msgid "Status updated"
+msgstr "Status oppdatert"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:53
+msgid "Not interested"
+msgstr "Ikke interessert"
+
+#: legacy/public/modules/script-blocker/views/settings.php:161
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr "Slått av: Utvidelser vil bli gjengitt før innhenting av samtykke."
+
+#: legacy/public/modules/script-blocker/views/settings.php:161
+msgid "Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr "Slått på: Utvidelser vil som standard bli blokkert før innhenting av samtykke."
+
+#: legacy/public/modules/script-blocker/views/settings.php:9
+msgid "Script blocker is enabled."
+msgstr "Skriptblokkering er slått på."
+
+#: legacy/public/modules/script-blocker/views/settings.php:120
+msgid "Manage Script Blocking"
+msgstr "Behandle skriptblokkering"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:203
+#: legacy/public/modules/script-blocker/script-blocker.php:204
+msgid "Script Blocker"
+msgstr "Skriptblokkering"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:258
+msgid "Advanced script rendering"
+msgstr "Avansert skriptgjengivelse"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:158
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:259
+msgid "Submit & Deactivate"
+msgstr "Send inn og deaktiver"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:157
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:263
+msgid "Go to support"
+msgstr "Gå til brukerstøtte"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:160
+msgid "I rather wouldn't say"
+msgstr "Jeg vil helst ike si det"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:119
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Om du har et øyeblikk, vennligst la oss få vite hvorfor du deaktiverer:"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:40
+msgid "The plugin didn't work as expected"
+msgstr "Utvidelsen virket ikke som forventet"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:87
+msgid "Which plugin?"
+msgstr "Hvilken utvidelse?"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:85
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:153
+msgid "I found a better plugin"
+msgstr "Jeg fant en bedre utvidelse"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:57
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:143
+msgid "Could you tell us more about that feature?"
+msgstr "Vil du fortelle oss mer om den funksjonen?"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:55
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:139
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Utvidelsen er bra, men jeg trenger en bestemt funksjon dere ikke støtter"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:61
+msgid "A conflict with another plugin or theme"
+msgstr "En konflikt med en annen utvidelse eller tema"
+
+#: legacy/admin/modules/ccpa/ccpa.php:105
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:324
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:159
+#: lite/admin/dist/js/chunk-09cf2808.js:1
+#: lite/admin/dist/js/chunk-1e0144df.js:1
+#: lite/admin/dist/js/chunk-4e6afbb2.js:1
+#: lite/admin/dist/js/chunk-91df1cbe.js:1
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bac749f6.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+#: lite/admin/dist/js/chunk-d19d03d6.js:1
+#: lite/admin/dist/js/chunk-fc9d5d40.js:1
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: legacy/admin/modules/ccpa/ccpa.php:104
+msgid "Confirm"
+msgstr "Bekreft"
+
+#: legacy/admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Slå infokapsel-linje"
+
+#: legacy/admin/modules/ccpa/views/ccpa_settings.php:9
+msgid "Enable CCPA ?"
+msgstr "Slå på CCPA ?"
+
+#: legacy/admin/modules/ccpa/ccpa.php:145
+msgid "Select the type of law"
+msgstr "Velg type forordning"
+
+#: legacy/admin/views/admin-settings-messagebar.php:92
+msgid "Position:"
+msgstr "Posisjon:"
+
+#: legacy/admin/views/admin-settings-messagebar.php:62
+msgid "Show cookie bar as"
+msgstr "Vis inforkapsel-linjen som"
+
+#: legacy/admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Infokapsel-linje"
+
+#: legacy/admin/views/admin-settings-buttons.php:353
+#: lite/admin/dist/js/app.js:1
+msgid "Checkbox"
+msgstr "Avhukingsboks"
+
+#: legacy/admin/views/admin-settings-buttons.php:344
+msgid "CCPA Text"
+msgstr "CCPA-tekst"
+
+#: legacy/admin/modules/ccpa/views/ccpa_settings.php:6
+msgid "CCPA Settings"
+msgstr "CPPA-innstillinger"
+
+#: legacy/admin/modules/ccpa/ccpa.php:157
+msgid "CCPA & GDPR"
+msgstr "CCPA og GDPR"
+
+#: legacy/admin/modules/ccpa/ccpa.php:153
+msgid "CCPA"
+msgstr "CCPA"
+
+#: legacy/admin/modules/ccpa/ccpa.php:149
+msgid "GDPR"
+msgstr "GDPR"
+
+#: legacy/public/modules/shortcode/shortcode.php:514
+msgid "Close and Accept"
+msgstr "Lukk og godta"
+
+#: legacy/public/modules/shortcode/shortcode.php:514
+msgid "Close the cookie bar"
+msgstr "Lukk infokapsel-linjen"
+
+#: legacy/public/views/cookie-law-info_bar.php:34
+msgid "Close"
+msgstr "Lukk"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:39
+msgid "Default state"
+msgstr "Standardtilstand"
+
+#: legacy/admin/modules/cookies/cookies.php:603
+#: legacy/admin/modules/cookies/cookies.php:629
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:43
+msgid "If you enable this option, the category toggle button will be in the active state for cookie consent."
+msgstr "Hvis du aktiverer dette alternativet, vil kategorivekslingsknappen være i aktiv tilstand for infokapsel-samtykke."
+
+#: legacy/public/views/cookie-law-info_popup_content.php:8
+msgid "Show less"
+msgstr "Vis mindre"
+
+#: legacy/public/views/cookie-law-info_popup_content.php:8
+msgid "Show more"
+msgstr "Vis mer"
+
+#: legacy/admin/modules/cookies/cookies.php:404
+#: legacy/admin/modules/cookies/cookies.php:405
+#: legacy/public/modules/script-blocker/views/settings.php:196
+msgid "Non-necessary"
+msgstr "Ikke nødvendig"
+
+#: legacy/admin/modules/cookies/cookies.php:412
+#: legacy/admin/modules/cookies/cookies.php:413
+#: lite/admin/dist/js/chunk-bac749f6.js:1
+msgid "Necessary"
+msgstr "Nødvendig"
+
+#: legacy/admin/views/admin-settings-buttons.php:13
+#: legacy/admin/views/admin-settings-buttons.php:176
+msgid "Settings Button"
+msgstr "Innstillinger-knapp"
+
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:66
+msgid "Save Settings"
+msgstr "Lagre innstillinger"
+
+#: legacy/admin/class-cookie-law-info-admin.php:461
+msgid "Verdana"
+msgstr "Verdana"
+
+#: legacy/admin/class-cookie-law-info-admin.php:457
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: legacy/admin/class-cookie-law-info-admin.php:453
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: legacy/admin/class-cookie-law-info-admin.php:449
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: legacy/admin/class-cookie-law-info-admin.php:445
+msgid "Lucida"
+msgstr "Lucida"
+
+#: legacy/admin/class-cookie-law-info-admin.php:441
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: legacy/admin/class-cookie-law-info-admin.php:437
+msgid "Georgia, serif"
+msgstr "Helvetica"
+
+#: legacy/admin/class-cookie-law-info-admin.php:433
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: legacy/admin/class-cookie-law-info-admin.php:429
+msgid "Arial"
+msgstr "Arial"
+
+#: legacy/admin/class-cookie-law-info-admin.php:425
+msgid "Serif"
+msgstr "Serif"
+
+#: legacy/admin/class-cookie-law-info-admin.php:421
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: legacy/admin/class-cookie-law-info-admin.php:403
+msgid "Small"
+msgstr "Liten"
+
+#: legacy/admin/class-cookie-law-info-admin.php:395
+msgid "Large"
+msgstr "Stor"
+
+#: legacy/admin/class-cookie-law-info-admin.php:391
+msgid "Extra Large"
+msgstr "Ekstra Stor"
+
+#: legacy/admin/modules/cookies/cookies.php:182
+msgid "Cookie Sensitivity"
+msgstr "Cookie-følsomhet"
+
+#: legacy/admin/modules/cookies/cookies.php:180
+msgid "Cookie Type"
+msgstr "Cookie-type"
+
+#: legacy/admin/class-cookie-law-info-admin.php:196
+#: legacy/admin/class-cookie-law-info-admin.php:197
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:25
+msgid "Privacy Overview"
+msgstr "Personvernoversikt"
+
+#: legacy/admin/views/admin-settings-help.php:30
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "Dette er kortkoden for inforkapsel-innstillingsknappen."
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:26
+msgid "Necessary Cookie Settings"
+msgstr "Nødvendige infokapsel-innstillinger"
+
+#: legacy/admin/modules/cookies/cookies.php:602
+#: legacy/admin/modules/cookies/cookies.php:628
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:41
+#: legacy/public/views/cookie-law-info_popup_content.php:7
+msgid "Disabled"
+msgstr "Slått av"
+
+#: legacy/admin/modules/cookies/cookies.php:601
+#: legacy/admin/modules/cookies/cookies.php:627
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:40
+#: legacy/public/modules/script-blocker/views/settings.php:161
+#: legacy/public/views/cookie-law-info_popup_content.php:6
+msgid "Enabled"
+msgstr "Slått på"
+
+#: legacy/public/views/cookie-law-info_popup_content.php:5
+msgid "Always Enabled"
+msgstr "Alltid slått på"
+
+#: legacy/admin/class-cookie-law-info-admin.php:417
+msgid "Default theme font"
+msgstr "Standard temaskrift"
+
+#: legacy/admin/class-cookie-law-info-admin.php:399
+msgid "Medium"
+msgstr "Middels"
+
+#: legacy/public/modules/shortcode/shortcode.php:100
+msgid "Manage your consent."
+msgstr "Administrer ditt samtykke."
+
+#: legacy/public/modules/shortcode/shortcode.php:98
+msgid "No consent given."
+msgstr "Ingen samtykke gitt."
+
+#: legacy/public/modules/shortcode/shortcode.php:94
+msgid "Consent rejected."
+msgstr "Samtykke avvist."
+
+#: legacy/public/modules/shortcode/shortcode.php:92
+msgid "Consent accepted."
+msgstr "Samtykke akseptert."
+
+#: legacy/public/modules/shortcode/shortcode.php:89
+msgid "Your current state:"
+msgstr "Din nåværende tilstand:"
+
+#: legacy/admin/views/admin-settings-help.php:83
+msgid "Will print all columns by default."
+msgstr "Skriver ut alle kolonnene som standard."
+
+#: legacy/admin/views/admin-settings-help.php:83
+msgid "Columns available"
+msgstr "Kolonner tilgjengelig"
+
+#: legacy/admin/views/admin-settings-help.php:81
+msgid "Styles included"
+msgstr "Stiler inkludert"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid "here"
+msgstr "her"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid "Click"
+msgstr "Klikk"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:96
+msgid "Live preview"
+msgstr "Live forhåndsvisning"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:51
+msgid "Heading"
+msgstr "Overskrift"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:92
+msgid "Create Cookie Policy page"
+msgstr "Lag siden for infokapsel-erklæring"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:86
+msgid "Update existing Cookie Policy page"
+msgstr "Oppdater eksisterende side for infokapsel-erklæring"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid " to generate content for Cookie Policy page."
+msgstr "for å generere innhold for siden med infokapsel-erklæring."
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Infokapsel-erklæring"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:47
+msgid "Add new"
+msgstr "Legg til ny"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: lite/admin/dist/js/chunk-09cf2808.js:1
+#: lite/admin/dist/js/chunk-1e0144df.js:1
+#: lite/admin/dist/js/chunk-4e6afbb2.js:1
+#: lite/admin/dist/js/chunk-10044bd1.js:1
+#: lite/admin/dist/js/chunk-bac749f6.js:1
+#: lite/admin/dist/js/chunk-d19d03d6.js:1
+#: lite/admin/dist/js/chunk-fc9d5d40.js:1
+msgid "Delete"
+msgstr "Slett"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Eksempelinnhold"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Eksempeloverskrift"
+
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:123
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:332
+msgid "Success"
+msgstr "Vellykket"
+
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:97
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:98
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Policy generator"
+msgstr "Erklæringsgenerator"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-preview-page.php:81
+msgid "Auto reload preview"
+msgstr "Automatisk oppdater forhåndsvisning"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:132
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:122
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:312
+msgid "Error"
+msgstr "Feil"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:23
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:29
+msgid "Unable to handle your request."
+msgstr "Kunne ikke behandle din forespørsel."
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:71
+msgid "Enabling this option will help us spread the word by placing a credit to CookieYes at the very end of the Cookie Policy page."
+msgstr "Å aktivere dette alternativet vil hjelpe oss med å spre ordet ved å gi en kreditering til CookieYes helt på slutten av siden for infokapsel-erklæringen."
+
+#: legacy/admin/views/admin-settings-help.php:36
+msgid "Setup margin for above buttons"
+msgstr "Sett opp avstanden for knappene over"
+
+#: legacy/admin/views/admin-settings-messagebar.php:196
+msgid "Top Left"
+msgstr "Topp venstre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:193
+msgid "Top Right"
+msgstr "Topp høyre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:190
+msgid "Bottom Left"
+msgstr "Bunn venstre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:187
+msgid "Bottom Right"
+msgstr "Bunn høyre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:73
+#: lite/admin/dist/js/app.js:1
+msgid "Position"
+msgstr "Posisjon"
+
+#: legacy/admin/views/admin-settings-messagebar.php:69
+msgid "Widget"
+msgstr "Widget"
+
+#: legacy/admin/views/admin-settings-messagebar.php:68
+#: lite/admin/dist/js/app.js:1
+msgid "Popup"
+msgstr "Sprettopp"
+
+#: legacy/admin/views/admin-settings-messagebar.php:67
+#: lite/admin/dist/js/app.js:1
+msgid "Banner"
+msgstr "Banner"
+
+#: legacy/admin/views/admin-settings-buttons.php:277
+msgid "URL or Page?"
+msgstr "URL eller side?"
+
+#: legacy/admin/views/admin-settings-buttons.php:315
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr "Den valgte siden eksisterer ikke. Vennligst velg en ny side."
+
+#: legacy/admin/views/admin-settings-buttons.php:281
+#: legacy/admin/views/admin-settings-buttons.php:292
+msgid "Page"
+msgstr "Side"
+
+#: legacy/admin/views/admin-settings-buttons.php:295
+msgid "Select One"
+msgstr "Velg én"
+
+#: legacy/admin/views/admin-settings-buttons.php:330
+msgid "Open in a new window"
+msgstr "Åpne i nytt vindu"
+
+#: legacy/admin/views/admin-settings-help.php:95
+msgid "Add content after accepting the cookie notice."
+msgstr "Legg til innhold etter at infokapselmerknaden er godtatt"
+
+#: legacy/public/modules/shortcode/shortcode.php:135
+msgid "Delete Cookies"
+msgstr "Slett infokapsler"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:53
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:84
+#: legacy/admin/views/admin-settings-save-button.php:11
+msgid "Update Settings"
+msgstr "Oppdater innstillinger"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:34
+#: legacy/admin/views/admin-settings-buttons.php:76
+#: legacy/admin/views/admin-settings-buttons.php:162
+#: legacy/admin/views/admin-settings-buttons.php:326
+#: legacy/admin/views/admin-settings-buttons.php:333
+#: legacy/admin/views/admin-settings-buttons.php:424
+#: legacy/admin/views/admin-settings-general.php:39
+#: legacy/admin/views/admin-settings-general.php:55
+#: legacy/admin/views/admin-settings-general.php:72
+#: legacy/admin/views/admin-settings-general.php:80
+#: legacy/admin/views/admin-settings-general.php:87
+#: legacy/admin/views/admin-settings-messagebar.php:86
+#: legacy/public/modules/script-blocker/views/settings.php:159
+msgid "No"
+msgstr "Nei"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:33
+#: legacy/admin/views/admin-settings-buttons.php:74
+#: legacy/admin/views/admin-settings-buttons.php:161
+#: legacy/admin/views/admin-settings-buttons.php:325
+#: legacy/admin/views/admin-settings-buttons.php:332
+#: legacy/admin/views/admin-settings-buttons.php:422
+#: legacy/admin/views/admin-settings-general.php:38
+#: legacy/admin/views/admin-settings-general.php:54
+#: legacy/admin/views/admin-settings-general.php:71
+#: legacy/admin/views/admin-settings-general.php:79
+#: legacy/admin/views/admin-settings-general.php:86
+#: legacy/admin/views/admin-settings-messagebar.php:85
+msgid "Yes"
+msgstr "Ja"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:20
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:17
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Settings updated."
+msgstr "Innstillinger oppdatert."
+
+#: legacy/admin/views/admin-settings-help.php:119
+msgid "Contact Us"
+msgstr "Kontakt oss"
+
+#: legacy/admin/views/admin-settings-general.php:20
+msgid "Off"
+msgstr "Av"
+
+#: legacy/admin/views/admin-settings-general.php:19
+msgid "On"
+msgstr "På"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:99
+#: legacy/admin/views/admin-settings-general.php:10
+#: legacy/admin/views/admin-settings-general.php:66
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:181
+msgid "Other"
+msgstr "Andre"
+
+#: legacy/admin/views/admin-settings-buttons.php:428
+msgid "Size"
+msgstr "Størrelse"
+
+#: legacy/admin/views/admin-settings-buttons.php:64
+#: legacy/admin/views/admin-settings-buttons.php:151
+#: legacy/admin/views/admin-settings-buttons.php:279
+#: legacy/admin/views/admin-settings-buttons.php:286
+#: legacy/admin/views/admin-settings-buttons.php:412
+#: lite/admin/dist/js/app.js:1
+msgid "URL"
+msgstr "URL"
+
+#: legacy/admin/views/admin-settings-buttons.php:47
+#: legacy/admin/views/admin-settings-buttons.php:131
+#: legacy/admin/views/admin-settings-buttons.php:212
+#: legacy/admin/views/admin-settings-buttons.php:268
+#: legacy/admin/views/admin-settings-buttons.php:396
+msgid "Background colour"
+msgstr "Bakgrunnsfarge"
+
+#: legacy/admin/views/admin-settings-buttons.php:43
+#: legacy/admin/views/admin-settings-buttons.php:127
+#: legacy/admin/views/admin-settings-buttons.php:208
+#: legacy/admin/views/admin-settings-buttons.php:264
+#: legacy/admin/views/admin-settings-buttons.php:352
+#: legacy/admin/views/admin-settings-buttons.php:392
+msgid "Link"
+msgstr "Lenke"
+
+#: legacy/admin/views/admin-settings-buttons.php:41
+#: legacy/admin/views/admin-settings-buttons.php:125
+#: legacy/admin/views/admin-settings-buttons.php:206
+#: legacy/admin/views/admin-settings-buttons.php:262
+#: legacy/admin/views/admin-settings-buttons.php:390
+msgid "Button"
+msgstr "Knapp"
+
+#: legacy/admin/views/admin-settings-buttons.php:39
+#: legacy/admin/views/admin-settings-buttons.php:123
+#: legacy/admin/views/admin-settings-buttons.php:204
+#: legacy/admin/views/admin-settings-buttons.php:260
+#: legacy/admin/views/admin-settings-buttons.php:350
+#: legacy/admin/views/admin-settings-buttons.php:388
+msgid "Show as"
+msgstr "Vis som"
+
+#: legacy/admin/views/admin-settings-buttons.php:31
+#: legacy/admin/views/admin-settings-buttons.php:115
+#: legacy/admin/views/admin-settings-buttons.php:196
+#: legacy/admin/views/admin-settings-buttons.php:252
+#: legacy/admin/views/admin-settings-buttons.php:360
+#: legacy/admin/views/admin-settings-buttons.php:380
+msgid "Text colour"
+msgstr "Tekstfarge"
+
+#: legacy/admin/views/admin-settings-buttons.php:25
+#: legacy/admin/views/admin-settings-buttons.php:109
+#: legacy/admin/views/admin-settings-buttons.php:190
+#: legacy/admin/views/admin-settings-buttons.php:246
+#: legacy/admin/views/admin-settings-buttons.php:374
+#: lite/admin/dist/js/app.js:1
+msgid "Text"
+msgstr "Tekst"
+
+#: legacy/admin/views/admin-settings-advanced.php:15
+msgid "Delete settings and reset"
+msgstr "Slett instillinger og tilbakestill"
+
+#: legacy/admin/views/admin-settings-general.php:46
+msgid "seconds"
+msgstr "sekunder"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:71
+#: legacy/admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "Generelt"
+
+#: legacy/admin/views/admin-settings-help.php:108
+#: legacy/admin/views/admin-settings-help.php:111
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: legacy/admin/views/admin-settings-help.php:33
+msgid "This is the \"read more\" link you customise above."
+msgstr "Dette er \"les mer\"-lenken du tilpasser ovenfor."
+
+#: legacy/admin/views/admin-settings-help.php:22
+msgid "This is the \"main button\" you customise above."
+msgstr "Dette er \"hovedknappen\" du tilpasser ovenfor"
+
+#: legacy/admin/views/admin-settings-help.php:10
+#: legacy/admin/views/admin-settings-help.php:104
+msgid "Help Links"
+msgstr "Hjelpelenker"
+
+#: legacy/admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Kortkoder"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:75
+msgid "Help Guide"
+msgstr "Hjelpeveiledning"
+
+#: legacy/admin/modules/cookies/cookies.php:122
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:72
+msgid "Customise Cookie Bar"
+msgstr "Tilpass infokapsel-linjen"
+
+#: legacy/admin/views/admin-settings-messagebar.php:83
+msgid "Add overlay?"
+msgstr "Legge til overlegg?"
+
+#: legacy/admin/views/admin-settings-messagebar.php:17
+msgid "Message Heading"
+msgstr "Meldingsoverskrift"
+
+#: legacy/admin/views/admin-settings-help.php:109
+msgid "Refer to our documentation to set and get started"
+msgstr "Se vår dokumentasjon for å sette opp og komme i gang"
+
+#: legacy/admin/class-cookie-law-info-admin.php:265
+#: lite/admin/class-admin.php:578 lite/admin/dist/js/app.js:1
+msgid "Support"
+msgstr "Brukerstøtte"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Settings reset to defaults."
+msgstr "Innstillingene tilbakestilt til standardverdier."
+
+#: legacy/admin/views/admin-settings-general.php:36
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "Auto-skjul (godta) infokapsel-linjen etter en forsinkelse?"
+
+#: legacy/admin/views/admin-settings-general.php:84
+msgid "Reload after Reject button click"
+msgstr "Last på nytt etter klikk å Avvis-knappen"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:21
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:18
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Unable to update Settings."
+msgstr "Kunne ikke oppdatere innstillngene."
+
+#: legacy/admin/views/admin-settings-general.php:52
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr "Skjul automatisk infokapsel-linjen om brukeren skroller (godta ved skrolling)?"
+
+#: legacy/admin/views/admin-settings-general.php:77
+msgid "Reload after Accept button click"
+msgstr "Last på nytt etter klikk å Godta-knappen"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:55
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:73
+#: legacy/admin/modules/cookies/cookies.php:254
+#: legacy/admin/modules/cookies/views/necessary-settings.php:41
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:55
+#: legacy/public/modules/script-blocker/views/settings.php:165
+#: legacy/public/modules/shortcode/shortcode.php:239
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: legacy/admin/modules/cookies/cookies.php:121
+#: legacy/public/modules/shortcode/shortcode.php:230
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Cookie"
+msgstr "Infokapsel"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:74
+#: legacy/admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Avansert"
+
+#: legacy/admin/class-cookie-law-info-admin.php:188
+#: legacy/admin/class-cookie-law-info-admin.php:189
+#: legacy/admin/class-cookie-law-info-admin.php:264
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:31
+#: lite/admin/class-admin.php:579
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: legacy/admin/class-cookie-law-info-admin.php:258
+#: legacy/admin/class-cookie-law-info-admin.php:297
+#: legacy/admin/modules/cookies/cookies.php:779
+msgid "Settings Updated."
+msgstr "Innstillinger oppdatert."
+
+#: legacy/admin/modules/cookies/cookies.php:179
+#: legacy/admin/modules/cookies/cookies.php:190
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Cookie ID"
+msgstr "Infokapsel-id"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:71
+#: legacy/admin/modules/cookies/cookies.php:251
+#: legacy/public/modules/shortcode/shortcode.php:236
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Duration"
+msgstr "Varighet"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:32
+msgid "Enable Non-necessary Cookie"
+msgstr "Slå på ikke-nødvendig infokapsel"
+
+#: legacy/admin/modules/cookies/cookies.php:120 lite/admin/dist/js/app.js:1
+#: lite/admin/dist/js/chunk-36647818.js:1
+#: lite/admin/dist/js/chunk-bdc06ad6.js:1
+msgid "Cookie List"
+msgstr "Infokapseloversikt"
+
+#: legacy/admin/views/admin-settings-help.php:116
+msgid "Help and Support"
+msgstr "Hjelp og brukerstøtte"
+
+#: legacy/admin/views/admin-settings-help.php:65
+msgid "Other shortcodes"
+msgstr "Andre kortkoder"
+
+#: legacy/admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Kortkoder på infokapsellinjen"
+
+#: legacy/admin/views/admin-settings-buttons.php:56
+#: legacy/admin/views/admin-settings-buttons.php:139
+#: legacy/admin/views/admin-settings-buttons.php:404
+msgid "Action"
+msgstr "Handling"
+
+#: legacy/admin/views/admin-settings-buttons.php:11
+#: legacy/admin/views/admin-settings-buttons.php:21
+msgid "Accept Button"
+msgstr "Godkjenn-knapp"
+
+#: legacy/admin/views/admin-settings-buttons.php:12
+#: legacy/admin/views/admin-settings-buttons.php:94
+msgid "Reject Button"
+msgstr "Avvis-knapp"
+
+#: legacy/admin/views/admin-settings-buttons.php:83
+#: legacy/admin/views/admin-settings-buttons.php:166
+msgid "Button Size"
+msgstr "Knappestørrelse"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:73
+msgid "Customise Buttons"
+msgstr "Tilpass knappene"
+
+#: legacy/admin/modules/cookies/cookies.php:123
+msgid "Add New Cookie Type"
+msgstr "Legg til ny infokapsel-type"
+
+#: legacy/admin/modules/cookies/cookies.php:119
+msgid "GDPR Cookie Consent"
+msgstr "GDPR infokapsel-samtykke"
+
+#: legacy/admin/class-cookie-law-info-admin.php:239
+#: legacy/admin/class-cookie-law-info-admin.php:275
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:19
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:24
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:289
+#: legacy/admin/modules/cookies/cookies.php:730
+#: legacy/admin/modules/cookies/cookies.php:743
+#: legacy/includes/class-cookie-law-info-cookieyes.php:126
+#: legacy/includes/class-cookie-law-info-cookieyes.php:922
+#: legacy/public/modules/script-blocker/script-blocker.php:180
+#: legacy/public/modules/script-blocker/script-blocker.php:221
+#: legacy/public/modules/script-blocker/script-blocker.php:354
+#: legacy/public/modules/script-blocker/script-blocker.php:669
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Du har ikke tilstrekkelige tillatelser til å utføre denne handlingen"
+
+#: legacy/admin/modules/cookies/cookies.php:125
+msgid "New Cookie Type"
+msgstr "Ny infokapsel-type"
+
+#: legacy/admin/views/admin-settings-messagebar.php:25
+#: lite/admin/dist/js/app.js:1
+msgid "Message"
+msgstr "Melding"
+
+#: legacy/admin/views/admin-settings-messagebar.php:54
+msgid "Font"
+msgstr "Skrift"
+
+#: legacy/admin/views/admin-settings-messagebar.php:45
+msgid "Text Colour"
+msgstr "Tekstfarge"
+
+#: legacy/admin/views/admin-settings-messagebar.php:35
+msgid "Cookie Bar Colour"
+msgstr "Farge på infokapsel-linjen"
+
+#: legacy/admin/views/admin-settings-messagebar.php:77
+#: legacy/admin/views/admin-settings-messagebar.php:175
+#: lite/admin/dist/js/app.js:1
+msgid "Left"
+msgstr "Venstre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:78
+#: legacy/admin/views/admin-settings-messagebar.php:174
+#: lite/admin/dist/js/app.js:1
+msgid "Right"
+msgstr "Høyre"
+
+#: legacy/admin/views/admin-settings-messagebar.php:180
+msgid "Tab Position"
+msgstr "Faneplassering"
+
+#: legacy/admin/views/admin-settings-messagebar.php:132
+msgid "On hide"
+msgstr "Ved skjul"
+
+#: legacy/admin/views/admin-settings-messagebar.php:128
+#: legacy/admin/views/admin-settings-messagebar.php:138
+msgid "Sticky"
+msgstr "Klebrig"
+
+#: legacy/admin/views/admin-settings-messagebar.php:127
+#: legacy/admin/views/admin-settings-messagebar.php:137
+msgid "Animate"
+msgstr "Animer"
+
+#: legacy/admin/views/admin-settings-messagebar.php:122
+msgid "On load"
+msgstr "Ved innlasting"
+
+#: legacy/admin/views/admin-settings-messagebar.php:98
+msgid "Footer"
+msgstr "Sidebunn"
+
+#: legacy/admin/views/admin-settings-messagebar.php:97
+msgid "Header"
+msgstr "Sidetopp"
+
+#: legacy/admin/modules/cookies/cookies.php:181
+msgid "Cookie Duration"
+msgstr "Infokapsel-varigeht"
+
+#: legacy/admin/modules/cookies/cookies.php:249
+#: legacy/public/modules/shortcode/shortcode.php:233
+msgid "Type"
+msgstr "Type"
+
+#: legacy/admin/modules/cookies/cookies.php:224
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Infokapsel-sensitivitet (nødvendig, ikke-nødvendig)"
+
+#: legacy/admin/modules/cookies/cookies.php:201
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Infokapsel-type (vedvarende, sesjon, tredjeparts)"
+
+#: legacy/admin/modules/cookies/cookies.php:129
+msgid "Nothing found in Trash"
+msgstr "Intet funnet i papirkurven"
+
+#: legacy/admin/modules/cookies/cookies.php:128
+msgid "Nothing found"
+msgstr "Intet funnet"
+
+#: legacy/admin/modules/cookies/cookies.php:127
+msgid "Search Cookies"
+msgstr "Søk infokapsler"
+
+#: legacy/admin/modules/cookies/cookies.php:126
+msgid "View Cookie Type"
+msgstr "Se infokapsel-type"
+
+#: legacy/admin/modules/cookies/cookies.php:124
+msgid "Edit Cookie Type"
+msgstr "Rediger infokapsel-type"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:23
+msgid "Non-necessary Cookie Settings"
+msgstr "Innstillinger fot ikke-nødvendige infokapsler"
+
+#: legacy/admin/views/admin-settings-buttons.php:420
+msgid "Open URL in new window?"
+msgstr "Åpne URL i nytt vindu?"
+
+#: legacy/admin/views/admin-settings-general.php:69
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Last på nytt etter \"scroll accept\"-hendelsen?"
+
+#: legacy/admin/views/admin-settings-general.php:46
+msgid "Specify milliseconds (not seconds)"
+msgstr "Angi millisekunder (ikke sekunder)"
+
+#: legacy/admin/views/admin-settings-general.php:43
+msgid "Milliseconds until hidden"
+msgstr "Millisekunder til skjult"
+
+#: legacy/admin/views/admin-settings-messagebar.php:203
+msgid "From Left Margin"
+msgstr "Fra venstre kant"
+
+#. Description of the plugin
+#: cookie-law-info.php
+msgid "A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr "En enkel måte å vise om nettstedet ditt samsvarer med EUs infokapselforordning / GDPR."
+
+#: legacy/admin/views/admin-settings-help.php:91
+msgid "Add any text you like- useful if you want e.g. another language to English."
+msgstr "Legg til ønsket tekst - nyttig om du f.eks ønsker et annet språk en engelssk."
+
+#: legacy/admin/views/admin-settings-help.php:72
+msgid "This prints out a nice table of cookies, in line with the guidance given by the ICO."
+msgstr "Dette skriver ut en pen tabell over infokapsler, i tråd med retningslinjene fra ICO."
+
+#: legacy/admin/views/admin-settings-help.php:66
+msgid "These shortcodes can be used in pages and posts on your website. It is not recommended to use these inside the cookie bar itself."
+msgstr "Disse kortkodene kan brukes på sider og i innlegg på nettstedet ditt. Det er ikke anbefalt å bruke disse inne i inforkapsel-linjen selv."
+
+#: legacy/admin/views/admin-settings-buttons.php:371
+msgid "This button/link can be customised to either simply close the cookie bar, or follow a link. You can also customise the colours and styles, and show it as a link or a button."
+msgstr "Denne knappen/lenken kan tilpasses til enten bare å lukke inforkapsel-linjen eller følge en lenke. Du kan også tilpasse fargene og stilene og vise den som en lenke eller en knapp."

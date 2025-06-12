@@ -1,0 +1,32 @@
+// Breakpoints – Only for global use.
+$breakpoints: (
+	small: 480px,
+	medium: 850px,
+	large: 1000px,
+	wide: 1210px
+) !default;
+
+// Colors
+$pink-light: #ede1da;
+$pink-medium: #e4d0c3;
+$pink-dark: #d5b39d;
+
+$green-light: #dfe4d9;
+$green-medium: #cad4c2;
+
+$blue-light: #c7d1d6;
+$blue-medium: #a2b5bd;
+$blue-dark: #2a2e57;
+$blue-darkest: #21134d;
+
+$white: $pink-light;
+$black: $blue-darkest;
+
+// Hamburger plugin
+$hamburger-layer-width         : 3.33rem;
+$hamburger-layer-height        : 2px;
+$hamburger-layer-spacing       : 5px;
+$hamburger-layer-color         : var(--color__white);
+$hamburger-layer-border-radius : 0px;
+$hamburger-padding-y           : 3px;
+$hamburger-padding-x           : 0px;

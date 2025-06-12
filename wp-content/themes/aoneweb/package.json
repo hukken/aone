@@ -1,0 +1,50 @@
+{
+	"name": "aoneweb",
+	"version": "1.0.0",
+	"description": "A-One website",
+	"main": "index.js",
+	"author": "DC",
+	"license": "ISC",
+	"engines": {
+		"npm": ">=8.15.0",
+		"node": ">=16.17.0"
+	},
+	"scripts": {
+		"development": "mix",
+		"dev": "npm run development",
+		"watch": "mix watch",
+		"watch-poll": "mix watch -- --watch-options-poll=1000",
+		"hot": "mix watch --hot",
+		"production": "mix --production",
+		"prod": "npm run production",
+		"build": "npm run production",
+		"lint-js": "eslint assets/js/**/*.js"
+	},
+	"devDependencies": {
+		"@designcontainer/extract-svg-to-font-vars": "^1.0.4",
+		"browser-sync": "^2.27.7",
+		"browser-sync-webpack-plugin": "^2.3.0",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.9.0",
+		"laravel-mix": "^6.0.42",
+		"laravel-mix-versionhash": "2.0.1",
+		"postcss": "^8.4.8",
+		"resolve-url-loader": "^5.0.0",
+		"sass": "^1.33.0",
+		"sass-loader": "12.0.0",
+		"svgtofont": "^3.17.4",
+		"vue-loader": "^17.0.0",
+		"swiper": "^11.1.4",
+		"vue-template-compiler": "^2.6.14",
+		"webpack-cli": "^4.9.2",
+		"webpack-import-glob-loader": "^1.6.3"
+	},
+	"dependencies": {
+		"@material-design-icons/svg": "^0.12.1",
+		"aos": "^3.0.0-beta.6",
+		"hamburgers": "^1.2.1",
+		"mini-css-extract-plugin": "^2.5.3",
+		"plyr": "^3.6.9",
+		"vue": "^3.2.31"
+	}
+}

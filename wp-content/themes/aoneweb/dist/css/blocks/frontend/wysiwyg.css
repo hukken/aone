@@ -1,0 +1,46 @@
+/* 
+ * makes ul/ol as a dropdown select (normaly in mobile)
+ * Structure: div > title > list > li > a
+*/
+/**==================================================================================================================================
+BREAKPOINT
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+.wysiwyg {
+  padding: 5.9375rem 0;
+}
+
+@media print, screen and (min-width: 64em) {
+  .wysiwyg {
+    padding: 7.375rem 0;
+  }
+}
+.wysiwyg__title {
+  margin: 0.9375rem 0;
+}
+
+.wysiwyg .dc-button {
+  margin-top: 3.125rem;
+}

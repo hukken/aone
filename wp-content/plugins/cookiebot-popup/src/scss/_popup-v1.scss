@@ -1,0 +1,274 @@
+/**
+ * OLD POP UP VERSION 1 FALLBACK SUPPORT
+ * This is to support cookiebot version 1.3.2 and below
+ * Using template with dc-class instead of stem-class
+ */
+
+/**
+ * Define popup css variables
+ */
+:root {
+	--old-cb-color-primary: #333333;
+	--old-cb-color-secondary: #f6f6f6;
+	--old-cb-color-teritary: #b8b8b8;
+
+	--old-cb-color-text: var(--old-cb-color-primary);
+	--old-cb-color-bg: #ffffff;
+	--old-cb-color-success: #4daf50;
+	--old-cb-color-overlay: 51, 51, 51;
+
+	--old-cb-radius: #{em-calc(4)};
+	--old-cb-padding: #{em-calc(36)};
+}
+
+/**
+ * Main popup styles.
+ */
+.dc-cookiebot-popup {
+	z-index: 999999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: calc(100% - #{em-calc(32)});
+	max-width: em-calc(640);
+	height: auto;
+	max-height: 90vh;
+	border-radius: var(--old-cb-radius);
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: var(--old-cb-color-bg);
+	box-shadow: 0 0 em-calc(99999) em-calc(99999) rgba(var(--old-cb-color-overlay), 0.5);
+	transform: translate(-50%, -50%);
+
+	p {
+		margin-top: 0;
+		margin-bottom: 1em;
+	}
+
+	/**
+	 * Header container.
+	 * This contains the title and text of the popup.
+	 */
+	&__header {
+		padding: var(--old-cb-padding);
+		background-color: var(--old-cb-color-secondary);
+
+		&__title {
+			margin: 0 0 em-calc(16) 0;
+			font-weight: bold;
+			font-size: em-calc(26);
+			color: var(--old-cb-color-text);
+		}
+
+		&__text {
+			font-size: em-calc(16);
+			color: var(--old-cb-color-text);
+		}
+	}
+
+	/**
+	 * Main container.
+	 * This contains the primary call to action buttons.
+	 */
+	&__main {
+		position: relative;
+
+		&__sticky {
+			z-index: 2;
+			position: sticky;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: var(--old-cb-padding);
+			background-color: var(--old-cb-color-bg);
+		}
+
+		&__buttons {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-column-gap: em-calc(20);
+		}
+
+		&__button {
+			all: unset;
+			padding: em-calc(14);
+			border-radius: var(--old-cb-radius);
+			color: var(--old-cb-color-secondary);
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			cursor: pointer;
+			background: var(--old-cb-color-primary);
+			font-weight: bold;
+			@include outline();
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+
+			&--secondary {
+				box-sizing: border-box;
+				border: em-calc(1) solid var(--old-cb-color-primary);
+				color: var(--old-cb-color-text);
+				background: var(--old-cb-color-secondary);
+			}
+		}
+
+		#DcCookiebotListToggle {
+			all: unset;
+			display: block;
+			margin: em-calc(18) auto 0 auto;
+			color: var(--old-cb-color-text);
+			text-decoration: underline;
+			cursor: pointer;
+			@include outline();
+
+			&:hover,
+			&:focus {
+				text-decoration: none;
+			}
+		}
+
+		&__more {
+			padding: var(--old-cb-padding);
+			background-color: var(--old-cb-color-secondary);
+			border-bottom: em-calc(1) solid var(--old-cb-color-teritary);
+			will-change: display, height;
+		}
+
+		&__cookie-list {
+			will-change: display, height;
+
+			&__cat {
+				@media screen and (min-width: 768px) {
+					display: grid;
+					align-items: flex-start;
+					grid-template-columns: 1fr 2fr;
+					grid-column-gap: em-calc(20);
+					grid-template-columns: 1fr 2fr;
+				}
+
+				&__toggle {
+					all: unset;
+					margin-top: em-calc(8);
+					font-weight: bold;
+					cursor: pointer;
+					@include outline();
+
+					&:before {
+						display: inline-block;
+						position: relative;
+						width: em-calc(9);
+						height: em-calc(9);
+						margin-right: em-calc(10);
+						border-right: em-calc(3) solid var(--old-cb-color-primary);
+						border-bottom: em-calc(3) solid var(--old-cb-color-primary);
+						content: '';
+						transition: transform 0.2s ease-in-out;
+						transform: rotate(-45deg);
+					}
+
+					&--active {
+						color: var(--old-cb-color-success);
+
+						&:before {
+							transform: rotate(45deg);
+						}
+					}
+				}
+
+				&__content {
+					overflow-x: auto !important;
+				}
+			}
+		}
+	}
+
+	/**
+	 * Popup toggles.
+	 */
+	&__toggles {
+		display: grid;
+		background: var(--old-cb-color-secondary);
+		grid-template-columns: repeat(4, 25%);
+
+		@media screen and (min-width: 768px) {
+			padding: 0 var(--old-cb-padding);
+		}
+
+		&__toggle {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: em-calc(20) 0;
+			border-right: em-calc(1) solid var(--old-cb-color-teritary);
+			cursor: pointer;
+
+			&:last-child {
+				border: 0;
+			}
+
+			span {
+				display: block;
+				margin-bottom: em-calc(10);
+				color: var(--old-cb-color-text);
+				text-align: center;
+			}
+
+			label {
+				display: block;
+				position: relative;
+				width: em-calc(65);
+				height: em-calc(40);
+				margin-right: 0 !important;
+				margin-left: 0 !important;
+				padding: 0;
+				border-radius: em-calc(420);
+				outline-offset: em-calc(3);
+				cursor: pointer;
+				background-color: var(--old-cb-color-teritary);
+				transition: 0.2s ease-in-out all;
+				transform: scale(0.75);
+
+				@media screen and (min-width: 768px) {
+					transform: scale(1);
+				}
+
+				&:after {
+					position: absolute;
+					top: em-calc(5);
+					left: em-calc(5);
+					width: em-calc(30);
+					height: em-calc(30);
+					border-radius: em-calc(420);
+					content: '';
+					background-color: var(--old-cb-color-bg);
+					transition: inherit;
+				}
+			}
+
+			input[type='checkbox'] {
+				position: absolute;
+				left: -10000px;
+
+				&:checked + label {
+					background-color: var(--old-cb-color-success);
+
+					&:after {
+						left: em-calc(28);
+					}
+				}
+
+				&:focus + label {
+					outline: 1px dashed var(--old-cb-color-primary);
+				}
+
+				&:disabled + label {
+					opacity: 0.2;
+					cursor: not-allowed;
+				}
+			}
+		}
+	}
+}

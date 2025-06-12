@@ -1,0 +1,14 @@
+{
+	"name": "designcontainer/cookiebot-popup",
+	"description": "A GDPR friendly Cookiebot popup.",
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "^1.9"
+	},
+	"authors": [
+		{
+			"name": "Design Container AS",
+			"homepage": "https://designcontainer.no"
+		}
+	]
+}

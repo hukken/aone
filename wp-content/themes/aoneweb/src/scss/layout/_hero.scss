@@ -1,0 +1,138 @@
+#hero {
+	width: 100%;
+	height: 100vh;
+	background-color: #c3c3c3;
+	// overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: rem-calc(70);
+	position: relative;
+	color: var(--color__white);
+	background: #22222b;
+	z-index: 3;
+
+	&::before {
+		@include background-overlay();
+		z-index: 2;
+		background: linear-gradient(180deg, rgba(3, 1, 10, 0.5) 0%, rgba(3, 1, 10, 0.2) 80%, rgba(3, 1, 10, 0.1) 100%);
+	}
+
+	.hero-wrapper {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		z-index: 2;
+
+		& > * {
+			width: 100%;
+		}
+		.hero-content {
+			@include breakpoint( medium, max ) {
+				padding: rem-calc(30);
+			}
+		}
+	}
+
+	.hero-tagline {
+		text-transform: uppercase;
+	}
+
+	.hero-title {
+		text-align: center;
+		width: 100%;
+		// width: rem-calc(600);
+		// span {
+		// 	display: block;
+		// }
+		// @include breakpoint( medium, max ) {
+		// 	width: 85%;
+		// }
+		// @include breakpoint( small, max ) {
+		// 	width: 90%;
+		// }
+	}
+	.hero-text {
+		text-align: center;
+		width: 100%;
+		// @include breakpoint( small, max ) {
+		// 	width: 70%;
+		// }
+		// @include breakpoint( small, max ) {
+		// 	width: 90%;
+		// }
+	}
+	.hero-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+
+		img, video {
+			width: 100%;
+			height: 100%;
+			display: block;
+			object-fit: cover;
+		}
+	}
+
+	.volume-btn {
+		height: 3.5rem;
+		width: 3.5rem;
+		border-radius: 50%;
+		background-color: var(--color__white);
+		z-index: 20;
+		position: absolute;
+		bottom: 4.8em;
+		right: 1.875rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		color: black !important;
+
+
+		span {
+			font-family: icon;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			color: black !important;
+		}	
+	}
+
+	@media screen and ( max-width: 1160px ) {
+		.volume-btn {
+			bottom: 75%;
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+
+	@media screen and ( max-width: 800px ) {
+		padding: rem-calc(70) 3rem;
+	}
+
+	@media screen and ( max-width: 450px ) {
+		.hero-wrapper {
+			padding-top: 4rem;
+		}
+		.volume-btn {
+			bottom: 78%;
+		}
+	}
+}
+
+
+.quick-bug-fix {
+	opacity: 0;
+}

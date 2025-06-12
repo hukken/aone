@@ -1,0 +1,126 @@
+.dc-slideshow {
+	position: relative;
+	z-index: 2;
+
+	.dc-slideshow-reel {
+		display: grid;
+		gap: 1.5rem;
+		grid-auto-flow: column;
+		grid-auto-columns: calc( 33.333333% - 1.5rem);
+		overflow-y: hidden;
+		overflow-x: scroll;
+		overscroll-behavior-inline: contain;
+		scroll-behavior: smooth;
+		scroll-snap-type: inline mandatory;
+		// scroll-padding-inline: 1rem;
+
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+
+		& > * {
+			scroll-snap-align: start;
+		}
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		&.is-scrolling {
+			scroll-snap-type: initial;
+		}
+	}
+
+
+	@media (min-width: 500px) and (max-width: 1000px) {
+		.dc-slideshow-reel {
+			gap: 1rem;
+		}
+	}
+
+	@media( max-width: 780px) {
+		.dc-slideshow-reel {
+			grid-auto-columns: calc( 50% - 1.5rem);
+		}
+	}
+
+
+	@media( max-width: 500px) {
+		.dc-slideshow-reel {
+			grid-auto-columns: calc( 100% - 1.5rem);
+		}
+	}
+}
+
+
+.dc-slideshow-navigation {
+	margin-top: 2.9375rem;
+	display: flex;
+	align-items: center;
+
+	.dc-slideshow-button {
+		background: none;
+		appearance: none;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+
+		& + .dc-slideshow-button {
+			margin-left: 1rem;
+		}
+
+		&:disabled {
+			opacity: 0.2;
+			pointer-events: none;
+		}
+
+		&:hover:not(:disabled) {
+			opacity: 0.7;
+		}
+
+		svg {
+			width: 40px;
+			height: 40px;
+			flex: 0 0 40px;
+
+			// @media ( max-width: 500px ) {
+			// 	flex: 0 0 30px;
+			// }
+		}
+
+
+
+	}
+}
+
+.dc-slideshow-pagination,
+.dc-slideshow-indicators {
+	display: flex;
+	grid-gap: 10px;
+}
+
+.dc-slideshow-indicators {
+	margin-top: 1rem;
+
+	.dc-slideshow-circle {
+		width: 10px;
+		height: 10px;
+		background: #fff;
+		border-radius: 50%;
+		display: block;
+
+		&:not(.active) {
+			opacity: 0.5;
+		}
+	}
+}
+
+
+.dc-slideshow-pagination {
+	margin: 0 10px;
+	grid-gap: 5px;
+}

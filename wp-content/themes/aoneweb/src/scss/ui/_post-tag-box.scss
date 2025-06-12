@@ -1,0 +1,23 @@
+.post-tag-box {
+	background: var(--color__blue-dark);
+	color: var(--color__white);
+	position: absolute;
+	text-transform: uppercase;
+	padding: rem-calc( 29 50 25 );
+	line-height: 1.2;
+
+	&.darker {
+		background: var(--color__blue-darkest);
+		padding: rem-calc( 20 30 17 );
+	}
+
+	&.bottom {
+		bottom: 0;
+		left: 0;
+	}
+
+	&.top {
+		top: 0;
+		right: 0;
+	}
+}

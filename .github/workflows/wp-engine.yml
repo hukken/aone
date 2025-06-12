@@ -1,0 +1,75 @@
+name: Github to WPE deployer
+
+on:
+  push:
+    branches:
+      - master
+      - staging
+      - development
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Get install for deployer by branch
+        id: get_install
+        uses: designcontainer/wpe-install-by-branch@master
+        with:
+          wpe_api_key_pub: ${{ secrets.WPE_API_USERNAME }}
+          wpe_api_key_priv: ${{ secrets.WPE_API_PASSWORD }}
+
+      - name: Add ssh stuff
+        run: |
+          mkdir ~/.ssh/
+          eval `ssh-agent -s` # Start our SSH agent
+          echo "${{ secrets.WPE_SSH_KEY_PRIVATE }}" > ~/.ssh/id_rsa # Add private key
+          echo "${{ secrets.WPE_SSH_KEY_PUBLIC }}" > ~/.ssh/id_rsa.pub # Add public key
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          chmod 644 ~/.ssh/id_rsa.pub
+          ssh-keyscan -t rsa "git.wpengine.com" >> ~/.ssh/known_hosts # Add git server/url to known hosts
+          ssh-keygen -R "${{ steps.get_install.outputs.install }}.ssh.wpengine.net" # Not sure if this is needed :P
+          ssh-add # Not sure if this is needed :P
+
+      - name: Set git stuff
+        run: |
+          git config --global user.email 'tech@designcontainer.no'
+          git config --global user.name 'designcontainer-bot'
+          git config core.sshCommand "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=~/.ssh/known_hosts"
+          git remote add wpe git@git.wpengine.com:production/${{ steps.get_install.outputs.install }}.git
+
+      - name: PHP Lint
+        if: "contains(github.event.head_commit.message, '[php-lint]') "
+        run: |
+          echo "Begin PHP Linting."
+          find ./ -name "*.php" -type f -print0 | while IFS= read -r -d '' file; do
+              php -l "$file"
+              status=$?
+              if [[ $status -ne 0 ]]; then
+                  echo "FAILURE: Linting failed - $file :: $status" && exit 1
+              fi
+          done
+          echo "PHP Lint Successful! No errors detected!"
+
+      - name: Composer update
+        if: "contains(github.event.head_commit.message, '[composer-update]') "
+        run: composer update
+
+      - name: Deploy to WPE
+        run: git push -f wpe
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: dc-github
+          SLACK_COLOR: ${{job.status}}
+          SLACK_ICON: https://github.com/designcontainer.png?size=48
+          SLACK_TITLE: Commit message
+          SLACK_USERNAME: DC Github Bot
+          SLACK_FOOTER: This commit has been deployed to ${{ github.event.repository.name }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          MSG_MINIMAL: commit

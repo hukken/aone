@@ -1,0 +1,19 @@
+/**
+ * This file includes all the common files used between the frontend and the Gutenberg editor.
+ * By including a file here, it will get also be included into app.scss and admin.scss
+ *
+ * Note that the Gutenberg blocks are imported block-by-block,
+ * in the src/blocks directory.
+ */
+
+@import 'vendor/icons';
+@import 'vendor/icons-vars';
+/**
+ * Base files
+ */
+@import 'base/all';
+
+/**
+ * UI files
+ */
+@import 'ui/all';

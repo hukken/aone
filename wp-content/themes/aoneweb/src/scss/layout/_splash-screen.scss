@@ -1,0 +1,46 @@
+//@TODO: Delete on launch
+.splash-screen {
+	min-height: 100vh;
+	background-color: #293242;
+	background-image: url('/wp-content/themes/aoneweb/src/images/splash-screen-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: $white;
+	.grid-container, .cell {
+		min-height: 100vh;
+	}
+
+	&--content-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	h1 {
+		font-size: rem-calc(40);
+	}
+	h2 {
+		font-size: rem-calc(24);
+	}
+
+	.button {
+		display: inline-block;
+		padding: rem-calc(20 40);
+		border-radius: rem-calc(420);
+		background-color: #d4b39d;
+		color: #3d4b62;
+		text-align: center;
+		text-decoration: none;
+		@include breakpoint(large) {
+			padding: rem-calc(30 80);
+		}
+	}
+	footer {
+		a {
+			display: block;
+			padding-bottom: rem-calc(8);
+			color: white;
+			text-decoration: none;
+		}
+	}
+}

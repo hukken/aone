@@ -1,0 +1,128 @@
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+/**==================================================================================================================================
+BREAKPOINT
+ ==================================================================================================================================*/
+/**==================================================================================================================================
+BREAKPOINT ENDS
+==================================================================================================================================*/
+span.edit-link {
+  display: inline-block;
+  background-color: yellow;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  bottom: 3.125rem;
+  transform: translateX(-45px);
+  transition: all 0.2s;
+}
+
+span.edit-link a {
+  display: block;
+  padding: 0.9375rem;
+}
+
+span.edit-link:hover {
+  transform: translateX(0);
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 6.125rem;
+  overflow-x: hidden;
+}
+
+@media print, screen and (min-width: 64em) {
+  .hero {
+    margin-bottom: 3.75rem;
+  }
+}
+.hero--has-bg-color {
+  background: linear-gradient(180deg, #ededed 19.75rem, transparent 19.75rem);
+}
+
+@media print, screen and (min-width: 64em) {
+  .hero--has-bg-color {
+    background: linear-gradient(180deg, #ededed 22.125rem, transparent 22.125rem);
+  }
+}
+.hero__background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 19.75rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__background-image:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2c4155;
+  content: "";
+  opacity: var(--overlay-opacity);
+}
+
+.hero__background-image > * {
+  z-index: 1;
+}
+
+@media print, screen and (min-width: 64em) {
+  .hero__background-image {
+    height: 19.75rem;
+  }
+}
+.hero__content {
+  z-index: 1;
+  position: relative;
+  margin-top: 13.9375rem;
+  padding: 1.4375rem 1.1875rem 0 1.4375rem;
+  border-top-right-radius: 1.25rem;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 39.99875em) {
+  .hero__content {
+    position: relative;
+  }
+
+  .hero__content:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 99999px;
+    background-color: #fff;
+    content: "";
+    right: 100%;
+  }
+}
+@media print, screen and (min-width: 40em) {
+  .hero__content {
+    padding: 3.125rem 6rem 0 4.5rem;
+    border-top-left-radius: 1.25rem;
+  }
+}
+@media screen and (min-width: 90em) {
+  .hero__content {
+    margin-left: -4.5rem;
+  }
+}
+.hero__content__title {
+  margin: 0 0 1.125rem 0;
+}
+
+.hero__content__text {
+  margin: 0;
+}
+
+/*# sourceMappingURL=hero.css.map*/
