@@ -19,5 +19,7 @@
     "/css/blocks/ingress.css": "/css/blocks/ingress.css",
     "/css/blocks/highlight.css": "/css/blocks/highlight.css",
     "/css/blocks/heading-divider.css": "/css/blocks/heading-divider.css",
-    "/css/blocks/book-now.css": "/css/blocks/book-now.css"
+    "/css/blocks/book-now.css": "/css/blocks/book-now.css",
+    "/images/logo.svg": "/images/logo.svg",
+    "/images/splash-screen-bg.jpg": "/images/splash-screen-bg.jpg"
 }

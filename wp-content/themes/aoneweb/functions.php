@@ -54,3 +54,5 @@ include_once "inc/class-plyr.php";
 include_once "inc/block-styles.php";
 
 include_once "inc/mews-integration.php";
+
+include_once "inc/wpml-redirect-fix.php";
