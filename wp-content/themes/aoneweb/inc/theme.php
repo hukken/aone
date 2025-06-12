@@ -76,7 +76,7 @@ add_filter( 'dc_get_block_post_data', function( $item, $block_type ) : array {
 		];
 	}
 
-	if ( get_post_type( $post_id ) === 'property' ) {
+	if ( get_post_type( $post_id ) === 'property' && is_int($post_id) ) {
 		$item['tag'] = get_property_tag( $post_id );
 	}
 
