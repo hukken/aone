@@ -1845,6 +1845,7 @@ body.is-color-theme-green.home #hero .mews-booking-form .mews-content-wrapper {
 .acf-block-preview .newsletter-hero-popup {
   position: fixed;
   z-index: 1000;
+  display: none;
   padding: 0;
   border: none;
   background: var(--color__pink-light);
