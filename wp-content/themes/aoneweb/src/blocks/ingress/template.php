@@ -24,7 +24,8 @@ $use_decor = is_front_page();
 				printf('<h2 class="ingress-title text-width-small heading-size-normal">%s</h2>', esc_html( $title ) );
 			endif;
 			if ( $text ) :
-				printf('<p class="ingress-text text-width-small text-size-large">%s</p>', esc_html( $text ) );
+				// temporary support for shortcodes
+				printf('<p class="ingress-text text-width-small text-size-large">%s</p>', do_shortcode( $text ) );
 			endif;
 			if ( $link ) {
 				( new Button( $link ) )->set_class_names( 'outlined dark margin' )->render();
