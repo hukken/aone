@@ -57,7 +57,11 @@
 				endif;
 
 				if ( get_post_type() === 'property' ) {
-					( new Button( ['title' => __('Book now', 'dc'), 'url' => '#mews', 'target' => '_blank' ] ) )->set_class_names( 'margin' )->render();
+					( new Button( [
+						'title' => __('Book now', 'dc'),
+						'url' => get_field( 'custom_booking_link' ) ?: '#mews',
+						'target' => get_field( 'custom_booking_link' ) ? '_self' : '_blank'
+					] ) )->set_class_names( 'margin' )->render();
 				}
 			echo '</div>';
 

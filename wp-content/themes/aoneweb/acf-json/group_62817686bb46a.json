@@ -42,6 +42,27 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_62a98e666awoog",
+            "label": "Custom booking link",
+            "name": "custom_booking_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "If you want to use a custom booking link, you can enter it here. If you leave it blank, the default booking link will be used.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
